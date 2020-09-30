@@ -16,23 +16,22 @@
             <!-- principal picture of the website-->
             <img src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
 
-
-            <!-- Contain the Name and Surname -->
-            <div class="maintitle">
-                <!-- Left Dragon picture -->
-                <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
+        </header>
+        <!-- Contain the Name and Surname -->
+        <div class="maintitle">
+            <!-- Left Dragon picture -->
+            <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 
 C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
 
-                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
+            <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
-                <!-- Left Dragon picture -->
-                <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
+            <!-- Left Dragon picture -->
+            <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
-            </div>
-        </header>
+        </div>
 
         <div class="sidebar">
 
@@ -76,8 +75,8 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                     <ul>
                         <li>Practicing & perfectionning my martial art</li>
                         <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)<a/></li>
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)<a/></li>
+                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
+                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
                     </ul>
             </section>
 
@@ -131,7 +130,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
                 <label for="audit"></label>
                 <select name="audit" id="audit">
-                    <option value="">How did you know the school? required</option>
+                    <option value="">How did you know the school?</option>
                     <option value="internet">Internet</option>
                     <option value="friends">Friends</option>
                     <option value="school">Other School</option>
