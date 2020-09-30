@@ -5,12 +5,14 @@ body {
     font-family: "Herculanum";
 }
 
-/***Header Part***/
+
 li {
     list-style: none;
 }
+/***Header Part***/
 
 header {
+    background-color: rgb(255, 229, 0);
 
 
 }
@@ -20,12 +22,20 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(28, 27, 16);
 }
 
 #leftdragon {
     float: none;
 }
 
+#icon {
+    border : 2px solid black;
+}
+
+h1 {
+    color: rgb(255, 229, 0);
+}
 /***Side Bars Part***/
 
 
