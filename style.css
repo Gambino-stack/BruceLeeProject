@@ -1,18 +1,24 @@
 /****Mobile First****/
+
 body {
     text-align: center;
+    font-family: "Herculanum";
 }
+
 /***Header Part***/
 li {
     list-style: none;
 }
+
 header {
-    display : inline-block;
+
 
 }
 
 .maintitle {
-    display : inline;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #leftdragon {
@@ -39,7 +45,7 @@ header {
 }
 .description {
     display: block;
-    margin-left: 470px;
+    margin : 0px auto;
     width: 500px;
     height: 200px;
 }
@@ -53,7 +59,9 @@ header {
 
 /***Section Form***/
 
+form {
 
+}
 
 
 /***Section Footer***/
