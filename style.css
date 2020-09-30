@@ -1,11 +1,14 @@
 /****Mobile First****/
 
-body{
+body {
+    text-align: center;
     font-family: "Herculanum";
 }
 
 /***Header Part***/
-
+li {
+    list-style: none;
+}
 header {
     display : inline-block;
 
@@ -25,9 +28,24 @@ header {
 
 
 /***Section Experience***/
+.experience {
+    display: block;
 
-
-
+}
+#brucepicture {
+    width: 250px;
+    height: 200px;
+}
+#brucepicture:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+.description {
+    display: block;
+    margin-left: 470px;
+    width: 500px;
+    height: 200px;
+}
 
 
 /***Section Formation***/
