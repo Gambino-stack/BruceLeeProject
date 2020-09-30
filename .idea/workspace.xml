@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c234f7c-ead6-4529-8e53-83d6a81f88ba" name="Default Changelist" comment="" />
+    <list default="true" id="96e4838d-0f02-441e-bf14-8729f0d8a1dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BruceLee.php" beforeDir="false" afterPath="$PROJECT_DIR$/BruceLee.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1iBCOdnASJbKgHfh0D6c62OZoVk" />
+  <component name="ProjectId" id="1iBJy75s43Q0SdjvHWPzIX81atA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -30,21 +31,37 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c234f7c-ead6-4529-8e53-83d6a81f88ba" name="Default Changelist" comment="" />
-      <created>1601371566362</created>
+      <changelist id="96e4838d-0f02-441e-bf14-8729f0d8a1dc" name="Default Changelist" comment="" />
+      <created>1601375302588</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601371566362</updated>
-      <workItem from="1601371567693" duration="807000" />
+      <updated>1601375302588</updated>
+      <workItem from="1601375304618" duration="1252000" />
+      <workItem from="1601449109312" duration="2792000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1236" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601382479404">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1236" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1601382479404" />
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1601449151157">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="791" y="479" width="399" height="156" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601449151157" />
+    <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601451014177">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1601451014177" />
   </component>
 </project>
