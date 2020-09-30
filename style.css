@@ -45,7 +45,7 @@ header {
 }
 .description {
     display: block;
-    margin : 0px auto;
+    margin : 0 auto;
     width: 500px;
     height: 200px;
 }
