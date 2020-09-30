@@ -9,6 +9,12 @@
     </head>
 
     <body>
+    <section>
+        <h2>DESCRIPTION</h2>
+        <article>Je suis Bruce lee mais ce n'est que mon nom de scene ,  un artiste martial, acteur, réalisateur, producteur et scénariste sino-américain
+            et je suis a la recherche
+        </article>
+    </section>
 
 
     </body>
