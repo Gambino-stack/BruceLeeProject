@@ -126,7 +126,6 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
         </footer>
 
-
     </body>
 
 </html>
