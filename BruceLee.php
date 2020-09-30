@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Bruce Lee</title>
     <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
 </head>
 
     <body>
@@ -16,32 +17,31 @@
             <!-- principal picture of the website-->
             <img src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
 
-
-            <!-- Contain the Name and Surname -->
-            <div>
-                <!-- Left Dragon picture -->
-                <img src="https://via.placeholder.com/150/000000/FFFFFF/
+        </header>
+        <!-- Contain the Name and Surname -->
+        <div class="maintitle">
+            <!-- Left Dragon picture -->
+            <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 
 C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
 
-                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
+            <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
-                <!-- Left Dragon picture -->
-                <img src="https://via.placeholder.com/150/000000/FFFFFF/
+            <!-- Left Dragon picture -->
+            <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
-            </div>
-        </header>
+        </div>
 
         <div class="sidebar">
 
             <!-- Contient la Description-->
             <section>
                 <h2>DESCRIPTION</h2>
-                <article>
+                <article class="description">
                     "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                    Je suis un artiste martial, acteur, réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
+                    Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
                     j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
                     en bas de la page."
                 </article>
@@ -77,7 +77,11 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                         <li>Practicing & perfectionning my martial art</li>
                         <li>Training hard 24/7 to reach the top</li>
                         <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
+<<<<<<< HEAD
                         <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+=======
+                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
+>>>>>>> dcbd5b7bd84e691e9e5f30050685442366991068
                     </ul>
             </section>
 
@@ -85,7 +89,19 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
 
         <!-- Contient les Experiences -->
-        <section>
+        <section class="experience">
+            <h2>EXPERIENCES</h2>
+            <article>
+                <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
+                <br>
+                    Ma carriere est composée de plusieurs expériences dans divers domaines:
+                <ul>
+                    <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
+                    <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
+                    <li>Scenariste : Entre 1971 et 1978 j'ai écris 5 films differents</li>
+                    <li>Realisateur : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
+                </ul>
+            </article>
 
         </section>
 
@@ -155,7 +171,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
                 <label for="audit"></label>
                 <select name="audit" id="audit">
-                    <option value="">How did you know the school? required</option>
+                    <option value="">How did you know the school?</option>
                     <option value="internet">Internet</option>
                     <option value="friends">Friends</option>
                     <option value="school">Other School</option>
@@ -185,7 +201,6 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
         <footer>
 
         </footer>
-
 
     </body>
 

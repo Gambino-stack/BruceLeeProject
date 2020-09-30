@@ -1,0 +1,85 @@
+/****Mobile First****/
+
+body {
+    text-align: center;
+    font-family: "Herculanum";
+}
+
+/***Header Part***/
+li {
+    list-style: none;
+}
+
+header {
+
+
+}
+
+.maintitle {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leftdragon {
+    float: none;
+}
+
+/***Side Bars Part***/
+
+
+
+
+/***Section Experience***/
+.experience {
+    display: block;
+
+}
+#brucepicture {
+    width: 250px;
+    height: 200px;
+}
+#brucepicture:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+.description {
+    display: block;
+    margin : 0px auto;
+    width: 500px;
+    height: 200px;
+}
+
+
+/***Section Formation***/
+
+
+
+
+
+/***Section Form***/
+
+form {
+
+}
+
+
+/***Section Footer***/
+
+
+/******************************************************************/
+
+/****Touch Pad****/
+
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+
+/****Desktop****/
