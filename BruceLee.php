@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Bruce Lee</title>
     <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
 </head>
 
     <body>
@@ -76,8 +77,8 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                     <ul>
                         <li>Practicing & perfectionning my martial art</li>
                         <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)<a/></li>
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)<a/></li>
+                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
+                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
                     </ul>
             </section>
 
