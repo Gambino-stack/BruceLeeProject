@@ -38,7 +38,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             <!-- Contient la Description-->
             <section>
                 <h2>DESCRIPTION</h2>
-                <article>
+                <article class="description">
                     "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
                     Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
                     j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
@@ -89,7 +89,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             <article>
                 <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
                 <br>
-                Ma carriere est composée de plusieurs expériences dans divers domaines:
+                    Ma carriere est composée de plusieurs expériences dans divers domaines:
                 <ul>
                     <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
                     <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
