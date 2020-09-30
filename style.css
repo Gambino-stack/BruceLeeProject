@@ -1,7 +1,11 @@
 /****Mobile First****/
-
+body {
+    text-align: center;
+}
 /***Header Part***/
-
+li {
+    list-style: none;
+}
 header {
     display : inline-block;
 
@@ -21,8 +25,13 @@ header {
 
 
 /***Section Experience***/
+.experience {
 
-
+}
+#brucepicture {
+    width: 350px;
+    height: 300px;
+}
 
 
 

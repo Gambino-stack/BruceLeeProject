@@ -84,10 +84,10 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
 
         <!-- Contient les Experiences -->
-        <section>
+        <section class="experience">
             <h2>EXPERIENCES</h2>
             <article>
-                <img src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
+                <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
                 <br>
                 Ma carriere est composée de plusieurs expériences dans divers domaines:
                 <ul>
