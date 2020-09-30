@@ -11,6 +11,14 @@
     <body>
         <!-- Contient le Logo -->
         <header>
+
+            <img src="" alt="logo_Left_Dragon" >
+            <!-- principal picture of the website-->
+            <img src="https://via.placeholder.com/150/000000/FFFFFF
+
+C/O https://placeholder.com/ " alt="logo_Bruce_Lee" >
+            <img src="" alt="logo_Right_Dragon" >
+
             <!-- Contient le Logo -->
             <div>
 
