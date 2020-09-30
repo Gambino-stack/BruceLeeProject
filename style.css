@@ -57,7 +57,10 @@ header {
 
 
 /***Section Footer***/
-
+footer {
+    display: block;
+    margin: 0 auto;
+}
 
 /******************************************************************/
 
