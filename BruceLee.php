@@ -49,6 +49,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             <!-- Contient la quick informations-->
             <section id="firstInformations">
                 <p><b>Basics informations</b></p>
+                <button class="sidebarButton"></button>
                     <ul>
                         <li>Age : 32 years, older but faster than you</li>
                         <li>🏡 : 'Wherever the wind brings me' </li>
@@ -60,12 +61,13 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             <!-- Contient les skills -->
             <section id="skillset">
                 <p><b>Skillset</b></p>
+                <button class="sidebarButton" href="#" src=""></button>
                 <ul>
                     <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
                     <li>Trainer / Teacher</li>
                     <li>Acting</li>
                     <li>Producing / Directing movies</li>
-                    <li>Fight choregrapher</li>
+                    <li>Fight choreographer</li>
                     <li>Philosopher / Quoter</li>
                 </ul>
             </section>
@@ -73,15 +75,16 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             <!-- Contient les hobbies -->
             <section id="hobbies">
                 <p><b>Hobbies</b></p>
+                <button class="sidebarButton" href="#"></button>
                     <ul>
                         <li>Practicing & perfectionning my martial art</li>
                         <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
-<<<<<<< HEAD
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
-=======
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
->>>>>>> dcbd5b7bd84e691e9e5f30050685442366991068
+                        <li>Playing ping-pong with nunchaku
+                        <a href="https://www.youtube.com/watch?v=qHe6vhexm6g"><br>(Check this out mate)</a></li>
+                        <li>Doing push-ups with 2 fingers
+                        <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU"><br>(Check this out buddy)</a></li>
+                        <li>Doing push-ups with 2 fingers
+                        <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU"><br>(Check this out buddy)</a>></li>
                     </ul>
             </section>
 
