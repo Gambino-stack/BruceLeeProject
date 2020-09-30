@@ -108,26 +108,27 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
 
         <!-- Contient Contact Form -->
-        <section>
+        <section class="section-form">
+            <h2>Form</h2>
             <form method="post" action="">
-                <h2>Form</h2>
-
                 <label for="firstname">firstname : </label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required/>
 
                 <label for="lastname">lastname : </label>
                 <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required/>
 
-                <label for="age">age : </label>
-                <input type="number" name="age" id="age" required/>
+                <div class="form-display">
+                    <label for="age">age : </label>
+                    <input type="number" name="age" id="age" required/>
 
-                <label for="genre">genre : </label>
-                <select name="genre" id="genre">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="kids">Kids</option>
-                    <option value="hermaphrodite">Hermaphrodite</option>
-                </select>
+                    <label for="genre">genre : </label>
+                    <select name="genre" id="genre">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="kids">Kids</option>
+                        <option value="hermaphrodite">Hermaphrodite</option>
+                    </select>
+                </div>
 
                 <label for="audit"></label>
                 <select name="audit" id="audit">
@@ -139,7 +140,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
                 <label for="martialArt"></label>
                 <select name="martialArt" id="martialArt">
-                    <option value="">have you ever pratice a martial art?</option>
+                    <option value="">Have you ever pratice a martial art?</option>
                     <option value="karate">Karaté</option>
                     <option value="jujitsu">Jujitsu</option>
                     <option value="muayThai">Muay Thaï</option>
@@ -151,8 +152,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                 <label for="message">your message : </label>
                 <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
 
-                <button id="buttonForm">Send !</button>
-
+                <button id="button-form">Send !</button>
             </form>
 
         </section>
