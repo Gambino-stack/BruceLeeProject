@@ -9,6 +9,7 @@ body {
 li {
     list-style: none;
 }
+
 header {
 
 
@@ -44,7 +45,7 @@ header {
 }
 .description {
     display: block;
-    margin-left: 470px;
+    margin : 0px auto;
     width: 500px;
     height: 200px;
 }
