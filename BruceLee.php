@@ -15,23 +15,18 @@
 
 
             <!-- principal picture of the website-->
-            <img src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
+            <img id="icon" src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
 
         </header>
         <!-- Contain the Name and Surname -->
         <div class="maintitle">
             <!-- Left Dragon picture -->
-            <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
-
-
-C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
+            <img id="leftDragon" src="img/dragon2.png" alt="logo_Left_Dragon" >
 
             <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
             <!-- Left Dragon picture -->
-            <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
-
-C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
+            <img id="rightDragon" src="img/dragon2R.png" alt="logo_Right_Dragon">
         </div>
 
         <div class="sidebar">
@@ -77,6 +72,9 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                         <li>Practicing & perfectionning my martial art</li>
                         <li>Training hard 24/7 to reach the top</li>
                         <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
+
+                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+
                         <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
                     </ul>
             </section>
@@ -102,7 +100,54 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
         </section>
 
         <!-- Contient les Formations -->
-        <section>
+        <section class ="formation">
+            <h2>Formations</h2>
+
+                <div>
+                    <h3>Spirituality</h3>
+                    <p>
+                        Talking about my education as a school student is not that necessary and relevant.
+                        We better talk about spirituality through wisdom and consistency in life. This may change your life if you adopt a new way of thinking.
+                        I used to learn plenty of numerous martial arts. Each one of them can taught you a lot as values and having hindsight.
+                        We will learn how get rid of bad habits implicitly, create a new positive and encouraging environment.
+                        Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
+                        <b>Be aware and open-minded can push you forward more than my punch.</b>
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Professional training</h3>
+                    <h4>Learn acting for movies</h4>
+                    <p>
+                        My first step in acting was involuntary.
+                        A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
+                        Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
+                        of actors noticed and appreciated my work and I.
+                        I made round-trips between China and America in order to learn and act in different types of movies.
+                        Learn acting skills in actions and fighting movies, was very similar to my daily life.
+                        Always developing wisdom and spirituality for my own is common to acting for me.
+                        Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
+                        A quick summary on movies that I played, realized, choreographed and scripted :
+                    </p>
+                    <ul>
+                        <li>Operation Dragon</li>
+                        <li>Birth of the Dragon</li>
+                        <li>Wrath oh the Dragon</li>
+                        <li>Game of death</li>
+                    </ul>
+                </div>
+
+                 <div>
+                     <h4>Learn martial arts </h4>
+                     <p>
+                         Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
+                         a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
+                         could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
+                         goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
+                         Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
+                     </p>
+                 </div>
+
 
         </section>
 
@@ -156,9 +201,15 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             </form>
 
         </section>
-
+        <hr>
         <!-- Contient Le footer -->
         <footer>
+            <p>If you spend too much time thinking about a thing, you’ll never get it done. – Bruce Lee</p>
+            <p>To hell with circumstances; I create opportunities. – Bruce Lee</p>
+           <em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
+                citations</a> <em>de moi même!</em><br>
+            <br>
+            <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
 
         </footer>
 
