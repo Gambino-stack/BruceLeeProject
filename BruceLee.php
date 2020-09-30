@@ -16,23 +16,22 @@
             <!-- principal picture of the website-->
             <img src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
 
-
-            <!-- Contain the Name and Surname -->
-            <div class="maintitle">
-                <!-- Left Dragon picture -->
-                <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
+        </header>
+        <!-- Contain the Name and Surname -->
+        <div class="maintitle">
+            <!-- Left Dragon picture -->
+            <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 
 C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
 
-                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
+            <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
-                <!-- Left Dragon picture -->
-                <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
+            <!-- Left Dragon picture -->
+            <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
-            </div>
-        </header>
+        </div>
 
         <div class="sidebar">
 
