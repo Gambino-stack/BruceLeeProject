@@ -95,7 +95,7 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
 
                 <label for="audit"></label>
                 <select name="audit" id="audit">
-                    <option value="">How did you know the school? required</option>
+                    <option value="">How did you know the school?</option>
                     <option value="internet">Internet</option>
                     <option value="friends">Friends</option>
                     <option value="school">Other School</option>
