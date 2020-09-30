@@ -9,21 +9,27 @@
 </head>
 
     <body>
-        <!-- Contient le Logo -->
+        <!-- Contain the Logo -->
         <header>
 
-            <img src="" alt="logo_Left_Dragon" >
+
             <!-- principal picture of the website-->
-            <img src="https://via.placeholder.com/150/000000/FFFFFF
+            <img src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
 
-C/O https://placeholder.com/ " alt="logo_Bruce_Lee" >
-            <img src="" alt="logo_Right_Dragon" >
 
-            <!-- Contient le Logo -->
+            <!-- Contain the Name and Surname -->
             <div>
+                <!-- Left Dragon picture -->
+                <img src="https://via.placeholder.com/150/000000/FFFFFF/
 
+C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
 
+                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
+                <!-- Left Dragon picture -->
+                <img src="https://via.placeholder.com/150/000000/FFFFFF/
+
+C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             </div>
         </header>
 
