@@ -2,8 +2,18 @@
 
 /***Header Part***/
 
+header {
+    display : inline-block;
 
+}
 
+.maintitle {
+    display : inline;
+}
+
+#leftdragon {
+    float: none;
+}
 
 /***Side Bars Part***/
 

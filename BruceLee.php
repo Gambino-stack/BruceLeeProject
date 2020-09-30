@@ -18,9 +18,9 @@
 
 
             <!-- Contain the Name and Surname -->
-            <div>
+            <div class="maintitle">
                 <!-- Left Dragon picture -->
-                <img src="https://via.placeholder.com/150/000000/FFFFFF/
+                <img id="leftDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 
 C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
@@ -28,7 +28,7 @@ C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
                 <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
 
                 <!-- Left Dragon picture -->
-                <img src="https://via.placeholder.com/150/000000/FFFFFF/
+                <img id="rightDragon" src="https://via.placeholder.com/150/000000/FFFFFF/
 
 C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
             </div>
