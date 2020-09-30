@@ -17,20 +17,25 @@
             </div>
         </header>
 
-        <!-- Contient la Description-->
-        <section>
+        <div>
 
-        </section>
+            <!-- Contient la Description-->
+            <section>
 
-        <!-- Contient les skills -->
-        <section>
+            </section>
 
-        </section>
+            <!-- Contient les skills -->
+            <section>
 
-        <!-- Contient les hobbies -->
-        <section>
+            </section>
 
-        </section>
+            <!-- Contient les hobbies -->
+            <section>
+
+            </section>
+
+        </div>
+
 
         <!-- Contient les Experiences -->
         <section>
