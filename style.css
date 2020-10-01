@@ -54,12 +54,6 @@ h1 {
     opacity: 0.2;
     cursor: pointer;
 }
-.description {
-    display: block;
-    margin : 0 auto;
-    width: 500px;
-    height: 200px;
-}
 
 
 /***Section Formation***/
@@ -74,11 +68,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .form-display {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 input {
@@ -90,6 +86,11 @@ input {
     box-sizing: border-box;
     box-shadow: 0 1px 3px 0 black;
     transition: 0.3s;
+}
+
+.form-display-age, .form-display-genre {
+    display: flex;
+    flex-direction: column;
 }
 
 #age, #genre {
@@ -107,12 +108,10 @@ input {
 
 .form-display label {
     vertical-align: center;
-    padding: 0 20px;
-    margin: auto;
 }
 
 .form-display input {
-    width: 100px;
+    width: 75px;
     height: 35px;
     border: 2px solid black;
     box-shadow: 0 1px 3px 0 black;
@@ -125,7 +124,7 @@ input {
 }
 
 .form-display select {
-    width: 100px;
+    width: 130px;
     height: 35px;
 }
 
@@ -149,7 +148,6 @@ select:hover {
 }
 
 #audit, #martialArt {
-    padding-left: 10px;
     background-color: white;
 }
 
@@ -177,9 +175,9 @@ textarea:hover {
     border-radius: 3px;
     background-color: black;
     color: yellow;
-    margin-top: 20px;
     transition: 0.3s;
     box-shadow: 0 1px 3px 0 black;
+    margin: 20px 0;
 }
 
 #button-form:hover {
