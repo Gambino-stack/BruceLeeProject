@@ -1,9 +1,5 @@
 /******Box sizing******/
 
-
-
-
-
 /******Image Sizing****/
 
 
@@ -43,6 +39,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(28, 27, 16);
+    width: 100%;
 
 }
 
