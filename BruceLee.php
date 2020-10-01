@@ -28,43 +28,53 @@
             <!-- Left Dragon picture -->
             <img id="rightDragon" src="img/dragon2R.png" alt="logo_Right_Dragon">
         </div>
+        <section class="dragonbutton">
+            <div>
+                <button onclick="myFunction1()" class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">Identity</button>
+            </div>
 
-        <div class="sidebar">
+            <div>
+                <button onclick="myFunction2()" class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">Skillset</button>
+            </div>
 
-            <!-- Contient la Description-->
-            <section>
-                <h2>DESCRIPTION</h2>
-                <article class="description">
-                    "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                    Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
-                    j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
-                    en bas de la page."
-                </article>
-            </section>
-            <!-- Contient la quick informations-->
-            <section id="firstInformations">
-                <p><b>Basics informations</b></p>
-                    <ul>
-                        <li>Age : 32 years, older but faster than you</li>
-                        <li>🏡 : 'Wherever the wind brings me' </li>
-                        <li>📞 : 911 in  case you need help for fighting</li>
-                        <li>📧 : Check the form down below</li>
-                    </ul>
-            </section>
+            <div>
+                <button onclick="myFunction3()" class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">Hobbies</button>
+            </div>
+        </section>
 
-            <!-- Contient les skills -->
-            <section id="skillset">
-                <p><b>Skillset</b></p>
+        <section class="dragoninfos">
+            <div class="identity">
                 <ul>
-                    <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
-                    <li>Trainer / Teacher</li>
-                    <li>Acting</li>
-                    <li>Producing / Directing movies</li>
-                    <li>Fight choregrapher</li>
+                    <li>Age  : 32 years, older but faster than you</li>
+                    <li>🏡   : 'Wherever the wind brings me' </li>
+                    <li>📞   : 911 in  case you need help for fighting</li>
+                    <li>📧   : Check the form down below</li>
+                </ul>
+            </div>
+
+            <div class="skillset">
+                <ul>
+                    <li>Trainer / Teacher of Martial Arts</li>
+                    <li>(inventor & precursor of Jeet Kune Do)</li>
+                    <li>Acting / Producing / Directing movies</li>
+                    <li>Fight choreographer</li>
                     <li>Philosopher / Quoter</li>
                 </ul>
-            </section>
+            </div>
 
+<<<<<<< HEAD
+            <div class="hobbies">
+                <ul>
+                    <li>Practicing & perfectionning my martial art</li>
+                    <li>Training hard 24/7 to reach the top</li>
+                    <li>Playing ping-pong with nunchaku</li>
+                    <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
+                    <li>Doing push-ups with 2 fingers</li>
+                    <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+                </ul>
+            </div>
+        </section>
+=======
             <!-- Contient les hobbies -->
             <section id="hobbies">
                 <p><b>Hobbies</b></p>
@@ -78,9 +88,26 @@
                         <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
                     </ul>
             </section>
+>>>>>>> 7190b99dd554f9ff81395783f18091e59590bf63
 
-        </div>
 
+            <!-- Contient la Description-->
+        <section>
+            <h2>DESCRIPTION</h2>
+            <article class="description">
+                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+                Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
+                j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
+                en bas de la page."
+            </article>
+        </section>
+            <!-- Contient la quick informations-->
+
+
+            <!-- Contient les skills -->
+
+
+            <!-- Contient les hobbies -->
 
         <!-- Contient les Experiences -->
         <section class="experience">
@@ -118,6 +145,33 @@
                 <div>
                     <h3>Professional training</h3>
                     <h4>Learn acting for movies</h4>
+<<<<<<< HEAD
+                        <p>
+                            My first step in acting was involuntary.
+                            A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
+                            Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
+                            of actors noticed and appreciated my work and I.
+                            I made round-trips between China and America in order to learn and act in different types of movies.
+                            Learn acting skills in actions and fighting movies, was very similar to my daily life.
+                            Always developing wisdom and spirituality for my own is common to acting for me.
+                            Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
+                            A quick summary on movies that I played, realized, choreographed and scripted :
+                        </p>
+                            <ul>
+                                <li>Operation Dragon</li>
+                                <li>Birth of the Dragon</li>
+                                <li>Wrath oh the Dragon</li>
+                                <li>Game of death</li>
+                            </ul>
+                    <h4>Learn martial arts </h4>
+                        <p>
+                            Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
+                            a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
+                            could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
+                            goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
+                            Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
+                        </p>
+=======
                     <p>
                         My first step in acting was involuntary.
                         A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
@@ -148,6 +202,7 @@
                      </p>
                  </div>
 
+>>>>>>> 7190b99dd554f9ff81395783f18091e59590bf63
 
         </section>
 
