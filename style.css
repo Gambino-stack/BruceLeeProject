@@ -20,9 +20,11 @@
 
 body {
     text-align: center;
+    font-family: "Arial Unicode MS";
+}
+h2,h3{
     font-family: "Herculanum";
 }
-
 
 li {
     list-style: none;
@@ -41,10 +43,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(28, 27, 16);
+
 }
 
-#leftdragon {
-    float: none;
+#rightDragon{
+    width: 25%;
+}
+#leftDragon {
+    width: 25%;
 }
 
 #icon {
@@ -168,12 +174,6 @@ li{
     opacity: 0.2;
     cursor: pointer;
 }
-.description {
-    display: block;
-    margin : 0 auto;
-    width: 500px;
-    height: 200px;
-}
 
 
 
@@ -189,11 +189,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .form-display {
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 input {
@@ -205,6 +207,11 @@ input {
     box-sizing: border-box;
     box-shadow: 0 1px 3px 0 black;
     transition: 0.3s;
+}
+
+.form-display-age, .form-display-genre {
+    display: flex;
+    flex-direction: column;
 }
 
 #age, #genre {
@@ -222,12 +229,10 @@ input {
 
 .form-display label {
     vertical-align: center;
-    padding: 0 20px;
-    margin: auto;
 }
 
 .form-display input {
-    width: 100px;
+    width: 75px;
     height: 35px;
     border: 2px solid black;
     box-shadow: 0 1px 3px 0 black;
@@ -240,7 +245,7 @@ input {
 }
 
 .form-display select {
-    width: 100px;
+    width: 130px;
     height: 35px;
 }
 
@@ -264,7 +269,6 @@ select:hover {
 }
 
 #audit, #martialArt {
-    padding-left: 10px;
     background-color: white;
 }
 
@@ -292,9 +296,9 @@ textarea:hover {
     border-radius: 3px;
     background-color: black;
     color: yellow;
-    margin-top: 20px;
     transition: 0.3s;
     box-shadow: 0 1px 3px 0 black;
+    margin: 20px 0;
 }
 
 #button-form:hover {
@@ -310,8 +314,20 @@ footer {
     background-color: rgb(255, 229, 0);
     display: block;
     margin: 0 auto;
-}
+    padding-top: 20px;
 
+}
+@media screen and (min-width: 350px) and (max-width:414px) {
+    .description {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #experience {
+        display:block;
+        text-align: center;
+    }
+
+}
 /******************************************************************/
 
 /****Touch Pad****/
