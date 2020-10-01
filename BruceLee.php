@@ -175,16 +175,20 @@
                 <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required/>
 
                 <div class="form-display">
-                    <label for="age">age : </label>
-                    <input type="number" name="age" id="age" required/>
+                    <div class="form-display-age">
+                        <label for="age">age : </label>
+                        <input type="number" name="age" id="age" required/>
+                    </div>
 
-                    <label for="genre">genre : </label>
-                    <select name="genre" id="genre">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="kids">Kids</option>
-                        <option value="hermaphrodite">Hermaphrodite</option>
-                    </select>
+                    <div class="form-display-genre">
+                        <label for="genre">genre : </label>
+                        <select name="genre" id="genre">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="kids">Kids</option>
+                            <option value="hermaphrodite">Hermaphrodite</option>
+                        </select>
+                    </div>
                 </div>
 
                 <label for="audit"></label>
