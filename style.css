@@ -40,7 +40,7 @@ header {
     align-items: center;
     background-color: rgb(28, 27, 16);
     width: 100%;
-
+    margin: 0 auto;
 }
 
 #rightDragon{
@@ -50,8 +50,13 @@ header {
     width: 25%;
 }
 
+header {
+
+}
 #icon {
     border : 2px solid black;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
