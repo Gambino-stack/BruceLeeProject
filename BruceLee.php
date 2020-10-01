@@ -7,7 +7,6 @@
     <title>Bruce Lee</title>
     <link rel="stylesheet" href="style.css">
     <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
-    <script src="script.js"></script>
 </head>
 
     <body>
@@ -23,57 +22,58 @@
         <div class="maintitle">
             <!-- Left Dragon picture -->
             <img id="leftDragon" src="img/dragon2.png" alt="logo_Left_Dragon" >
-
             <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
-
             <!-- Left Dragon picture -->
             <img id="rightDragon" src="img/dragon2R.png" alt="logo_Right_Dragon">
         </div>
-        <section class="dragonbutton">
-            <div>
-                <button onclick="myFunction1()" class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">Identity</button>
-            </div>
+            <!-- Section side bar -->
+            <section class="dragonbutton" id="dragonidentity">
+                <div>
+                    <a href="#identity"><button class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">IDENTITY</button></a>
+                </div>
+                <div id="identity">
+                    <ul>
+                        <li>Age  : 32 years, older but faster than you</li>
+                        <li>🏡   : 'Wherever the wind brings me' </li>
+                        <li>📞   : 911 in  case you need help for fighting</li>
+                        <li>📧   : Check the form down below</li>
+                    </ul>
+                    <a href="#" class="close"><b>X</b></a>
+                </div>
+            </section>
 
-            <div>
-                <button onclick="myFunction2()" class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">Skillset</button>
-            </div>
+            <section class="dragonbutton" id="dragonskills">
+                <div>
+                    <a href="#skillset"><button class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">SKILLSET</button></a>
+                </div>
+                <div id="skillset">
+                    <ul>
+                        <li>Trainer / Teacher of Martial Arts</li>
+                        <li>(inventor & precursor of Jeet Kune Do)</li>
+                        <li>Acting / Producing / Directing movies</li>
+                        <li>Fight choreographer</li>
+                        <li>Philosopher / Quoter</li>
+                    </ul>
+                    <a href="#" class="close"><b>X</b></a>
+                </div>
+            </section>
 
-            <div>
-                <button onclick="myFunction3()" class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">Hobbies</button>
-            </div>
-        </section>
-
-        <section class="dragoninfos">
-            <div class="identity">
-                <ul>
-                    <li>Age  : 32 years, older but faster than you</li>
-                    <li>🏡   : 'Wherever the wind brings me' </li>
-                    <li>📞   : 911 in  case you need help for fighting</li>
-                    <li>📧   : Check the form down below</li>
-                </ul>
-            </div>
-
-            <div class="skillset">
-                <ul>
-                    <li>Trainer / Teacher of Martial Arts</li>
-                    <li>(inventor & precursor of Jeet Kune Do)</li>
-                    <li>Acting / Producing / Directing movies</li>
-                    <li>Fight choreographer</li>
-                    <li>Philosopher / Quoter</li>
-                </ul>
-            </div>
-
-            <div class="hobbies">
-                <ul>
-                    <li>Practicing & perfectionning my martial art</li>
-                    <li>Training hard 24/7 to reach the top</li>
-                    <li>Playing ping-pong with nunchaku</li>
-                    <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
-                    <li>Doing push-ups with 2 fingers</li>
-                    <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
-                </ul>
-            </div>
-        </section>
+            <section class="dragonbutton" id="dragonhobbies">
+                <div>
+                    <a href="#hobbies"><button class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">HOBBIES</button></a>
+                </div>
+                <div id="hobbies">
+                    <ul>
+                        <li>Practicing & perfectionning my martial art</li>
+                        <li>Training hard 24/7 to reach the top</li>
+                        <li>Playing ping-pong with nunchaku</li>
+                        <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
+                        <li>Doing push-ups with 2 fingers</li>
+                        <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+                    </ul>
+                    <a href="#" class="close"><b>X</b></a>
+                </div>
+            </section>
 
 
 
@@ -87,13 +87,6 @@
                 en bas de la page."
             </article>
         </section>
-            <!-- Contient la quick informations-->
-
-
-            <!-- Contient les skills -->
-
-
-            <!-- Contient les hobbies -->
 
         <!-- Contient les Experiences -->
         <section class="experience">

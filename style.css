@@ -55,55 +55,103 @@ h1 {
     color: rgb(255, 229, 0);
 }
 /***Side Bars Part***/
-.sidebardragon {
-    display : inline-block;
+
+
+.sidebarbutton1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarbutton2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarbutton3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+a.close{
+    padding:2px;
+    height: 20px;
+    width: 12px;
+}
+
+
+.dragonbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.dragonbutton{
-    display: flex;
-    justify-content : space-evenly;
-    align-self: center;
-    background-color : gold;
+button {
+    border-radius: 30%;
 }
 
-
-ul{
-    list-style-type: none;
+button:hover{
+    opacity: 60%;
 }
 
-li {
-    display: flex;
-    justify-content: center;
+#identity {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
+}
+
+#skillset {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
+
+}
+
+#hobbies {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
 }
 
 .dragoninfos {
-    display : block;
+    display: flex;
 }
 
-.sidebarbutton {
-    border-radius: 48%;
-}
-
-.identity{
+#identity:target {
+    display : flex;
     width: 100vw;
-    background-color: blue;
-    color: gold;
+    cursor: pointer;
 }
 
-.skillset{
+#skillset:target {
+    display : flex;
     width: 100vw;
-    background-color: red;
-    color: gold;
 }
 
-.hobbies{
+#hobbies:target {
+    display : flex;
     width: 100vw;
-    background-color: orange;
-    color: gold;
 }
 
+.close {
+    text-decoration: none;
+    color: darkred;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding: 16px;
+}
 
+li{
+    list-style-type: none;
+}
 
 
 
