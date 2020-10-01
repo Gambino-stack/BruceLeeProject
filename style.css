@@ -133,10 +133,19 @@ li {
 
 /***Section Formation***/
 
+#bannerFormation {
+    width: 100%;
+    height: 200px;
+    margin : 0 auto;
+}
 
+#active_formation:checked + .displayAction {
+    display: block;
+}
 
-
-
+.displayAction {
+    display: none;
+}
 /***Section Form***/
 
 form {
