@@ -7,6 +7,7 @@
     <title>Bruce Lee</title>
     <link rel="stylesheet" href="style.css">
     <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
 </head>
 
     <body>
@@ -28,75 +29,88 @@
             <!-- Left Dragon picture -->
             <img id="rightDragon" src="img/dragon2R.png" alt="logo_Right_Dragon">
         </div>
+        <section class="dragonbutton">
+            <div>
+                <button onclick="myFunction1()" class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">Identity</button>
+            </div>
 
-        <div class="sidebar">
+            <div>
+                <button onclick="myFunction2()" class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">Skillset</button>
+            </div>
 
-            <!-- Contient la Description-->
-            <section>
-                <h2>DESCRIPTION</h2>
-                <article class="description">
-                    "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                    Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
-                    j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
-                    en bas de la page."
-                </article>
-            </section>
-            <!-- Contient la quick informations-->
-            <section id="firstInformations">
-                <p><b>Basics informations</b></p>
-                    <ul>
-                        <li>Age : 32 years, older but faster than you</li>
-                        <li>🏡 : 'Wherever the wind brings me' </li>
-                        <li>📞 : 911 in  case you need help for fighting</li>
-                        <li>📧 : Check the form down below</li>
-                    </ul>
-            </section>
+            <div>
+                <button onclick="myFunction3()" class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">Hobbies</button>
+            </div>
+        </section>
 
-            <!-- Contient les skills -->
-            <section id="skillset">
-                <p><b>Skillset</b></p>
+        <section class="dragoninfos">
+            <div class="identity">
                 <ul>
-                    <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
-                    <li>Trainer / Teacher</li>
-                    <li>Acting</li>
-                    <li>Producing / Directing movies</li>
-                    <li>Fight choregrapher</li>
+                    <li>Age  : 32 years, older but faster than you</li>
+                    <li>🏡   : 'Wherever the wind brings me' </li>
+                    <li>📞   : 911 in  case you need help for fighting</li>
+                    <li>📧   : Check the form down below</li>
+                </ul>
+            </div>
+
+            <div class="skillset">
+                <ul>
+                    <li>Trainer / Teacher of Martial Arts</li>
+                    <li>(inventor & precursor of Jeet Kune Do)</li>
+                    <li>Acting / Producing / Directing movies</li>
+                    <li>Fight choreographer</li>
                     <li>Philosopher / Quoter</li>
                 </ul>
-            </section>
+            </div>
+
+            <div class="hobbies">
+                <ul>
+                    <li>Practicing & perfectionning my martial art</li>
+                    <li>Training hard 24/7 to reach the top</li>
+                    <li>Playing ping-pong with nunchaku</li>
+                    <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
+                    <li>Doing push-ups with 2 fingers</li>
+                    <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+
+            <!-- Contient la Description-->
+        <section>
+            <h2>DESCRIPTION</h2>
+            <article class="description">
+                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+                Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
+                j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
+                en bas de la page."
+            </article>
+        </section>
+            <!-- Contient la quick informations-->
+
+
+            <!-- Contient les skills -->
+
 
             <!-- Contient les hobbies -->
-            <section id="hobbies">
-                <p><b>Hobbies</b></p>
-                    <ul>
-                        <li>Practicing & perfectionning my martial art</li>
-                        <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a>></li>
-
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
-
-                        <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
-                    </ul>
-            </section>
-
-        </div>
-
 
         <!-- Contient les Experiences -->
         <section class="experience">
-            <h2>EXPERIENCES</h2>
+            <div id="experience">
+                <h2>EXPERIENCES</h2>
             <article>
                 <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
-                <br>
-                    Ma carriere est composée de plusieurs expériences dans divers domaines:
+                    <br>
+                        <h3>Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
                 <ul>
                     <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
                     <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
                     <li>Scenariste : Entre 1971 et 1978 j'ai écris 5 films differents</li>
                     <li>Realisateur : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
                 </ul>
-            </article>
-
+                 </article>
+            </div>
         </section>
 
         <!-- Contient les Formations -->
@@ -113,11 +127,12 @@
                         Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
                         <b>Be aware and open-minded can push you forward more than my punch.</b>
                     </p>
+
                 </div>
 
                 <div>
-                    <h3>Professional training</h3>
-                    <h4>Learn acting for movies</h4>
+                    <h3>Learn acting for movies</h3>
+
                     <p>
                         My first step in acting was involuntary.
                         A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
@@ -138,7 +153,7 @@
                 </div>
 
                  <div>
-                     <h4>Learn martial arts </h4>
+                     <h3>Learn martial arts </h3>
                      <p>
                          Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
                          a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
@@ -147,8 +162,6 @@
                          Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
                      </p>
                  </div>
-
-
         </section>
 
 
@@ -158,7 +171,6 @@
             <form method="post" action="">
                 <label for="firstname">firstname : </label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required/>
-
                 <label for="lastname">lastname : </label>
                 <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required/>
 
