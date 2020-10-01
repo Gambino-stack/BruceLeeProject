@@ -97,19 +97,19 @@
 
         <!-- Contient les Experiences -->
         <section class="experience">
-            <h2>EXPERIENCES</h2>
-            <article>
-                <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
-                <br>
-                    Ma carriere est composée de plusieurs expériences dans divers domaines:
-                <ul>
-                    <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
-                    <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
-                    <li>Scenariste : Entre 1971 et 1978 j'ai écris 5 films differents</li>
-                    <li>Realisateur : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
-                </ul>
-            </article>
-
+            <div id="experience">
+                <h2>EXPERIENCES</h2>
+                <article>
+                 <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
+                    <br>
+                        Ma carriere est composée de plusieurs expériences dans divers domaines:
+                    <ul>
+                     <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
+                     <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li><li>Scenariste : Entre 1971 et 1978 j'ai écris 5 films differents</li>
+                        <li>Realisateur : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
+                    </ul>
+                 </article>
+            </div>
         </section>
 
         <!-- Contient les Formations -->
@@ -125,7 +125,7 @@
                         We will learn how get rid of bad habits implicitly, create a new positive and encouraging environment.
                         Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
                         <b>Be aware and open-minded can push you forward more than my punch.</b>
-                    </p>git
+                    </p>
 
                 </div>
 

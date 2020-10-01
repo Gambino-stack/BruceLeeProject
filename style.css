@@ -123,10 +123,7 @@ li {
     cursor: pointer;
 }
 .description {
-    display: block;
-    margin : 0 auto;
-    width: 500px;
-    height: 200px;
+
 }
 
 
@@ -267,7 +264,17 @@ footer {
     padding-top: 20px;
 
 }
+@media screen and (min-width: 350px) and (max-width:414px) {
+    .description {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #experience {
+        display:block;
+        text-align: center;
+    }
 
+}
 /******************************************************************/
 
 /****Touch Pad****/
