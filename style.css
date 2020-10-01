@@ -55,6 +55,57 @@ h1 {
     color: rgb(255, 229, 0);
 }
 /***Side Bars Part***/
+.sidebardragon {
+    display : inline-block;
+    text-align: center;
+}
+
+.dragonbutton{
+    display: flex;
+    justify-content : space-evenly;
+    align-self: center;
+    background-color : gold;
+}
+
+p {
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+.dragoninfos {
+    display : block;
+}
+
+.sidebarbutton {
+    border-radius: 48%;
+}
+
+.identity{
+    width: 100vw;
+    background-color: blue;
+    color: gold;
+}
+
+.skillset{
+    width: 100vw;
+    background-color: red;
+    color: gold;
+}
+
+.hobbies{
+    width: 100vw;
+    background-color: orange;
+    color: gold;
+}
+
 
 
 
@@ -78,6 +129,7 @@ h1 {
     width: 500px;
     height: 200px;
 }
+
 
 
 /***Section Formation***/
