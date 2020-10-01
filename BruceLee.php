@@ -108,7 +108,7 @@
 
         <!-- Contient les Formations -->
         <section class ="formation">
-            <h2>Formations</h2>
+            <a href="#"><button id="formation-button"><h2>Formations</h2></button></a>
 
                 <div>
                     <h3>Spirituality</h3>
