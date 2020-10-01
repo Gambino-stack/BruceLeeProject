@@ -33,63 +33,70 @@ C/O https://placeholder.com/ " alt="logo_Left_Dragon" >
 
 C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
         </div>
+        <section class="dragonbutton">
+            <div>
+                <button onclick="myFunction1()" class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">Identity</button>
+            </div>
 
-        <div class="sidebar">
+            <div>
+                <button onclick="myFunction2()" class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">Skillset</button>
+            </div>
 
-            <!-- Contient la Description-->
-            <section>
-                <h2>DESCRIPTION</h2>
-                <article class="description">
-                    "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                    Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
-                    j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
-                    en bas de la page."
-                </article>
-            </section>
-            <!-- Contient la quick informations-->
-            <section id="firstInformations">
-                <p><b>Basics informations</b></p>
-                <button class="sidebarButton"></button>
-                    <ul>
-                        <li>Age : 32 years, older but faster than you</li>
-                        <li>🏡 : 'Wherever the wind brings me' </li>
-                        <li>📞 : 911 in  case you need help for fighting</li>
-                        <li>📧 : Check the form down below</li>
-                    </ul>
-            </section>
+            <div>
+                <button onclick="myFunction3()" class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">Hobbies</button>
+            </div>
+        </section>
 
-            <!-- Contient les skills -->
-            <section id="skillset">
-                <p><b>Skillset</b></p>
-                <button class="sidebarButton" href="#" src=""></button>
+        <section class="dragoninfos">
+            <div class="identity">
                 <ul>
-                    <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
-                    <li>Trainer / Teacher</li>
-                    <li>Acting</li>
-                    <li>Producing / Directing movies</li>
+                    <li>Age  : 32 years, older but faster than you</li>
+                    <li>🏡   : 'Wherever the wind brings me' </li>
+                    <li>📞   : 911 in  case you need help for fighting</li>
+                    <li>📧   : Check the form down below</li>
+                </ul>
+            </div>
+
+            <div class="skillset">
+                <ul>
+                    <li>Trainer / Teacher of Martial Arts</li>
+                    <li>(inventor & precursor of Jeet Kune Do)</li>
+                    <li>Acting / Producing / Directing movies</li>
                     <li>Fight choreographer</li>
                     <li>Philosopher / Quoter</li>
                 </ul>
-            </section>
+            </div>
+
+            <div class="hobbies">
+                <ul>
+                    <li>Practicing & perfectionning my martial art</li>
+                    <li>Training hard 24/7 to reach the top</li>
+                    <li>Playing ping-pong with nunchaku</li>
+                    <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
+                    <li>Doing push-ups with 2 fingers</li>
+                    <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+            <!-- Contient la Description-->
+        <section>
+            <h2>DESCRIPTION</h2>
+            <article class="description">
+                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+                Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
+                j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
+                en bas de la page."
+            </article>
+        </section>
+            <!-- Contient la quick informations-->
+
+
+            <!-- Contient les skills -->
+
 
             <!-- Contient les hobbies -->
-            <section id="hobbies">
-                <p><b>Hobbies</b></p>
-                <button class="sidebarButton" href="#"></button>
-                    <ul>
-                        <li>Practicing & perfectionning my martial art</li>
-                        <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku
-                        <a href="https://www.youtube.com/watch?v=qHe6vhexm6g"><br>(Check this out mate)</a></li>
-                        <li>Doing push-ups with 2 fingers
-                        <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU"><br>(Check this out buddy)</a></li>
-                        <li>Doing push-ups with 2 fingers
-                        <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU"><br>(Check this out buddy)</a>></li>
-                    </ul>
-            </section>
-
-        </div>
-
 
         <!-- Contient les Experiences -->
         <section class="experience">
@@ -134,10 +141,12 @@ C/O https://placeholder.com/ " alt="logo_Right_Dragon" >
                             Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
                             A quick summary on movies that I played, realized, choreographed and scripted :
                         </p>
-                            <li>Operation Dragon</li>
-                            <li>Birth of the Dragon</li>
-                            <li>Wrath oh the Dragon</li>
-                            <li>Game of death</li>
+                            <ul>
+                                <li>Operation Dragon</li>
+                                <li>Birth of the Dragon</li>
+                                <li>Wrath oh the Dragon</li>
+                                <li>Game of death</li>
+                            </ul>
                     <h4>Learn martial arts </h4>
                         <p>
                             Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
