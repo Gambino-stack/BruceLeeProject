@@ -192,6 +192,7 @@ textarea:hover {
 
 /***Section Footer***/
 footer {
+    background-color: rgb(255, 229, 0);
     display: block;
     margin: 0 auto;
 }
