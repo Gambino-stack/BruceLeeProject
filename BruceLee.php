@@ -7,6 +7,7 @@
     <title>Bruce Lee</title>
     <link rel="stylesheet" href="style.css">
     <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
 </head>
 
     <body>
@@ -62,7 +63,6 @@
                 </ul>
             </div>
 
-<<<<<<< HEAD
             <div class="hobbies">
                 <ul>
                     <li>Practicing & perfectionning my martial art</li>
@@ -74,7 +74,7 @@
                 </ul>
             </div>
         </section>
-=======
+=
             <!-- Contient les hobbies -->
             <section id="hobbies">
                 <p><b>Hobbies</b></p>
@@ -88,7 +88,6 @@
                         <li>Doing push-ups with 2 fingers <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a>></li>
                     </ul>
             </section>
->>>>>>> 7190b99dd554f9ff81395783f18091e59590bf63
 
 
             <!-- Contient la Description-->
