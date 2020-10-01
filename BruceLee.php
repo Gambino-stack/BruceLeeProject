@@ -170,7 +170,6 @@
             <form method="post" action="">
                 <label for="firstname">firstname : </label>
                 <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required/>
-
                 <label for="lastname">lastname : </label>
                 <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required/>
 
