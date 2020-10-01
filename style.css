@@ -1,10 +1,30 @@
+/******Box sizing******/
+
+
+
+
+
+/******Image Sizing****/
+
+
+
+
+
+
+/******Sizing *******/
+
+
+
+
 /****Mobile First****/
 
 body {
     text-align: center;
+    font-family: "Arial Unicode MS";
+}
+h2,h3{
     font-family: "Herculanum";
 }
-
 
 li {
     list-style: none;
@@ -49,9 +69,6 @@ h1 {
     background-color : gold;
 }
 
-p {
-    text-align: center;
-}
 
 ul{
     list-style-type: none;
