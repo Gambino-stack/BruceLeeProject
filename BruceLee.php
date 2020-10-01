@@ -145,33 +145,7 @@
                 <div>
                     <h3>Professional training</h3>
                     <h4>Learn acting for movies</h4>
-<<<<<<< HEAD
-                        <p>
-                            My first step in acting was involuntary.
-                            A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
-                            Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
-                            of actors noticed and appreciated my work and I.
-                            I made round-trips between China and America in order to learn and act in different types of movies.
-                            Learn acting skills in actions and fighting movies, was very similar to my daily life.
-                            Always developing wisdom and spirituality for my own is common to acting for me.
-                            Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
-                            A quick summary on movies that I played, realized, choreographed and scripted :
-                        </p>
-                            <ul>
-                                <li>Operation Dragon</li>
-                                <li>Birth of the Dragon</li>
-                                <li>Wrath oh the Dragon</li>
-                                <li>Game of death</li>
-                            </ul>
-                    <h4>Learn martial arts </h4>
-                        <p>
-                            Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
-                            a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
-                            could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
-                            goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
-                            Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
-                        </p>
-=======
+
                     <p>
                         My first step in acting was involuntary.
                         A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
@@ -192,7 +166,7 @@
                 </div>
 
                  <div>
-                     <h4>Learn martial arts </h4>
+                     <h3>Learn martial arts </h3>
                      <p>
                          Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
                          a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
@@ -202,7 +176,6 @@
                      </p>
                  </div>
 
->>>>>>> 7190b99dd554f9ff81395783f18091e59590bf63
 
         </section>
 
