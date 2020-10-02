@@ -15,13 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
-    background-color: rgb(28, 27, 16);
+
 }
 
-=======
-}
->>>>>>> master
 
 .sidebar-titles {
     background-color : #FFE500;
@@ -45,7 +41,7 @@ body {
 .sidebar-list {
     list-style-type: none;
     font-size: 24px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .bottomlign{
