@@ -38,7 +38,7 @@
                         <li>📞   : 911 in  case you need help for fighting</li>
                         <li>📧   : Check the form down below</li>
                     </ul>
-                    <a href="#" class="close"><b>X</b></a>
+                    <a href="#dragonidentity" class="close"><b>X</b></a>
                 </div>
             </section>
 
@@ -54,7 +54,7 @@
                         <li>Fight choreographer</li>
                         <li>Philosopher / Quoter</li>
                     </ul>
-                    <a href="#" class="close"><b>X</b></a>
+                    <a href="#dragonskills" class="close"><b>X</b></a>
                 </div>
             </section>
 
@@ -71,7 +71,7 @@
                         <li>Doing push-ups with 2 fingers</li>
                         <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
                     </ul>
-                    <a href="#" class="close"><b>X</b></a>
+                    <a href="#dragonhobbies" class="close"><b>X</b></a>
                 </div>
             </section>
 
