@@ -116,8 +116,21 @@
 
         <!-- Contient les Formations -->
         <section class ="formation">
+
             <a href="#"><button id="formation-button"><h2>Formations</h2></button></a>
 
+
+
+            <label for="active_formation">
+            <button class="buttonbanner">
+                <img id="bannerFormation" src="img/bruce_banner_xp.png" alt="banner formation" />
+            </button>
+
+            </label>
+            <input type="checkbox" id="active_formation"/>
+
+
+            <div class="displayAction">
                 <div>
                     <h3>Spirituality</h3>
                     <p>
@@ -153,16 +166,18 @@
                     </ul>
                 </div>
 
-                 <div>
-                     <h3>Learn martial arts </h3>
-                     <p>
-                         Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
-                         a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
-                         could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
-                         goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
-                         Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
-                     </p>
-                 </div>
+                <div>
+                    <h3>Learn martial arts </h3>
+                    <p>
+                        Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
+                        a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
+                        could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
+                        goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
+                        Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
+                    </p>
+                </div>
+            </div>
+
         </section>
 
 
