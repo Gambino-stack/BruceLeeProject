@@ -267,7 +267,9 @@ footer {
     padding-top: 20px;
 
 }
+
 @media screen and (min-width: 340px) and (max-width:414px) {
+
     .description {
         display: flex;
         flex-wrap: nowrap;
