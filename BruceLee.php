@@ -25,12 +25,17 @@
             </div>
 
         </header>
-            <img src="img/leone-1947-vintage-heavy-bag-white-1.jpg"/>
+
 
 
 
 
         <!-- Section side bar -->
+        <div class="container">
+        <div class="sidebar">
+            <img class="sidebar-picture" src="img/punchingball 3.png"/>
+        </div>
+        <div class="content">
         <section class="dragonbutton" id="dragonidentity">
             <div id="identity">
                 <ul>
@@ -208,7 +213,8 @@
             <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
 
         </footer>
-
+        </div>
+    </div>
     </body>
 
 </html>

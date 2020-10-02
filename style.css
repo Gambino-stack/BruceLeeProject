@@ -6,5 +6,35 @@
     margin: auto;
 }
 
+/***** Side Bar *****/
+.container {
+    display: flex;
+}
 
 
+.sidebar-picture {
+    animation: rocker 10s infinite;
+}
+
+@keyframes rocker {
+    0% {
+        animation-direction: normal;
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform-origin: top;
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform-origin: top;
+        transform: rotate(2deg);
+    }
+}
