@@ -258,6 +258,9 @@ textarea:hover {
     transition: 0.3s;
     box-shadow: 0 8px 10px 1px;
 }
+span {
+    text-decoration: underline;
+}
 
 
 /***Section Footer***/
@@ -268,7 +271,9 @@ footer {
     padding-top: 20px;
 
 }
-@media screen and (min-width: 350px) and (max-width:414px) {
+
+@media screen and (min-width: 340px) and (max-width:414px) {
+
     .description {
         display: flex;
         flex-wrap: nowrap;
@@ -276,6 +281,12 @@ footer {
     #experience {
         display:block;
         text-align: center;
+    }
+    .listexperience {
+        display: inline-block;
+        margin-right: 50px;
+
+
     }
 
 }
