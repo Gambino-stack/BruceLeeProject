@@ -1,96 +1,90 @@
-/****Mobile First****/
+/******Box sizing******/
 
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/***** Side Bar *****/
 body {
-    text-align: center;
-    font-family: "Herculanum";
+    line-height: 32px;
 }
 
-
-li {
-    list-style: none;
-}
-/***Header Part***/
-
-header {
-    background-color: rgb(255, 229, 0);
-
-
-}
-
-.maintitle {
-    display : flex;
-    flex-direction: row;
-    justify-content: space-between;
+.identity , .skills , .hobbies{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     background-color: rgb(28, 27, 16);
 }
 
+=======
+}
+>>>>>>> master
 
-#icon {
+.sidebar-titles {
+    background-color : #FFE500;
     border : 2px solid black;
+    border-radius : 10px;
+    padding : 6px;
+    margin: 0;
 }
 
-h1 {
-    color: rgb(255, 229, 0);
+.minibrucelee {
+    width: 400px;
+    height:300px;
 }
-/***Side Bars Part***/
 
-
-
-
-/***Section Experience***/
-.experience {
-    display: block;
-
+.sidebar-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#brucepicture {
+
+.sidebar-list {
+    list-style-type: none;
+    font-size: 24px;
+    padding-left: 0px;
+}
+
+.bottomlign{
+    width : 600px;
+    border: 4px dashed #FFE550;
+    margin-bottom: 32px;
+}
+
+/***** Side bar punchingball***/
+.container {
+    display: flex;
+}
+
+
+.sidebar-picture {
+    animation: rocker 10s infinite;
+    margin: 0 30px;
     width: 250px;
-    height: 200px;
-}
-#brucepicture:hover {
-    opacity: 0.2;
-    cursor: pointer;
-}
-.description {
-    display: block;
-    margin : 0 auto;
-    width: 500px;
-    height: 200px;
 }
 
+@keyframes rocker {
+    0% {
+        animation-direction: normal;
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
 
-/***Section Formation***/
+    25% {
+        transform-origin: top;
+        transform: rotate(2deg);
+    }
 
+    50% {
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
 
-
-
-
-/***Section Form***/
-
-form {
-
+    75% {
+        transform-origin: top;
+        transform: rotate(2deg);
+    }
 }
-
-
-/***Section Footer***/
-footer {
-    display: block;
-    margin: 0 auto;
-}
-
-/******************************************************************/
-
-/****Touch Pad****/
-
-
-
-
-
-
-
-
-
-
-/******************************************************************/
-
-/****Desktop****/
