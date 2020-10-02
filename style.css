@@ -6,6 +6,63 @@
     margin: auto;
 }
 
+/***** Header *****/
+#groupHeader {
+    position: fixed;
+    width: 100%;
+    height: 194px;
+
+}
+header {
+    background-color: rgb(255, 229, 80);
+    padding: 35px 0;
+
+    width: 100%;
+    z-index: 0;
+
+}
+
+.maintitle {
+    background-color: black;
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: rgb(255, 229, 80);
+    text-align: center;
+    font-size: x-large;
+}
+
+#firstGroupWords, #secondGroupWords {
+    display: inline-block;
+}
+
+#firstWords, #secondWords  {
+    margin-right: 50px;
+    display: block;
+}
+
+#firstWords2, #secondWords2 {
+    display: block;
+}
+
+#secondWords, #secondWords2 {
+    margin-top: 10px;
+}
+
+#imgHeader {
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height:300px;
+    float: none;
+    bottom: 50px;
+}
+
+
+
 /***** Side Bar *****/
 body {
     line-height: 32px;
