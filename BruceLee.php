@@ -117,52 +117,66 @@
         </section>
 
         <!-- Contient les Formations -->
-        <section class ="formation">
-
-          <h2>Formations</h2>
-
-            <h3>Spirituality</h3>
-            <p>
-                Talking about my education as a school student is not that necessary and relevant.
-                We better talk about spirituality through wisdom and consistency in life. This may change your life if you adopt a new way of thinking.
-                I used to learn plenty of numerous martial arts. Each one of them can taught you a lot as values and having hindsight.
-                We will learn how get rid of bad habits implicitly, create a new positive and encouraging environment.
-                Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
-                <b>Be aware and open-minded can push you forward more than my punch.</b>
-            </p>
-
-            <h3>Learn acting for movies</h3>
-
-            <p>
-                My first step in acting was involuntary.
-                A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
-                Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
-                of actors noticed and appreciated my work and I.
-                I made round-trips between China and America in order to learn and act in different types of movies.
-                Learn acting skills in actions and fighting movies, was very similar to my daily life.
-                Always developing wisdom and spirituality for my own is common to acting for me.
-                Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
-                A quick summary on movies that I played, realized, choreographed and scripted :
-            </p>
-            <ul>
-                <li>Operation Dragon</li>
-                <li>Birth of the Dragon</li>
-                <li>Wrath oh the Dragon</li>
-                <li>Game of death</li>
-            </ul>
-
-            <h3>Learn martial arts </h3>
-            <p>
-                Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
-                a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
-                could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
-                goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
-                Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
-            </p>
-
-
+        <section class="formation">
+            <div id="title-formations">
+                <h2 id="formation-title">Formations</h2>
+            </div>
+            <section class="spirituality">
+                <h3 class="formation-subtitles">Spiritualité</h3>
+                <div class="text">
+                    <img class="bruceleeworking" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
+                    <p>
+                        Parler de mon éducation scolaire ne sera pas très utile et nécessaire.
+                        Alors nous ferons mieux de discuter de la spiritualité, à travers le développement de la sagesse et le fait d'accroître sa persévérence.
+                        Adopter une nouvelle vision ou modifier la sienne peut vous faire voir la vie complètement différemment.
+                        Ayant l'habitude d'apprendre plusieurs arts martiaux, chacune d'entre elles m'ont apporté de grandes valeurs et appris à prendre du recul.
+                        Un dévouement complet permet de se débarasser de mauvaises habitudes, d'acquérir un environnement de développement positif et encourangeant.
+                        Même si j'ai développé des compétences que personne ne possède pour le moment, je continue de travailler pour progresser continuellement.
+                        <b>"Be aware and open-minded can push you forward more than my punch."</b>
+                    </p>
+                </div>
+            </section>
+            <hr class="sepator-lign">
+            <section class="acting">
+                <h3 class="formation-subtitles">Carrière cinématographique</h3>
+                <div class="text">
+                    <div id="acting-text">
+                        <p>
+                            Mon premier pas dans le monde du cinéma n'était pas volontaire.
+                            Un ami a filmé une vidéo de ma performance durant un tournoi. Plusieurs personnese assez connues dans la monde cinématographique ont vu cette vidéo.
+                            Depuis ce jour, j'ai commencé ma carrière d'acteur, avec un premier rôle dans "The Green Lanter", une série télé d'époque dans les années 60.
+                            Grâce à ce premier rôle, une multitude d'acteurs et de personnes influentes dans ce milieu ont remarqué un potentiel et ont apprécié mon travail.
+                            En découle plusieurs allers-retours entre la Chine et l'Amérique dans le but d'apprendre à jouer à travers plusieurs petits fillms.
+                            Apprendre à jouer face à l'écran a été, je trouve, très similaire que d'apprendre les arts martiaux.
+                            En effet les rôles joués, étaient le reflet de ma personne très souvent. Alors jouer son propre rôle était assez facile.
+                            Voici une liste de mes meilleurs films d'actions :
+                        </p>
+                        <ul id="acting-list">
+                            <li>Operation du Dragon</li>
+                            <li>La Fureur de vaincre</li>
+                            <li>La Fureur du Dragon</li>
+                            <li>Le jeu de la mort</li>
+                        </ul>
+                    </div>
+                    <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
+                </div>
+            </section>
+            <hr class="sepator-lign">
+            <section class="martialarts">
+                <h3 class="formation-subtitles">Mon art martial</h3>
+                <div class="text">
+                    <img class="bruceleeworking3" src="img/trainingBruceLee.jpg" alt="Bruce Lee is training">
+                    <p>
+                        Les arts martiaux sont propres à la culture chinoise.
+                        Chaque personne désireu de s'initier aux arts martiaux est à la recherche d'un mentor, d'un coach spirituel à suivre.
+                        Maître IP a été l'un de mes maîtres les plus connus. Oui je sais que son nom vous est familié ! Pourquoi ça ?
+                        Il a joué dans de nombreux films également.
+                        Pour ceux qui le connaissent, ils frissonnent rien qu'a son nom car il a déjà combattu contre le monstre : MAC TYSON ! (ça a finit par une égalité)
+                        Oh j'ai failli oublié : Je m'entraîne et travaille dur chaque jour de la semaine dans le but de perfectionner ma force, ma vitesse et ma volonté à travers mon art.
+                    </p>
+                </div>
+            </section>
         </section>
-
 
         <!-- Contient Contact Form -->
         <section class="section-form">
