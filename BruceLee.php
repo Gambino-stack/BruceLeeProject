@@ -14,20 +14,29 @@
 
 
 
-        <header>
 
-            <div class="maintitle">
-                <!-- Left Dragon picture -->
-
-                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
-                <!-- Left Dragon picture -->
-
-            </div>
-
-        </header>
+        <div id="groupHeader">
+            <header>
+                <div class="maintitle">
 
 
+                    <h1>
+                <span id="firstGroupWords">
+                    <span id="firstWords">BRUCE LEE</span>
+                    <span id="secondWords">LE << PETIT DRAGON >> </span>
+                </span>
+                        <span id="secondGroupWords">
+                    <span id="firstWords2">LEE JUN FAN</span>
+                    <span id="secondWords2">李振藩</span>
+                </span>
+                    </h1>
 
+
+                </div>
+
+            </header>
+            <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
+        </div>
 
 
         <!-- Section side bar -->
