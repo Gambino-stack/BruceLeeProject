@@ -55,10 +55,10 @@ h1 {
 #imgHeader {
     position: absolute;
     z-index: 3;
-    width: 400px;
-    height:300px;
+    width: 250px;
+    height:200px;
     float: none;
-    bottom: 50px;
+    bottom: 0;
 }
 
 
