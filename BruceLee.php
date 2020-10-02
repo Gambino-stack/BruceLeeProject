@@ -11,69 +11,56 @@
 
     <body>
         <!-- Contain the Logo -->
+
+
+
         <header>
 
+            <div class="maintitle">
+                <!-- Left Dragon picture -->
 
-            <!-- principal picture of the website-->
-            <img id="icon" src="img/bruce-lee.jpg" alt="logo_Bruce_Lee" >
+                <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
+                <!-- Left Dragon picture -->
+
+            </div>
 
         </header>
-        <!-- Contain the Name and Surname -->
-        <div class="maintitle">
-            <!-- Left Dragon picture -->
-            <img id="leftDragon" src="img/dragon2.png" alt="logo_Left_Dragon" >
-            <h1>BRUCE LEE - LE << PETIT DRAGON >> LEE JUN FAN - 李振藩</h1>
-            <!-- Left Dragon picture -->
-            <img id="rightDragon" src="img/dragon2R.png" alt="logo_Right_Dragon">
-        </div>
-            <!-- Section side bar -->
-            <section class="dragonbutton" id="dragonidentity">
-                <div>
-                    <a href="#identity"><button class="sidebarbutton1" ><img src="img/dragon.png" alt="dragon head">IDENTITY</button></a>
-                </div>
-                <div id="identity">
-                    <ul>
-                        <li>Age  : 32 years, older but faster than you</li>
-                        <li>🏡   : 'Wherever the wind brings me' </li>
-                        <li>📞   : 911 in  case you need help for fighting</li>
-                        <li>📧   : Check the form down below</li>
-                    </ul>
-                    <a href="#dragonidentity" class="close"><b>X</b></a>
-                </div>
-            </section>
 
-            <section class="dragonbutton" id="dragonskills">
-                <div>
-                    <a href="#skillset"><button class="sidebarbutton2"><img src="img/dragon.png" alt="dragon head">SKILLSET</button></a>
-                </div>
-                <div id="skillset">
-                    <ul>
-                        <li>Trainer / Teacher of Martial Arts</li>
-                        <li>(inventor & precursor of Jeet Kune Do)</li>
-                        <li>Acting / Producing / Directing movies</li>
-                        <li>Fight choreographer</li>
-                        <li>Philosopher / Quoter</li>
-                    </ul>
-                    <a href="#dragonskills" class="close"><b>X</b></a>
-                </div>
-            </section>
 
-            <section class="dragonbutton" id="dragonhobbies">
-                <div>
-                    <a href="#hobbies"><button class="sidebarbutton3"><img src="img/dragon.png" alt="dragon head">HOBBIES</button></a>
-                </div>
-                <div id="hobbies">
-                    <ul>
-                        <li>Practicing & perfectionning my martial art</li>
-                        <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku</li>
-                        <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
-                        <li>Doing push-ups with 2 fingers</li>
-                        <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
-                    </ul>
-                    <a href="#dragonhobbies" class="close"><b>X</b></a>
-                </div>
-            </section>
+
+
+
+        <!-- Section side bar -->
+        <section class="dragonbutton" id="dragonidentity">
+            <div id="identity">
+                <ul>
+                    <li>Age  : 32 years, older but faster than you</li>
+                    <li>🏡   : 'Wherever the wind brings me' </li>
+                    <li>📞   : 911 in  case you need help for fighting</li>
+                    <li>📧   : Check the form down below</li>
+                </ul>
+        </section>
+
+        <section class="dragonbutton" id="dragonskills">
+                <ul>
+                    <li>Trainer / Teacher of Martial Arts</li>
+                    <li>(inventor & precursor of Jeet Kune Do)</li>
+                    <li>Acting / Producing / Directing movies</li>
+                    <li>Fight choreographer</li>
+                    <li>Philosopher / Quoter</li>
+                </ul>
+        </section>
+
+        <section class="dragonbutton" id="dragonhobbies">
+                <ul>
+                    <li>Practicing & perfectionning my martial art</li>
+                    <li>Training hard 24/7 to reach the top</li>
+                    <li>Playing ping-pong with nunchaku</li>
+                    <li><a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Check this out mate)</a></li>
+                    <li>Doing push-ups with 2 fingers</li>
+                    <li><a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Check this out buddy)</a></li>
+                </ul>
+        </section>
 
             <!-- Contient la Description-->
 
@@ -96,22 +83,18 @@
 
         <!-- Contient les Experiences -->
         <section class="experience">
-            <div id="experience">
+
                 <h2>EXPERIENCES</h2>
-            <article>
-                <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
-                    <br>
-                        <h3>Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
+
+                <h3>Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
 
                 <ul class="listexperience">
                     <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
                     <li><span>Acting </span>: entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
                     <li><span>Scenariste</span> : Entre 1971 et 1978 j'ai écris 5 films differents</li>
                     <li><span>Realisateur</span> : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
-
                 </ul>
-                 </article>
-            </div>
+
         </section>
 
         <!-- Contient les Formations -->
@@ -119,65 +102,47 @@
 
 
 
-          <!--  <a href="#"><button id="formation-button">--><h2>Formations</h2><!--</button></a>-->
+          <h2>Formations</h2>
 
-            <label for="active_formation">
+            <h3>Spirituality</h3>
+            <p>
+                Talking about my education as a school student is not that necessary and relevant.
+                We better talk about spirituality through wisdom and consistency in life. This may change your life if you adopt a new way of thinking.
+                I used to learn plenty of numerous martial arts. Each one of them can taught you a lot as values and having hindsight.
+                We will learn how get rid of bad habits implicitly, create a new positive and encouraging environment.
+                Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
+                <b>Be aware and open-minded can push you forward more than my punch.</b>
+            </p>
 
-                <button class="buttonbanner">
-                    <img id="bannerFormation" src="img/bruce_banner_xp.png" alt="banner formation" />
-                </button>
+            <h3>Learn acting for movies</h3>
 
-            </label>
-            <input type="checkbox" id="active_formation"/>
+            <p>
+                My first step in acting was involuntary.
+                A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
+                Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
+                of actors noticed and appreciated my work and I.
+                I made round-trips between China and America in order to learn and act in different types of movies.
+                Learn acting skills in actions and fighting movies, was very similar to my daily life.
+                Always developing wisdom and spirituality for my own is common to acting for me.
+                Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
+                A quick summary on movies that I played, realized, choreographed and scripted :
+            </p>
+            <ul>
+                <li>Operation Dragon</li>
+                <li>Birth of the Dragon</li>
+                <li>Wrath oh the Dragon</li>
+                <li>Game of death</li>
+            </ul>
 
+            <h3>Learn martial arts </h3>
+            <p>
+                Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
+                a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
+                could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
+                goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
+                Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
+            </p>
 
-            <div class="displayAction">
-                <div>
-                    <h3>Spirituality</h3>
-                    <p>
-                        Talking about my education as a school student is not that necessary and relevant.
-                        We better talk about spirituality through wisdom and consistency in life. This may change your life if you adopt a new way of thinking.
-                        I used to learn plenty of numerous martial arts. Each one of them can taught you a lot as values and having hindsight.
-                        We will learn how get rid of bad habits implicitly, create a new positive and encouraging environment.
-                        Even if I develop skills than no one have for the moment, I'm still working on it and improving myself.
-                        <b>Be aware and open-minded can push you forward more than my punch.</b>
-                    </p>
-
-                </div>
-
-                <div>
-                    <h3>Learn acting for movies</h3>
-
-                    <p>
-                        My first step in acting was involuntary.
-                        A friend of mine recorded a video of my performance in a tournament. A lot of well-known people in movie business saw that video.
-                        Since this day, I started my cinematographic career as "The Green Lantern", a old soap in the 60's. Thanks to this first soap, a bunch
-                        of actors noticed and appreciated my work and I.
-                        I made round-trips between China and America in order to learn and act in different types of movies.
-                        Learn acting skills in actions and fighting movies, was very similar to my daily life.
-                        Always developing wisdom and spirituality for my own is common to acting for me.
-                        Acting in movies as a martial art expert was pretty easy to do, because I was playing my own.
-                        A quick summary on movies that I played, realized, choreographed and scripted :
-                    </p>
-                    <ul>
-                        <li>Operation Dragon</li>
-                        <li>Birth of the Dragon</li>
-                        <li>Wrath oh the Dragon</li>
-                        <li>Game of death</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>Learn martial arts </h3>
-                    <p>
-                        Martial arts is very common to chinese culture. Every persons who wants to learn martial arts in China is always looking for
-                        a trainer, a teacher, a spiritual coach to follow. This what I did too. One of my most famous trainer was master IP man. Yes this name
-                        could sounds familiar to you all, because he also played in a lot of movies. For people who know him, they're all have some
-                        goosebumps because they saw him fighting Mac Tyson (end of the fight : tie). Yeaaaaah I lear from that monster master ;).
-                        Oh guys I almost forgot something : I use to work and train, everyday almost whole day to perfecting my will, my strength and my speed through my art.
-                    </p>
-                </div>
-            </div>
 
         </section>
 
