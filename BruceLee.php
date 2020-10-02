@@ -41,10 +41,10 @@
                 <div class='sidebar-text'>
                     <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
                     <ul class="sidebar-list">
-                        <li>Age : 32 years, older but faster than you</li>
+                        <li>Age : 80 ans, plus vieux mais plus rapide que ton père</li>
                         <li>🏡 : 'Wherever the wind brings me' </li>
-                        <li>📞 : 911 in  case you need help for fighting</li>
-                        <li>📧 : Check the form down below</li>
+                        <li>📞 : 911 au cas où tu as besoin d'aide pour te battre</li>
+                        <li>📧 : Regarde le petit formulaire en bas mon disciple</li>
                     </ul>
                 </div>
                 <div>
@@ -54,12 +54,12 @@
                 <h2 class='sidebar-titles'>COMPÉTENCES</h2>
                 <div class='sidebar-text'>
                     <ul class="sidebar-list">
-                        <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
-                        <li>Trainer / Teacher</li>
-                        <li>Acting</li>
-                        <li>Producing / Directing movies</li>
-                        <li>Fight choreographer</li>
-                        <li>Philosopher / Quoter</li>
+                        <li>Arts martials (inventeur & précurseur du Jeet Kune Do)</li>
+                        <li>Enseignant, professeur et entraineur</li>
+                        <li>Acteur</li>
+                        <li>Producteur et directeur de film</li>
+                        <li>Chorégraphe de combat</li>
+                        <li>Philosophe et 'quoter'</li>
                     </ul>
                     <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
                 </div>
@@ -70,11 +70,11 @@
                 <div class='sidebar-text'>
                     <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
                     <ul class="sidebar-list">
-                        <li>Practicing & perfectionning my martial art</li>
-                        <li>Training hard 24/7 to reach the top</li>
-                        <li>Playing ping-pong with nunchaku
+                        <li>Pratiquer et perfectionner mon arme martiale</li>
+                        <li>M'entrainer h24 pour être au top... non pardon, pour rester au top ;)</li>
+                        <li>Jouer au ping-pong avec mon nunchaku
                             <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
-                        <li>Doing push-ups with 2 fingers
+                        <li>Faire des pompes avec seulement une main et deux doigts
                             <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
                     </ul>
                 </div>
