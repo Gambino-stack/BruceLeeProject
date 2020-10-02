@@ -31,7 +31,7 @@
 
 
         <!-- Section side bar -->
-        <div class="container">
+
         <div class="sidebar">
             <img class="sidebar-picture" src="img/punchingball 3.png"/>
         </div>
