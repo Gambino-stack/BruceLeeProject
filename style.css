@@ -1,6 +1,9 @@
 /******Box sizing******/
 
-
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
 
 
 
@@ -159,7 +162,23 @@ li{
     list-style-type: none;
 }
 
+/***Section Description***/
 
+.description:active .display-description {
+    display: block;
+}
+.button-description:active {
+    display: none;
+}
+
+.display-description {
+    display: none;
+}
+
+.button-description {
+    width: 100px;
+    height: 100px;
+}
 
 /***Section Experience***/
 .experience {
@@ -195,7 +214,7 @@ form {
 .form-display {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
 }
 
 input {

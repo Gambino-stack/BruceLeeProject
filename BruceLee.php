@@ -78,14 +78,17 @@
 
 
             <!-- Contient la Description-->
-        <section>
-            <h2>DESCRIPTION</h2>
-            <article class="description">
-                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet,
-                j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire
-                en bas de la page."
-            </article>
+        <section class="description">
+            <button class="button-description">Description</button>
+            <div class="display-description">
+                <h2>DESCRIPTION</h2>
+                <article class="article-description">
+                    <p>
+                        "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+                        Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet, j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire en bas de la page."
+                    </p>
+                </article>
+            </div>
         </section>
 
         <!-- Contient les Experiences -->
