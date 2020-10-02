@@ -14,6 +14,8 @@
 
 .sidebar-picture {
     animation: rocker 10s infinite;
+    margin: 0 30px;
+    width: 250px;
 }
 
 @keyframes rocker {
