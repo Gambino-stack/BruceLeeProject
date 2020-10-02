@@ -1,6 +1,9 @@
 /******Box sizing******/
 
-
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
 
 
 
@@ -61,57 +64,121 @@ h1 {
     color: rgb(255, 229, 0);
 }
 /***Side Bars Part***/
-.sidebardragon {
-    display : inline-block;
+
+
+.sidebarbutton1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarbutton2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarbutton3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+a.close{
+    padding:2px;
+    height: 20px;
+    width: 12px;
+}
+
+
+.dragonbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.dragonbutton{
-    display: flex;
-    justify-content : space-evenly;
-    align-self: center;
-    background-color : gold;
+button {
+    border-radius: 30%;
 }
 
-
-ul{
-    list-style-type: none;
+button:hover{
+    opacity: 60%;
 }
 
-li {
-    display: flex;
-    justify-content: center;
+#identity {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
+}
+
+#skillset {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
+
+}
+
+#hobbies {
+    display : none;
+    padding-top: 16px;
+    line-height: 24px;
 }
 
 .dragoninfos {
-    display : block;
+    display: flex;
 }
 
-.sidebarbutton {
-    border-radius: 48%;
-}
-
-.identity{
+#identity:target {
+    display : flex;
     width: 100vw;
-    background-color: blue;
-    color: gold;
+    cursor: pointer;
 }
 
-.skillset{
+#skillset:target {
+    display : flex;
     width: 100vw;
-    background-color: red;
-    color: gold;
 }
 
-.hobbies{
+#hobbies:target {
+    display : flex;
     width: 100vw;
-    background-color: orange;
-    color: gold;
 }
 
+.close {
+    text-decoration: none;
+    color: darkred;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding: 16px;
+}
 
+li{
+    list-style-type: none;
+}
 
+/***Section Description***/
 
+.description:active .display-description {
+    display: block;
+}
+.button-description:active {
+    display: none;
+}
+
+.display-description {
+    display: none;
+}
+
+.button-description {
+    width: 100px;
+    height: 100px;
+}
 
 /***Section Experience***/
 .experience {
@@ -125,9 +192,6 @@ li {
 #brucepicture:hover {
     opacity: 0.2;
     cursor: pointer;
-}
-.description {
-
 }
 
 
@@ -144,11 +208,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .form-display {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 input {
@@ -160,6 +226,11 @@ input {
     box-sizing: border-box;
     box-shadow: 0 1px 3px 0 black;
     transition: 0.3s;
+}
+
+.form-display-age, .form-display-genre {
+    display: flex;
+    flex-direction: column;
 }
 
 #age, #genre {
@@ -177,12 +248,10 @@ input {
 
 .form-display label {
     vertical-align: center;
-    padding: 0 20px;
-    margin: auto;
 }
 
 .form-display input {
-    width: 100px;
+    width: 75px;
     height: 35px;
     border: 2px solid black;
     box-shadow: 0 1px 3px 0 black;
@@ -195,7 +264,7 @@ input {
 }
 
 .form-display select {
-    width: 100px;
+    width: 130px;
     height: 35px;
 }
 
@@ -219,7 +288,6 @@ select:hover {
 }
 
 #audit, #martialArt {
-    padding-left: 10px;
     background-color: white;
 }
 
@@ -247,9 +315,9 @@ textarea:hover {
     border-radius: 3px;
     background-color: black;
     color: yellow;
-    margin-top: 20px;
     transition: 0.3s;
     box-shadow: 0 1px 3px 0 black;
+    margin: 20px 0;
 }
 
 #button-form:hover {
