@@ -100,8 +100,6 @@
         <!-- Contient les Formations -->
         <section class ="formation">
 
-
-
           <h2>Formations</h2>
 
             <h3>Spirituality</h3>
