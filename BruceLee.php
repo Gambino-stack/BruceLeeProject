@@ -152,53 +152,74 @@
 
         <!-- Contient Contact Form -->
         <section class="section-form">
-            <h2>Form</h2>
-            <form method="post" action="">
-                <label for="firstname">firstname : </label>
-                <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required/>
-                <label for="lastname">lastname : </label>
-                <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" required/>
+            <h2>FORMULAIRE DE CONTACT</h2>
 
-                <div class="form-display">
-                    <div class="form-display-age">
-                        <label for="age">age : </label>
+            <form class="form" method="post" action="">
+                <div class="form-lastname">
+                    <label for="lastname">NOM : </label>
+                    <input type="text" name="lastname" id="lastname" placeholder="" required/>
+                </div>
+                <div class="form-firstname">
+                    <label for="firstname">PRENOM : </label>
+                    <input type="text" name="firstname" id="firstname" placeholder="" required/>
+                </div>
+
+                <div class="form-address">
+                    <label for="address">ADRESSE :</label>
+                    <input type="text" name="address" id="address" placeholder="" required/>
+                </div>
+                <div class="form-email">
+                    <label for="email">MAIL :</label>
+                    <input type="email" name="email" id="email" placeholder="" required/>
+                </div>
+
+                <div class="form-age-genre">
+                    <div>
+                        <label for="age">AGE : </label>
                         <input type="number" name="age" id="age" required/>
                     </div>
-
-                    <div class="form-display-genre">
-                        <label for="genre">genre : </label>
+                    <div>
+                        <label for="genre">SEXE : </label>
                         <select name="genre" id="genre">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="kids">Kids</option>
+                            <option value=""></option>
+                            <option value="Homme">Male</option>
+                            <option value="femme">Female</option>
+                            <option value="Enfant">Kids</option>
                             <option value="hermaphrodite">Hermaphrodite</option>
                         </select>
                     </div>
                 </div>
 
-                <label for="audit"></label>
-                <select name="audit" id="audit">
-                    <option value="">How did you know the school?</option>
-                    <option value="internet">Internet</option>
-                    <option value="friends">Friends</option>
-                    <option value="school">Other School</option>
-                </select>
+                <div class="form-select-audit">
+                    <label for="audit">COMMENT AVEZ VOUS CONNU BRUCE LEE ?</label>
+                    <select name="audit" id="audit">
+                        <option value=""></option>
+                        <option value="internet">Internet</option>
+                        <option value="friends">Amis</option>
+                        <option value="school">Autre école</option>
+                    </select>
+                </div>
+                <div class="form-select-martialArt">
+                    <label for="martialArt">PRATIQUEZ VOUS UN SPORT DE COMBAT ?</label>
+                    <select name="martialArt" id="martialArt">
+                        <option value=""></option>
+                        <option value="karate">Karaté</option>
+                        <option value="jujitsu">Jujitsu</option>
+                        <option value="muayThai">Muay Thaï</option>
+                        <option value="savate">Savate Autrichienne</option>
+                        <option value="chainSaw">La mandalette</option>
+                        <option value="tartiflette">Tartiflette</option>
+                    </select>
+                </div>
 
-                <label for="martialArt"></label>
-                <select name="martialArt" id="martialArt">
-                    <option value="">Have you ever pratice a martial art?</option>
-                    <option value="karate">Karaté</option>
-                    <option value="jujitsu">Jujitsu</option>
-                    <option value="muayThai">Muay Thaï</option>
-                    <option value="savate">Savate Autrichienne</option>
-                    <option value="chainSaw">Chainsaw</option>
-                    <option value="tartiflette">Tartiflette</option>
-                </select>
+                <div class="form-message">
+                    <label for="message">MESSAGE : </label>
+                    <textarea name="message" id="message" placeholder="" required></textarea>
+                </div>
 
-                <label for="message">your message : </label>
-                <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
-
-                <button id="button-form">Send !</button>
+                <div class="form-button">
+                    <button id="button-form">Send !</button>
+                </div>
             </form>
 
         </section>
