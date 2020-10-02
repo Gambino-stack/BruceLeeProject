@@ -75,9 +75,11 @@
                 </div>
             </section>
 
-
-
             <!-- Contient la Description-->
+
+        <section>
+
+
         <section class="description">
             <button class="button-description">Description</button>
             <div class="display-description">
@@ -89,6 +91,7 @@
                     </p>
                 </article>
             </div>
+
         </section>
 
         <!-- Contient les Experiences -->
@@ -99,11 +102,13 @@
                 <img id="brucepicture" src="https://cdn.dribbble.com/users/1242068/screenshots/4271999/brucelee.png" alt="BruceLee image">
                     <br>
                         <h3>Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
-                <ul>
-                    <li>Les arts martiaux :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
-                    <li>Acting : entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
-                    <li>Scenariste : Entre 1971 et 1978 j'ai écris 5 films differents</li>
-                    <li>Realisateur : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
+
+                <ul class="listexperience">
+                    <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
+                    <li><span>Acting </span>: entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
+                    <li><span>Scenariste</span> : Entre 1971 et 1978 j'ai écris 5 films differents</li>
+                    <li><span>Realisateur</span> : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
+
                 </ul>
                  </article>
             </div>
