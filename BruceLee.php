@@ -112,14 +112,15 @@
         <!-- Contient les Formations -->
         <section class ="formation">
 
-            <a href="#"><button id="formation-button"><h2>Formations</h2></button></a>
 
 
+          <!--  <a href="#"><button id="formation-button">--><h2>Formations</h2><!--</button></a>-->
 
             <label for="active_formation">
-            <button class="buttonbanner">
-                <img id="bannerFormation" src="img/bruce_banner_xp.png" alt="banner formation" />
-            </button>
+
+                <button class="buttonbanner">
+                    <img id="bannerFormation" src="img/bruce_banner_xp.png" alt="banner formation" />
+                </button>
 
             </label>
             <input type="checkbox" id="active_formation"/>
