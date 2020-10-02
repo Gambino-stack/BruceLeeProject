@@ -25,7 +25,7 @@
             </div>
 
         </header>
-
+            <img src="img/leone-1947-vintage-heavy-bag-white-1.jpg"/>
 
 
 
