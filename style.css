@@ -6,6 +6,13 @@
 
 /******Image Sizing****/
 
+/******* couleur de jaune generale : #FFE500
+        n'utiliser que des images presentes dans le dossier img
+        police des titres : font-family: "Herculanum";
+        police du texte: font-family: "Arial Unicode MS";
+        background-image: fixe
+
+ */
 
 
 
@@ -19,7 +26,6 @@
 /****Mobile First****/
 
 body {
-    text-align: center;
     font-family: "Arial Unicode MS";
 }
 h2,h3{
@@ -105,7 +111,12 @@ li {
     color: gold;
 }
 
+/*** Section Description */
+.description {
+    display: flex;
+    margin: 0 auto;
 
+}
 
 
 
@@ -121,9 +132,6 @@ li {
 #brucepicture:hover {
     opacity: 0.2;
     cursor: pointer;
-}
-.description {
-
 }
 
 
@@ -268,19 +276,9 @@ footer {
 
 }
 
-@media screen and (min-width: 340px) and (max-width:414px) {
+@media screen and (min-width:400px) {
 
-    .description {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    #experience {
-        display:block;
-        text-align: center;
-    }
-    .listexperience {
-        display: inline-block;
-        margin-right: 50px;
+
 
 
     }
