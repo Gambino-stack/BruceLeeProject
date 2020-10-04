@@ -11,7 +11,7 @@
 }
 
 /***** Header *****/
-#groupHeader {
+.groupHeader {
     position: fixed;
     width: 100%;
     height: 194px;
@@ -348,6 +348,7 @@ body {
 #button-form:hover {
     box-shadow: 2px 2px 5px 0;
     transition: 0.3s;
+}
 
 /***** Side bar punchingball***/
 body {
@@ -423,4 +424,15 @@ body {
     border: 2px dashed
     #ffc400a5;
     margin-bottom: 32px;
+}
+
+footer{
+    background-color: #ffe550;
+    border-top: solid;
+    padding: 20px;
+}
+
+.mainFooter {
+    background-color: black;
+    color: #ffe550;
 }
