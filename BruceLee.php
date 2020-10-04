@@ -260,14 +260,15 @@
         </section>
         <hr>
         <!-- Contient Le footer -->
-        <footer>
-            <p>If you spend too much time thinking about a thing, you’ll never get it done. – Bruce Lee</p>
-            <p>To hell with circumstances; I create opportunities. – Bruce Lee</p>
-           <em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
-                citations</a> <em>de moi même!</em><br>
-            <br>
-            <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
-
+        <footer class="containMain">
+            <div class="containFooter">
+                <p>If you spend too much time thinking about a thing, you’ll never get it done. – Bruce Lee</p>
+                <p>To hell with circumstances; I create opportunities. – Bruce Lee</p>
+                <em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
+                    citations</a> <em>de moi même!</em><br>
+                <br>
+                <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
+            </div>
         </footer>
 
     </body>

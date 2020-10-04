@@ -425,3 +425,15 @@ body {
     margin-bottom: 32px;
 }
 
+/***** Footer *****/
+footer {
+    background-color: rgb(255, 229, 80);
+}
+
+
+.containFooter {
+    background-color: black;
+}
+
+
+
