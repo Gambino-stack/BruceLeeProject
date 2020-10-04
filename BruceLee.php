@@ -29,11 +29,14 @@
                     </h1>
 
 
+
+
                 </div>
+
 
             </header>
             <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
-        </div>
+        <div>
         <div class="containerimg">
 
             <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
@@ -43,6 +46,17 @@
 
 
         <!-- Section side bar -->
+
+
+                </div>
+
+            </header>
+            <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
+        </div>
+
+
+        <!-- Section side bar -->
+
 
         <div class="sidebar">
             <img class="sidebar-picture" src="img/punchingball 3.png"/>
@@ -103,7 +117,9 @@
         <br>
             <!-- Contient la Description-->
 
+
         <br>
+
         <section class="description">
             <button class="button-description">Description</button>
                 <h2 class="titlemodel">DESCRIPTION</h2>
@@ -149,7 +165,6 @@
                 </ul>
             </div>
         </section>
-
 
         <!-- Contient les Formations -->
         <section class="formation">
