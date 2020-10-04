@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8" />
@@ -40,10 +40,18 @@
 
 
         <!-- Section side bar -->
-
-        <div class="sidebar">
-            <img class="sidebar-picture" src="img/punchingball 3.png"/>
+        <div class="container">
+        <div class="body-left">
+            <div>
+                <img class="sidebar-picture" src="img/punchingball 3.png"/>
+                <div class="sidebar-identity">
+                    <h3>IDENTITY</h3>
+                    <h3>SKILLS</h3>
+                    <h3>HOBBIES</h3>
+                </div>
+            </div>
         </div>
+        <div class="body-right">
         <section class='sidebar'>
             <section class='identity'>
                 <h2 class='sidebar-titles'>IDENTITÉ</h2>
@@ -269,7 +277,7 @@
             <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
 
         </footer>
-
+        </div>
+    </div>
     </body>
-
 </html>
