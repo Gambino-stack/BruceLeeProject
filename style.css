@@ -782,14 +782,22 @@ body {
 }
 
 /***** Footer *****/
+
 footer {
     background-color: rgb(255, 229, 80);
 }
 
 
-.containFooter {
+#containFooter {
     background-color: black;
+    padding: 0;
+    width: 100%;
+    height: 155px;
 
+}
+
+#containFooter.p {
+    color: rgb(255, 229, 80);
 }
 
 
