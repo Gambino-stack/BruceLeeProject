@@ -1,6 +1,4 @@
-
-
-<head>
+<head xmlns="http://www.w3.org/1999/html">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Bruce Lee</title>
@@ -137,8 +135,11 @@
         <section class="experience">
 
                 <h2 class="titlemodel">EXPERIENCES</h2>
-
-                <h3 class="carriere">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
+            <div class="imgcontainerexp">
+                <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
+            </div>
+            <div class="Experiences"
+                <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
 
                 <ul class="listexperience">
                     <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
@@ -146,7 +147,7 @@
                     <li><span>Scenariste</span> : Entre 1971 et 1978 j'ai écris 5 films differents</li>
                     <li><span>Realisateur</span> : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
                 </ul>
-
+            </div>
         </section>
 
 

@@ -180,10 +180,33 @@ body {
 .experience{
     margin: 10px 0 150px 0;
 }
-.carriere{
-    padding: 50px 10px;
+.carriere-subtitle {
+    font-family: Herculanum;
+    font-size: 24px;
 }
+
+
 .listexperience {
+    list-style-type: square;
+    font-size: 20px;
+    font-family: Georgia;
+
+
+}
+.experienceimg{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.imgcontainerexp{
+    display: block;
+    padding: 100px 100px 0 0;
+    float: right;
+
+}
+.Experiences {
+    display:block;
+    padding: 150px 0 0 80px;
 
 }
 
