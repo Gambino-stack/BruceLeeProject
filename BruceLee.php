@@ -12,7 +12,7 @@
 
 
 
-        <div id="groupHeader">
+        <div class="groupHeader">
             <header>
                 <div class="maintitle">
 
@@ -303,14 +303,37 @@
         </section>
         <hr>
         <!-- Contient Le footer -->
-        <footer class="containMain">
 
-            <div id="containFooter">
-                <p>If you spend too much time thinking about a thing, you’ll never get it done. – Bruce Lee</p>
-                <p>To hell with circumstances; I create opportunities. – Bruce Lee</p>
-                <p><em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
-                        citations</a> <em>de moi même!</em></p>
-                <a href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.png" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
+        <footer class="groupFooter">
+            <div class="mainFooter">
+
+                <div class="positonPart">
+
+                    <div class="socialNetwork">
+                        <p><span id="invitation"><span>VIENS JETER UN COUP D'OEIL SUR NOTRE SITE INTERNET :)</span><span>ET RETROUVE MOI SUR LES RESEAUX :</span></span></p>
+                        <div id="imagegroup">
+                            <img class="iconsize" src="img/twitter.png" alt="twitter icon" title="twitter" />
+                            <img class="iconsize" src="img/facebook.png" alt="facebook icon" title="facebook" />
+                            <img class="iconsize" src="img/insta.png" alt="instagram icon" title="instagram" />
+                            <img class="iconsize" src="img/snapchat.png" alt="snapchat icon" title="snapchat" />
+                        </div>
+
+                    </div>
+
+                    <div class="rigthSide">
+                        <div>
+                            <p>"If you spend too much time thinking about a thing, you’ll never get it done." – Bruce Lee</p>
+                            <p>"To hell with circumstances, I create opportunities." – Bruce Lee</p>
+                        </div>
+                        <div class="otherquote">
+                            <p><em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
+                                    citations</a> <em>de moi même!</em></p>
+                            <a id="iconquotes" href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.jpg" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
         </footer>
