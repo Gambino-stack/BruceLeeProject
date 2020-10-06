@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 
@@ -41,9 +42,8 @@
             <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
         <div>
         <div class="containerimg">
-
-            <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
-            <img src="../img/demidisquedragondroite.png" alt="background image">
+            <img class="imggauche" src= "img/demidisquedragongauche.png" alt="background image">
+            <img src="img/demidisquedragondroite.png" alt="background image">
         </div>
 
 
@@ -52,7 +52,7 @@
         <div class="container">
         <div class="body-left">
             <div>
-                <img class="sidebar-picture" src="img/punchingball 3.png"/>
+                <img class="sidebar-picture" src="img/punchingball 3.png" alt="Sidebar Picture"/>
                 <div class="sidebar-identity">
                     <h3>IDENTITY</h3>
                     <h3>SKILLS</h3>
@@ -106,11 +106,12 @@
                 </div>
             </section>
         </section>
+
         <br>
         <br>
         <br>
         <div class="separate">
-            <img  src="../img/nunchaku.png" alt="hrnunchaku">
+            <img  src="img/nunchaku.png" alt="hrnunchaku">
         </div>
         <br>
         <br>
@@ -126,7 +127,7 @@
                 <br>
                 <br>
                 <div class="descriptionimg">
-                    <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
+                    <img class="fightimg" src="img/sans-titre-49.jpg"  alt="imagebruceLee">
                 </div>
                 <div class="article-description">
                         <p>
@@ -140,7 +141,7 @@
         <br>
         <br>
         <div class="separate">
-            <img  src="../img/nunchaku.png" alt="hrnunchaku">
+            <img  src="img/nunchaku.png" alt="hrnunchaku">
         </div>
         <br>
         <br>
@@ -152,11 +153,10 @@
 
                 <h2 class="titlemodel">EXPERIENCES</h2>
             <div class="imgcontainerexp">
-                <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
+                <img class="experienceimg" src="img/Bruce-Lee.jpg" alt="brucelee">
             </div>
-            <div class="Experiences"
+            <div class="Experiences">
                 <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
-
                 <ul class="listexperience">
                     <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
                     <li><span>Acting </span>: entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
@@ -208,7 +208,7 @@
                             <li>Le jeu de la mort</li>
                         </ul>
                     </div>
-                    <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
+                    <img class="bruceleevschucknorris" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
                 </div>
             </section>
             <hr class="sepator-lign">
