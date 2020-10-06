@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 
@@ -50,7 +49,6 @@
 
 
         <!-- Section side bar -->
-<<<<<<< HEAD
         <div class="container">
         <div class="body-left">
             <div>
