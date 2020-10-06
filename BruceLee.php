@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -42,10 +40,13 @@
 
 
 <!-- Section side bar -->
-
+<div class="container">
+<div class="container-left">
 <div class="sidebar">
     <img class="sidebar-picture" src="img/punchingball 3.png"/>
 </div>
+</div>
+    <div class="container-right">
 <section class='sidebar'>
     <section class='identity'>
         <h2 class='sidebar-titles'>IDENTITÉ</h2>
@@ -296,8 +297,7 @@
 
 
 </footer>
-
+    </div>
 </body>
 
 </html>
->>>>>>> d372396858087e11247712c9f6b09ab05a52afd2
