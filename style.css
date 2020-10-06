@@ -1,13 +1,11 @@
-<<<<<<< HEAD
 
-=======
 /***** Variables *****/
 :root {
     --border-form-color: #a61820;
     --content-form-color: #d9d9d9;
     --dark-color: #00030f;
 }
->>>>>>> 02f0b6adb0f525178c224a65b98015f59e212511
+
 /******Box sizing******/
 
 * {
