@@ -1,4 +1,6 @@
-<head xmlns="http://www.w3.org/1999/html">
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=1.0" />
     <title>Bruce Lee</title>
@@ -38,19 +40,14 @@
             <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
         <div>
         <div class="containerimg">
-
-            <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
-            <img src="../img/demidisquedragondroite.png" alt="background image">
+            <img class="imggauche" src= "img/demidisquedragongauche.png" alt="background image">
+            <img src="img/demidisquedragondroite.png" alt="background image">
         </div>
 
 
 
         <!-- Section side bar -->
-
-
-                </div>
-
-            </header>
+        <div>
             <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
         </div>
 
@@ -59,58 +56,49 @@
 
 
         <div class="sidebar">
-            <img class="sidebar-picture" src="img/punchingball 3.png"/>
+            <img class="sidebar-picture" src="img/punchingball 3.png" alt="punchiball moving"/>
         </div>
-        <section class='sidebar'>
-            <section class='identity'>
-                <h2 class='sidebar-titles'>IDENTITÉ</h2>
-                <div class='sidebar-text'>
-                    <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
-                    <ul class="sidebar-list">
-                        <li>Age : 80 ans, plus vieux mais plus rapide que ton père</li>
-                        <li>🏡 : 'Wherever the wind brings me' </li>
-                        <li>📞 : 911 au cas où tu as besoin d'aide pour te battre</li>
-                        <li>📧 : Regarde le petit formulaire en bas mon disciple</li>
-                    </ul>
-                </div>
-                <div>
-            </section>
-            <hr class="bottomlign">
-            <section class='skills'>
-                <h2 class='sidebar-titles'>COMPÉTENCES</h2>
-                <div class='sidebar-text'>
-                    <ul class="sidebar-list">
-                        <li>Arts martials (inventeur & précurseur du Jeet Kune Do)</li>
-                        <li>Enseignant, professeur et entraineur</li>
-                        <li>Acteur</li>
-                        <li>Producteur et directeur de film</li>
-                        <li>Chorégraphe de combat</li>
-                        <li>Philosophe et 'quoter'</li>
-                    </ul>
-                    <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
-                </div>
-            </section>
-            <hr class="bottomlign">
-            <section class='hobbies'>
-                <h2 class='sidebar-titles'>LOISIRS</h2>
-                <div class='sidebar-text'>
-                    <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
-                    <ul class="sidebar-list">
-                        <li>Pratiquer et perfectionner mon arme martiale</li>
-                        <li>M'entrainer h24 pour être au top... non pardon, pour rester au top ;)</li>
-                        <li>Jouer au ping-pong avec mon nunchaku
-                            <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
-                        <li>Faire des pompes avec seulement une main et deux doigts
-                            <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
-                    </ul>
-                </div>
-            </section>
-        </section>
+
+        <h2>Rapide présentation de Bruce Lee</h2>
+        <button class="accordion">IDENTITÉ</button>
+        <div class="panel">
+            <ul class="sidebar-list">
+                <li>Age : 32 years, older but faster than you</li>
+                <li>🏡 : 'Wherever the wind brings me' </li>
+                <li>📞 : 911 in  case you need help for fighting</li>
+                <li>📧 : Check the form down below</li>
+            </ul>
+        </div>
+
+        <button class="accordion">COMPÉTENCES</button>
+        <div class="panel">
+            <ul class="sidebar-list">
+                <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
+                <li>Trainer / Teacher</li>
+                <li>Acting</li>
+                <li>Producing / Directing movies</li>
+                <li>Fight choreographer</li>
+                <li>Philosopher / Quoter</li>
+            </ul>
+        </div>
+
+        <button class="accordion">LOISIRS</button>
+        <div class="panel">
+            <ul class="sidebar-list">
+                <li>Practicing & perfectionning my martial art</li>
+                <li>Training hard 24/7 to reach the top</li>
+                <li>Playing ping-pong with nunchaku
+                    <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">Impressionnement impressionnant</a></li>
+                <li>Doing push-ups with 2 fingers
+                    <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">Extrêment extrême</a></li>
+            </ul>
+        </div>
+
         <br>
         <br>
         <br>
         <div class="separate">
-            <img  src="../img/nunchaku.png" alt="hrnunchaku">
+            <img  src="img/nunchaku.png" alt="hrnunchaku">
         </div>
         <br>
         <br>
@@ -126,7 +114,7 @@
                 <br>
                 <br>
                 <div class="descriptionimg">
-                    <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
+                    <img class="fightimg" src="img/sans-titre-49.jpg"  alt="imagebruceLee">
                 </div>
                 <div class="article-description">
                         <p>
@@ -140,7 +128,7 @@
         <br>
         <br>
         <div class="separate">
-            <img  src="../img/nunchaku.png" alt="hrnunchaku">
+            <img  src="img/nunchaku.png" alt="hrnunchaku">
         </div>
         <br>
         <br>
@@ -152,11 +140,10 @@
 
                 <h2 class="titlemodel">EXPERIENCES</h2>
             <div class="imgcontainerexp">
-                <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
+                <img class="experienceimg" src="img/Bruce-Lee.jpg" alt="brucelee">
             </div>
-            <div class="Experiences"
+            <div class="Experiences">
                 <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
-
                 <ul class="listexperience">
                     <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
                     <li><span>Acting </span>: entre 1941 et 1973 j'ai joué dans 30 films en Chine et aux Etats-Unis</li>
@@ -208,7 +195,7 @@
                             <li>Le jeu de la mort</li>
                         </ul>
                     </div>
-                    <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
+                    <img class="bruceleevschucknorris" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
                 </div>
             </section>
             <hr class="sepator-lign">
@@ -337,8 +324,22 @@
             </div>
 
         </footer>
+        <script>
+            let acc = document.getElementsByClassName("accordion");
+            let i;
 
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    let panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
     </body>
-
 </html>
 
