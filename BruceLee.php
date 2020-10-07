@@ -218,75 +218,22 @@
             <section class="section-form">
                 <h2>FORMULAIRE DE CONTACT</h2>
 
-                <form class="form" method="post" action="">
+                <form class="form" method="post" action="success.php">
                     <div class="form-lastname">
                         <label for="lastname">NOM : </label>
-                        <input type="text" name="lastname" id="lastname" placeholder="" required/>
+                        <input type="text" name="lastname" id="lastname" placeholder="" />
                     </div>
                     <div class="form-firstname">
                         <label for="firstname">PRENOM : </label>
-                        <input type="text" name="firstname" id="firstname" placeholder="" required/>
+                        <input type="text" name="firstname" id="firstname" placeholder="" />
                     </div>
                     <div class="form-address">
                         <label for="address">ADRESSE :</label>
-                        <input type="text" name="address" id="address" placeholder="" required/>
+                        <input type="text" name="address" id="address" placeholder="" />
                     </div>
                     <div class="form-email">
                         <label for="email">MAIL :</label>
-                        <input type="email" name="email" id="email" placeholder="" required/>
-                    </div>
-
-<<<<<<< HEAD
-    <form class="form" method="post" action="">
-        <div class="form-lastname">
-            <label for="lastname">NOM : </label>
-            <input type="text" name="lastname" id="lastname" placeholder="" />
-        </div>
-        <div class="form-firstname">
-            <label for="firstname">PRENOM : </label>
-            <input type="text" name="firstname" id="firstname" placeholder="" />
-        </div>
-        <div class="form-address">
-            <label for="address">ADRESSE :</label>
-            <input type="text" name="address" id="address" placeholder="" />
-        </div>
-        <div class="form-email">
-            <label for="email">MAIL :</label>
-            <input type="email" name="email" id="email" placeholder="" />
-        </div>
-
-        <div class="form-age-genre">
-            <div>
-                <label for="age">AGE : </label>
-                <input type="number" name="age" id="age" />
-            </div>
-            <div>
-                <label for="genre">SEXE : </label>
-                <select name="genre" id="genre">
-                    <option value=""></option>
-                    <option value="Homme">Male</option>
-                    <option value="femme">Female</option>
-                    <option value="Enfant">Kids</option>
-                    <option value="hermaphrodite">Hermaphrodite</option>
-                </select>
-            </div>
-        </div>
-=======
-                    <div class="form-age-genre">
-                        <div>
-                            <label for="age">AGE : </label>
-                            <input type="number" name="age" id="age" required/>
-                        </div>
-                        <div>
-                            <label for="genre">SEXE : </label>
-                            <select name="genre" id="genre">
-                                <option value=""></option>
-                                <option value="Homme">Male</option>
-                                <option value="femme">Female</option>
-                                <option value="Enfant">Kids</option>
-                                <option value="hermaphrodite">Hermaphrodite</option>
-                            </select>
-                        </div>
+                        <input type="email" name="email" id="email" placeholder="" />
                     </div>
 
                     <div class="form-select-audit">
@@ -312,7 +259,7 @@
                     </div>
 
                     <div class="form-message">
-                        <label for="message">MESSAGE : </label>
+                        <label for="message">MESSAGE :</label>
                         <textarea name="message" id="message" placeholder="" ></textarea>
                     </div>
 
