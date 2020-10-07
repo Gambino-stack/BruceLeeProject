@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f3d998d119389d5427ef230cbe7bd04ac49bf109
 <!DOCTYPE html>
 <html lang="fr">
 
