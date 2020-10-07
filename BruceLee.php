@@ -20,7 +20,7 @@
                 <h1>
                     <span id="firstGroupWords">
                         <span id="firstWords">BRUCE LEE</span>
-                        <span id="secondWords">LE << PETIT DRAGON >> </span>
+                        <span id="secondWords">THE << LITTLE DRAGON >> </span>
                     </span>
                     <span id="secondGroupWords">
                         <span id="firstWords2">LEE JUN FAN</span>
