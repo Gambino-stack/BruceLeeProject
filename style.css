@@ -52,21 +52,9 @@ h1 {
     font-size: x-large;
 }
 
-#firstGroupWords, #secondGroupWords {
-    display: inline-block;
-}
-
-#firstWords, #secondWords  {
-    margin-right: 50px;
-    display: block;
-}
-
-#firstWords2, #secondWords2 {
-    display: block;
-}
-
-#secondWords, #secondWords2 {
-    margin-top: 10px;
+h1 span#firstWords, span#secondWords{
+    display: flex;
+    flex-direction: row;
 }
 
 #imgHeader {
@@ -554,5 +542,23 @@ footer{
 
 }
 
+#quote p span, #quote2 p span {
+    display: flex;
+    flex-direction: column;
+}
+
+#authorquote, #authorquote2 {
+    display: flex;
+    align-items: center;
+}
+
+.otherquote {
+    display: flex;
+}
+
+.rigthSide {
+    display: flex;
+    align-items: flex-start;
+}
 
 

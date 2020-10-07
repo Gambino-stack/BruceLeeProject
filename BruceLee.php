@@ -13,32 +13,27 @@
 <body>
 <!-- Contain the Logo -->
 
+    <div class="groupHeader">
+        <header>
+            <div class="maintitle">
 
+                <h1>
+                    <span id="firstGroupWords">
+                        <span id="firstWords">BRUCE LEE</span>
+                        <span id="secondWords">LE << PETIT DRAGON >> </span>
+                    </span>
+                    <span id="secondGroupWords">
+                        <span id="firstWords2">LEE JUN FAN</span>
+                        <span id="secondWords2">李振藩</span>
+                    </span>
+                </h1>
+        <
+            </div>
 
+        </header>
+        <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
+    </div>
 
-<div class="groupHeader">
-    <header>
-        <div class="maintitle">
-
-
-            <h1>
-                <span id="firstGroupWords">
-                    <span id="firstWords">BRUCE LEE</span>
-                    <span id="secondWords">LE << PETIT DRAGON >> </span>
-                </span>
-                <span id="secondGroupWords">
-                    <span id="firstWords2">LEE JUN FAN</span>
-                    <span id="secondWords2">李振藩</span>
-                </span>
-            </h1>
-<
-
-
-        </div>
-
-    </header>
-    <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
-</div>
 <div class="containerimg">
 
     <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
@@ -314,13 +309,16 @@
 
             <div class="rigthSide">
                 <div>
-                    <p>"If you spend too much time thinking about a thing, you’ll never get it done." – Bruce Lee</p>
-                    <p>"To hell with circumstances, I create opportunities." – Bruce Lee</p>
+                    <div id="quote"><p><span>"If you spend too much time thinking about a thing, you’ll never get it done."</span><span id="authorquote">– Bruce Lee</span></p></div>
+                    <div id="quote2"><p><span>"To hell with circumstances, I create opportunities."</span><span id="authorquote2">– Bruce Lee</span></p></div>
                 </div>
                 <div class="otherquote">
-                    <p><em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
-                            citations</a> <em>de moi même!</em></p>
-                    <a id="iconquotes" href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.jpg" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
+                    <div>
+                        <p><em>Si tu veux d'autres</em> <a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">citations</a> <em>de moi même!</em></p>
+                    </div>
+                    <div>
+                        <a id="iconquotes" href="https://www.wushufrance.fr/le-jeet-kune-do/"><img src="img/ecole.jpg" width="50px" height="50px" alt="imgecole" title="Join us here!"></a>
+                    </div>
                 </div>
             </div>
         </div>
