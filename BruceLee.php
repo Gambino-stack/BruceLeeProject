@@ -12,94 +12,88 @@
 <body>
 <!-- Contain the Logo -->
 
-    <div class="groupHeader">
-        <header>
-            <div class="maintitle">
-
-                <h1>
+<div class="groupHeader">
+    <header>
+        <div class="maintitle">
+            <h1>
                     <span id="firstGroupWords">
                         <span id="firstWords">BRUCE LEE</span>
                         <span id="secondWords">THE << LITTLE DRAGON >> </span>
                     </span>
-                    <span id="secondGroupWords">
+                <span id="secondGroupWords">
                         <span id="firstWords2">LEE JUN FAN</span>
                         <span id="secondWords2">李振藩</span>
                     </span>
-                </h1>
-        <
-            </div>
-
-        </header>
+            </h1>
+        </div>
         <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
-    </div>
+    </header>
 
-<div class="containerimg">
+</div>
 
+<!-- <div class="containerimg">
     <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
     <img src="../img/demidisquedragondroite.png" alt="background image">
-</div>
+</div> -->
 
 
 <!-- Section side bar -->
+<div class="container">
+    <div class="container-left">
+        <div class="sidebar-img">
+            <img class="sidebar-picture" src="img/punchingball 3.png"/>
+        </div>
+    </div>
+    <div class="container-right">
+        <section class='sidebar'>
+            <section class='identity'>
+                <h2 class='sidebar-titles'>IDENTITÉ</h2>
+                <div class='sidebar-text'>
+                    <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
+                    <ul class="sidebar-list">
+                        <li>Age : 80 ans, plus vieux mais plus rapide que ton père</li>
+                        <li>🏡 : 'Wherever the wind brings me' </li>
+                        <li>📞 : 911 au cas où tu as besoin d'aide pour te battre</li>
+                        <li>📧 : Regarde le petit formulaire en bas mon disciple</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="bottomlign">
+            <section class='skills'>
+                <h2 class='sidebar-titles'>COMPÉTENCES</h2>
+                <div class='sidebar-text'>
+                    <ul class="sidebar-list">
+                        <li>Arts martials (inventeur & précurseur du Jeet Kune Do)</li>
+                        <li>Enseignant, professeur et entraineur</li>
+                        <li>Acteur</li>
+                        <li>Producteur et directeur de film</li>
+                        <li>Chorégraphe de combat</li>
+                        <li>Philosophe et 'quoter'</li>
+                    </ul>
+                    <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
+                </div>
+            </section>
+            <hr class="bottomlign">
+            <section class='hobbies'>
+                <h2 class='sidebar-titles'>LOISIRS</h2>
+                <div class='sidebar-text'>
+                    <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
+                    <ul class="sidebar-list">
+                        <li>Pratiquer et perfectionner mon arme martiale</li>
+                        <li>M'entrainer h24 pour être au top... non pardon, pour rester au top ;)</li>
+                        <li>Jouer au ping-pong avec mon nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
+                        <li>Faire des pompes avec seulement une main et deux doigts <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
 
-<div class="sidebar">
-    <img class="sidebar-picture" src="img/punchingball 3.png"/>
+
+
+        <br>
+    </div>
 </div>
-<section class='sidebar'>
-    <section class='identity'>
-        <h2 class='sidebar-titles'>IDENTITÉ</h2>
-        <div class='sidebar-text'>
-            <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
-            <ul class="sidebar-list">
-                <li>Age : 80 ans, plus vieux mais plus rapide que ton père</li>
-                <li>🏡 : 'Wherever the wind brings me' </li>
-                <li>📞 : 911 au cas où tu as besoin d'aide pour te battre</li>
-                <li>📧 : Regarde le petit formulaire en bas mon disciple</li>
-            </ul>
-        </div>
-        <div>
-    </section>
-    <hr class="bottomlign">
-    <section class='skills'>
-        <h2 class='sidebar-titles'>COMPÉTENCES</h2>
-        <div class='sidebar-text'>
-            <ul class="sidebar-list">
-                <li>Arts martials (inventeur & précurseur du Jeet Kune Do)</li>
-                <li>Enseignant, professeur et entraineur</li>
-                <li>Acteur</li>
-                <li>Producteur et directeur de film</li>
-                <li>Chorégraphe de combat</li>
-                <li>Philosophe et 'quoter'</li>
-            </ul>
-            <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
-        </div>
-    </section>
-    <hr class="bottomlign">
-    <section class='hobbies'>
-        <h2 class='sidebar-titles'>LOISIRS</h2>
-        <div class='sidebar-text'>
-            <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
-            <ul class="sidebar-list">
-                <li>Pratiquer et perfectionner mon arme martiale</li>
-                <li>M'entrainer h24 pour être au top... non pardon, pour rester au top ;)</li>
-                <li>Jouer au ping-pong avec mon nunchaku
-                    <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
-                <li>Faire des pompes avec seulement une main et deux doigts
-                    <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
-            </ul>
-        </div>
-    </section>
-</section>
 
-<!-- Contient la Description-->
-
-
-<br>
-<br>
-<br>
-<div class="separate">
-    <img  src="../img/nunchaku.png" alt="hrnunchaku">
-</div>
 <br>
 <br>
 <br>
@@ -107,32 +101,46 @@
 
 <br>
 <section class="description">
+
+<div class="container-down">
+
+
+
+    <br>
+    <div class="separate">
+        <img  src="../img/nunchaku.png" alt="hrnunchaku">
+    </div>
+    <br>
+    <br>
     <h2 class="titlemodel">DESCRIPTION</h2>
+    <section class="description">
+
+        <br>
+        <br>
+        <div class="description-img">
+            <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
+        </div>
+        <div class="article-description">
+            <p>
+                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+                Je suis un artiste martial, acteur, réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet, j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire en bas de la page."
+            </p>
+        </div>
+
+    </section>
     <br>
     <br>
-    <div class="descriptionimg">
-        <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
+    <br>
+    <div class="separate">
+        <img  src="../img/nunchaku.png" alt="hrnunchaku">
     </div>
-    <div class="article-description">
-        <p>
-            "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-            Je suis un artiste martial, acteur, réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet, j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire en bas de la page."
-        </p>
-    </div>
-
-</section>
-<br>
-<br>
-<br>
-<div class="separate">
-    <img  src="../img/nunchaku.png" alt="hrnunchaku">
-</div>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
 
-<!-- Contient les Experiences -->
+    <!-- Contient les Experiences -->
+    <h2 class="titlemodel">EXPERIENCES</h2>
 <section class="experience">
 
     <h2 class="titlemodel">EXPERIENCES</h2>
@@ -151,6 +159,8 @@
     </div>
 </section>
 
+
+
 <div class="separate">
     <img  src="../img/nunchaku.png" alt="hrnunchaku">
 </div>
@@ -159,67 +169,72 @@
 <br>
 
 
-<!-- Contient les Formations -->
-<section class="formation">
+    <!-- Contient les Formations -->
     <div id="title-formations">
         <h2 id="formation-title">Formations</h2>
     </div>
-    <section class="spirituality">
-        <h3 class="formation-subtitles">Spiritualité</h3>
-        <div class="text">
+    <h3 class="formation-subtitles">Spiritualité</h3>
+    <section class="formation">
+
+        <section class="spirituality">
             <img class="bruceleeworking" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
-            <p>
-                Parler de mon éducation scolaire ne sera pas très utile et nécessaire.
-                Alors nous ferons mieux de discuter de la spiritualité, à travers le développement de la sagesse et le fait d'accroître sa persévérence.
-                Adopter une nouvelle vision ou modifier la sienne peut vous faire voir la vie complètement différemment.
-                Ayant l'habitude d'apprendre plusieurs arts martiaux, chacune d'entre elles m'ont apporté de grandes valeurs et appris à prendre du recul.
-                Un dévouement complet permet de se débarasser de mauvaises habitudes, d'acquérir un environnement de développement positif et encourangeant.
-                Même si j'ai développé des compétences que personne ne possède pour le moment, je continue de travailler pour progresser continuellement.
-                <b>"Be aware and open-minded can push you forward more than my punch."</b>
-            </p>
-        </div>
-    </section>
-    <hr class="sepator-lign">
-    <section class="acting">
-        <h3 class="formation-subtitles">Carrière cinématographique</h3>
-        <div class="text">
-            <div id="acting-text">
+            <div class="text">
+
                 <p>
-                    Mon premier pas dans le monde du cinéma n'était pas volontaire.
-                    Un ami a filmé une vidéo de ma performance durant un tournoi. Plusieurs personnese assez connues dans la monde cinématographique ont vu cette vidéo.
-                    Depuis ce jour, j'ai commencé ma carrière d'acteur, avec un premier rôle dans "The Green Lanter", une série télé d'époque dans les années 60.
-                    Grâce à ce premier rôle, une multitude d'acteurs et de personnes influentes dans ce milieu ont remarqué un potentiel et ont apprécié mon travail.
-                    En découle plusieurs allers-retours entre la Chine et l'Amérique dans le but d'apprendre à jouer à travers plusieurs petits fillms.
-                    Apprendre à jouer face à l'écran a été, je trouve, très similaire que d'apprendre les arts martiaux.
-                    En effet les rôles joués, étaient le reflet de ma personne très souvent. Alors jouer son propre rôle était assez facile.
-                    Voici une liste de mes meilleurs films d'actions :
+                    Parler de mon éducation scolaire ne sera pas très utile et nécessaire.
+                    Alors nous ferons mieux de discuter de la spiritualité, à travers le développement de la sagesse et le fait d'accroître sa persévérence.
+                    Adopter une nouvelle vision ou modifier la sienne peut vous faire voir la vie complètement différemment.
+                    Ayant l'habitude d'apprendre plusieurs arts martiaux, chacune d'entre elles m'ont apporté de grandes valeurs et appris à prendre du recul.
+                    Un dévouement complet permet de se débarasser de mauvaises habitudes, d'acquérir un environnement de développement positif et encourangeant.
+                    Même si j'ai développé des compétences que personne ne possède pour le moment, je continue de travailler pour progresser continuellement.
+                    <b>"Be aware and open-minded can push you forward more than my punch."</b>
                 </p>
-                <ul id="acting-list">
-                    <li>Operation du Dragon</li>
-                    <li>La Fureur de vaincre</li>
-                    <li>La Fureur du Dragon</li>
-                    <li>Le jeu de la mort</li>
-                </ul>
             </div>
+        </section>
+        <hr class="sepator-lign">
+        <h3 class="formation-subtitles">Carrière cinématographique</h3>
+        <section class="acting">
             <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
-        </div>
-    </section>
-    <hr class="sepator-lign">
-    <section class="martialarts">
+            <div class="text">
+                <div id="acting-text">
+                    <p>
+                        Mon premier pas dans le monde du cinéma n'était pas volontaire.
+                        Un ami a filmé une vidéo de ma performance durant un tournoi. Plusieurs personnese assez connues dans la monde cinématographique ont vu cette vidéo.
+                        Depuis ce jour, j'ai commencé ma carrière d'acteur, avec un premier rôle dans "The Green Lanter", une série télé d'époque dans les années 60.
+                        Grâce à ce premier rôle, une multitude d'acteurs et de personnes influentes dans ce milieu ont remarqué un potentiel et ont apprécié mon travail.
+                        En découle plusieurs allers-retours entre la Chine et l'Amérique dans le but d'apprendre à jouer à travers plusieurs petits fillms.
+                        Apprendre à jouer face à l'écran a été, je trouve, très similaire que d'apprendre les arts martiaux.
+                        En effet les rôles joués, étaient le reflet de ma personne très souvent. Alors jouer son propre rôle était assez facile.
+                        Voici une liste de mes meilleurs films d'actions :
+                    </p>
+                    <ul id="acting-list">
+                        <li>Operation du Dragon</li>
+                        <li>La Fureur de vaincre</li>
+                        <li>La Fureur du Dragon</li>
+                        <li>Le jeu de la mort</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <hr class="sepator-lign">
         <h3 class="formation-subtitles">Mon art martial</h3>
-        <div class="text">
+        <section class="martialarts">
             <img class="bruceleeworking3" src="img/trainingBruceLee.jpg" alt="Bruce Lee is training">
-            <p>
-                Les arts martiaux sont propres à la culture chinoise.
-                Chaque personne désireu de s'initier aux arts martiaux est à la recherche d'un mentor, d'un coach spirituel à suivre.
-                Maître IP a été l'un de mes maîtres les plus connus. Oui je sais que son nom vous est familié ! Pourquoi ça ?
-                Il a joué dans de nombreux films également.
-                Pour ceux qui le connaissent, ils frissonnent rien qu'a son nom car il a déjà combattu contre le monstre : MAC TYSON ! (ça a finit par une égalité)
-                Oh j'ai failli oublié : Je m'entraîne et travaille dur chaque jour de la semaine dans le but de perfectionner ma force, ma vitesse et ma volonté à travers mon art.
-            </p>
-        </div>
+            <div class="text">
+
+                <p>
+                    Les arts martiaux sont propres à la culture chinoise.
+                    Chaque personne désireu de s'initier aux arts martiaux est à la recherche d'un mentor, d'un coach spirituel à suivre.
+                    Maître IP a été l'un de mes maîtres les plus connus. Oui je sais que son nom vous est familié ! Pourquoi ça ?
+                    Il a joué dans de nombreux films également.
+                    Pour ceux qui le connaissent, ils frissonnent rien qu'a son nom car il a déjà combattu contre le monstre : MAC TYSON ! (ça a finit par une égalité)
+                    Oh j'ai failli oublié : Je m'entraîne et travaille dur chaque jour de la semaine dans le but de perfectionner ma force, ma vitesse et ma volonté à travers mon art.
+                </p>
+            </div>
+        </section>
     </section>
-</section>
+</div>
 
 <!-- Contient Contact Form -->
 <section class="section-form">
@@ -293,7 +308,6 @@
     </form>
 
 </section>
-<hr>
 <!-- Contient Le footer -->
 <footer class="groupFooter">
     <div class="mainFooter">
@@ -325,10 +339,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-    </div>
 </footer>
 </body>
 </html>

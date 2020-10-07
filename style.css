@@ -18,29 +18,26 @@ body {
 /* Background image*/
 
 .containerimg{
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 0;
     width: 100%;
     height:auto;
-    z-index: 1;
     opacity: 0.5;
-
 }
 .imggauche{
     padding-right: 475px;
 }
 /***** Header *****/
 .groupHeader {
-    position: fixed;
     width: 100%;
     height: 194px;
 }
 header {
+    position: fixed;
     background-color: rgb(255, 229, 80);
     padding: 35px 0;
     width: 100%;
-    z-index: 0;
+    z-index: 20;
 
 }
 
@@ -48,9 +45,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 0;
     position: relative;
-    z-index: 1;
 }
 
 h1 {
@@ -85,11 +80,10 @@ h1 span#firstWords, span#secondWords, span#firstWords2, span#secondWords2{
 
 #imgHeader {
     position: absolute;
-    z-index: 3;
     width: 250px;
     height:200px;
     float: none;
-    bottom: 0;
+    top: -5px
 }
 
 /******Side bars******/
@@ -141,11 +135,20 @@ body {
     display: flex;
 }
 
+.container-down {
+    text-align: center;
+}
+
+.container-right {
+    padding: 50px;
+}
+
 
 .sidebar-picture {
     animation: rocker 10s infinite;
     margin: 0 30px;
     width: 250px;
+    margin-top: -30px;
 }
 
 
@@ -156,20 +159,15 @@ body {
         transform: rotate(0deg);
     }
 
-25% {
+    50% {
     transform-origin: top;
     transform: rotate(2deg);
-}
+    }
 
-50% {
+    100% {
     transform-origin: top;
     transform: rotate(0deg);
-}
-
-75% {
-    transform-origin: top;
-    transform: rotate(2deg);
-}
+    }
 }
 /* Contient description*/
 .separate{
@@ -178,39 +176,55 @@ body {
     align-items: center;
 }
 .titlemodel {
-    display:block;
     font-family: "Herculanum";
     font-size: x-large;
     text-align: center;
-    margin: 0;
+    margin: 100px 0;
 
 }
-.fightimg{
+.description img{
     width:400px;
     height: 300px;
     border-radius: 10px;
 }
-.descriptionimg{
-    display: block;
-    float: left;
-    padding-left: 100px;
-    padding-top: 20px;
 
 
+.description {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    vertical-align: center;
 }
+
 .article-description{
     display: block;
     margin-left: 750px;
+    font-family: Georgia ;
     font-size: 20px;
-    height: auto;
-    width: 500px;
     text-align: center;
+    padding: 0 80px;
 }
 /* contient experiences */
 .experience{
-    margin: 10px 0 150px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    vertical-align: center;
 }
 
+.experience-img {
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.Experiences {
+    padding: 0 80px;
+}
 
 
 .listexperience {
@@ -220,36 +234,70 @@ body {
     padding: 20px;
 
     list-style-type: square;
-
-
-
 }
-.experienceimg{
-    width: 400px;
+.spirituality {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+
+.spirituality img {
+    width:400px;
     height: 300px;
     border-radius: 10px;
 }
-.imgcontainerexp{
-    display: block;
-    padding: 100px 100px 0 0;
-    float: right;
+
+.text {
+    padding: 0 80px;
+}
+
+.acting {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.acting img {
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.martialarts {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+
+.listexperience {
+    list-style-type: square;
+    font-size: 20px;
+    font-family: Georgia;
+
 
 }
-.Experiences {
-    display:block;
-    padding: 150px 0 0 80px;
 
-}
+
+
+/***** Container a partir de experience *****/
 
 
 /***** form *****/
 
 .section-form {
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: center;
     border: 4px solid var(--border-form-color);
     padding: 30px 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .form-firstname {
@@ -477,24 +525,12 @@ body {
     display: inline-block;
 }
 
-.spirituality , .acting , .martialarts{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom : 40px;
-    margin-top: 40px;
-}
 
 
 #acting-list {
     list-style: none;
 }
 
-.bruceleeworking {
-    width: 400px;
-    height:300px;
-    border-radius: 5px;
-}
 .bruceleeworking2 {
     width: 400px;
     height:400px;
@@ -506,11 +542,6 @@ body {
     border-radius: 5px;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #acting-text {
     display: flex;
@@ -586,7 +617,7 @@ footer{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 1g5px;
+    top: 15px;
 }
 
 .rigthSide {
