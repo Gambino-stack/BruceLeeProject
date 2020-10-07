@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -30,12 +31,18 @@
                     <span id="secondWords2">李振藩</span>
                 </span>
             </h1>
+<
 
 
         </div>
 
     </header>
     <img id="imgHeader" src="img/bruceleedessin.png" alt="header_bruce" />
+</div>
+<div class="containerimg">
+
+    <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
+    <img src="../img/demidisquedragondroite.png" alt="background image">
 </div>
 
 
@@ -96,26 +103,54 @@
 <!-- Contient la Description-->
 
 
+<br>
+<br>
+<br>
+<div class="separate">
+    <img  src="../img/nunchaku.png" alt="hrnunchaku">
+</div>
+<br>
+<br>
+<br>
+<!-- Contient la Description-->
+
+<br>
 <section class="description">
     <button class="button-description">Description</button>
-    <div class="display-description">
-        <h2>DESCRIPTION</h2>
-        <article class="article-description">
-            <p>
-                "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
-                Je suis un artiste martial, acteur, git réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet, j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire en bas de la page."
-            </p>
-        </article>
+    <h2 class="titlemodel">DESCRIPTION</h2>
+    <br>
+    <br>
+    <div class="descriptionimg">
+        <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
+    </div>
+    <div class="article-description">
+        <p>
+            "Je sais ce que vous vous dites! Ah c'est Bruce lee ! , mais ce n'est que mon nom de scene, en réalité je m'appelle Lee Jun-fan, moins clinquant non ?
+            Je suis un artiste martial, acteur, réalisateur, producteur et scénariste sino-américain qui trouve encore le temps de faire autre chose de ma vie. En effet, j'ai crée mon propre art martial. Vous voulez fracasser des gueules à la Bruce Lee ? Lancez vous dans l'aventure "jeet kune do" en remplissant le formulaire en bas de la page."
+        </p>
     </div>
 
 </section>
+<br>
+<br>
+<br>
+<div class="separate">
+    <img  src="../img/nunchaku.png" alt="hrnunchaku">
+</div>
+<br>
+<br>
+<br>
+
 
 <!-- Contient les Experiences -->
 <section class="experience">
 
-    <h2>EXPERIENCES</h2>
-
-    <h3>Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
+    <h2 class="titlemodel">EXPERIENCES</h2>
+    <div class="imgcontainerexp">
+        <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
+    </div>
+    <div class="Experiences"
+    <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
 
     <ul class="listexperience">
         <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
@@ -123,8 +158,10 @@
         <li><span>Scenariste</span> : Entre 1971 et 1978 j'ai écris 5 films differents</li>
         <li><span>Realisateur</span> : La réalisation de deux films : "La fureur du dragon" et "Le jeu de la mort"</li>
     </ul>
-
+    </div>
 </section>
+
+
 
 <!-- Contient les Formations -->
 <section class="formation">
@@ -201,7 +238,6 @@
             <label for="firstname">PRENOM : </label>
             <input type="text" name="firstname" id="firstname" placeholder="" required/>
         </div>
-
         <div class="form-address">
             <label for="address">ADRESSE :</label>
             <input type="text" name="address" id="address" placeholder="" required/>
@@ -292,12 +328,9 @@
             </div>
         </div>
 
-
     </div>
-
-
+    </div>
 </footer>
-    </div>
 </body>
-
 </html>
+
