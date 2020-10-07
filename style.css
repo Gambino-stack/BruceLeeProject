@@ -41,33 +41,42 @@ header {
 }
 
 .maintitle {
+    display: flex;
+    justify-content: center;
     background-color: black;
-    padding: 25px;
+    padding: 0;
     position: relative;
     z-index: 1;
 }
 
 h1 {
+    display: flex;
+    align-items: center;
     color: rgb(255, 229, 80);
     text-align: center;
     font-size: x-large;
 }
 
-#firstGroupWords, #secondGroupWords {
-    display: inline-block;
+h1 span#firstWords, span#secondWords, span#firstWords2, span#secondWords2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#firstWords, #secondWords  {
-    margin-right: 50px;
-    display: block;
+#firstGroupWords {
+    margin-right: 10px;
 }
 
-#firstWords2, #secondWords2 {
-    display: block;
+#secondGroupWords {
+    margin-left: 10px;
 }
 
-#secondWords, #secondWords2 {
-    margin-top: 10px;
+#firstWords, #firstWords2{
+    margin-bottom: 5px;
+}
+
+#secondWords, #secondWords2{
+    margin-top: 5px;
 }
 
 #imgHeader {
@@ -540,6 +549,8 @@ footer{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 10px;
+    width:33%;
 }
 
 #invitation {
@@ -560,5 +571,28 @@ footer{
 
 }
 
+#quote p span, #quote2 p span {
+    display: flex;
+    flex-direction: column;
+}
+
+#authorquote, #authorquote2 {
+    display: flex;
+    align-items: center;
+}
+
+.otherquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+
+.rigthSide {
+    display: flex;
+    align-items: flex-start;
+    width:66%;
+}
 
 
