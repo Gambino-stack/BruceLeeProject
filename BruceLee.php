@@ -42,6 +42,13 @@
     <div class="container-left">
         <div class="sidebar-img">
             <img class="sidebar-picture" src="img/punchingball 3.png"/>
+            <div class="container-left-lang">
+                <h3>LANGUES</h3>
+                <ul>
+                    <li>Chinois</li>
+                    <li>CHAT VENERE</li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="container-right">

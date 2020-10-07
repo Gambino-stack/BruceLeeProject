@@ -133,6 +133,10 @@ body {
     display: flex;
 }
 
+.container-left-lang {
+    text-align: center;
+}
+
 .container-down {
     text-align: center;
 }
@@ -143,7 +147,6 @@ body {
 
 
 .sidebar-picture {
-    animation: rocker 10s infinite;
     margin: 0 30px;
     width: 250px;
     margin-top: -30px;
