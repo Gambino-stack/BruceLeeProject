@@ -4,6 +4,9 @@
     --border-form-color: #a61820;
     --content-form-color: #d9d9d9;
     --dark-color: #00030f;
+    --font-size-text : 18pt;
+    --font-family-text : Georgia;
+
 }
 /******Box sizing******/
 
@@ -33,6 +36,7 @@
 }
 header {
     background-color: rgb(255, 229, 80);
+    font-size: var(--font-size-header);
     padding: 35px 0;
     width: 100%;
     z-index: 0;
@@ -92,6 +96,10 @@ h1 span#firstWords, span#secondWords, span#firstWords2, span#secondWords2{
 
 body {
     line-height: 32px;
+}
+p, li {
+    font-size: var(--font-size-text);
+    font-family: var(--font-family-text);
 }
 
 .identity , .skills , .hobbies{
@@ -205,16 +213,17 @@ body {
 .experience{
     margin: 10px 0 150px 0;
 }
-.carriere-subtitle {
-    font-family: Herculanum;
-    font-size: 24px;
-}
+
 
 
 .listexperience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
     list-style-type: square;
-    font-size: 20px;
-    font-family: Georgia;
+
 
 
 }
@@ -587,6 +596,7 @@ footer{
     display: flex;
     align-items: flex-start;
     width:66%;
+
 }
 
 

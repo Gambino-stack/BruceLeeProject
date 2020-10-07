@@ -108,7 +108,6 @@
 
 <br>
 <section class="description">
-    <button class="button-description">Description</button>
     <h2 class="titlemodel">DESCRIPTION</h2>
     <br>
     <br>
@@ -142,7 +141,7 @@
         <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
     </div>
     <div class="Experiences"
-    <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
+    <p>Ma carriere est composée de plusieurs expériences dans divers domaines:</p>
 
     <ul class="listexperience">
         <li><span>Les arts martiaux</span> :en 1960 création du Jeet kune do et enseignement de ce sport dans mon ecole</li>
