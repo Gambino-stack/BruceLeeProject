@@ -4,6 +4,7 @@
     --border-form-color: #a61820;
     --content-form-color: #d9d9d9;
     --dark-color: #00030f;
+
 }
 /******Box sizing******/
 
@@ -97,6 +98,7 @@ h1 span#firstWords, span#secondWords, span#firstWords2, span#secondWords2{
 body {
     line-height: 32px;
 }
+
 
 .identity , .skills , .hobbies{
     display: flex;
@@ -199,7 +201,6 @@ body {
 .article-description{
     display: block;
     margin-left: 750px;
-    font-family: Georgia ;
     font-size: 20px;
     height: auto;
     width: 500px;
@@ -209,16 +210,17 @@ body {
 .experience{
     margin: 10px 0 150px 0;
 }
-.carriere-subtitle {
-    font-family: Herculanum;
-    font-size: 24px;
-}
+
 
 
 .listexperience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
     list-style-type: square;
-    font-size: 20px;
-    font-family: Georgia;
+
 
 
 }
@@ -591,4 +593,212 @@ footer{
     display: flex;
     align-items: flex-start;
     width:66%;
+
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+
+   /**Header**/
+    .groupHeader{
+        margin: 0 0 20px 0;
+        position: static;
+        max-width: 100%;
+        height: auto;
+
+    }
+    header{
+        padding: 20px;
+    }
+    #imgHeader{
+        display: none;
+    }
+
+
+    /* Side Bar */
+    .sidebar-picture{
+        display: none;
+    }
+    #secondGroupWords{
+        display: none;
+    }
+    .minibrucelee{
+        display: none;
+    }
+    .sidebar-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* Img display */
+    img {
+        max-width: 100%;
+        height: auto;
+
+    }
+    .containerimg{
+        display: none;
+
+    }
+
+    /* Separators */
+    .bottomlign{
+        max-width: 100%;
+    }
+    .sepator-lign{
+        max-width: 100%;
+    }
+
+    /* Description */
+
+    .fightimg {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .article-description{
+       margin: 0;
+        width: 350px;
+    }
+    .descriptionimg{
+        padding: 0;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Experiences */
+    .Experiences{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgcontainerexp{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Formation */
+    .spirituality{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* Form */
+
+    .section-form{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #age{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .form-age-genre{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #genre{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 70%;
+
+    }
+    .form-lastname{
+        margin: 0;
+    }
+    .form-address{
+        margin: 0;
+    }
+    .form-email{
+        margin: 0;
+    }
+    .form-select-audit{
+        margin: 0;
+    }
+    .form-select-martialArt{
+        margin: 0;
+    }
+    .form-message{
+        margin: 0;
+    }
+    .form-firstname{
+        margin: 0;
+    }
+    .form-button{
+        margin: 0;
+    }
+    label{
+        width: 350px;
+    }
+    input{
+        margin: 20px 0;
+    }
+
+    /* Footer */
+    .mainFooter{
+        max-width: 100%;
+        height: auto;
+    }
+    .positonPart{
+        max-width: 100%;
+        height:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #invitation{
+        display: none;
+    }
+
+    .otherquote{
+        top:0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .socialNetwork{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0;
+
+    }
+    #quote{
+        display:flex;
+        justify-content: center;
+    }
+    #quote2{
+    display: none;
+    }
+    .rigthSide{
+        display: flex;
+        flex-direction: column;
+
+
+    }
 }
