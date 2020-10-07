@@ -299,10 +299,10 @@
             <div class="socialNetwork">
                 <p><span id="invitation"><span>VIENS JETER UN COUP D'OEIL SUR NOTRE SITE INTERNET :)</span><span>ET RETROUVE MOI SUR LES RESEAUX :</span></span></p>
                 <div id="imagegroup">
-                    <img class="iconsize" src="img/twitter.png" alt="twitter icon" title="twitter" />
-                    <img class="iconsize" src="img/facebook.png" alt="facebook icon" title="facebook" />
-                    <img class="iconsize" src="img/insta.png" alt="instagram icon" title="instagram" />
-                    <img class="iconsize" src="img/snapchat.png" alt="snapchat icon" title="snapchat" />
+                    <a href="#" ><img class="iconsize" src="img/twitter.png" alt="twitter icon" title="twitter" /></a>
+                    <a href="#"><img class="iconsize" src="img/facebook.png" alt="facebook icon" title="facebook" /></a>
+                    <a href="#"><img class="iconsize" src="img/insta.png" alt="instagram icon" title="instagram" /></a>
+                    <a href="#"><img class="iconsize" src="img/snapchat.png" alt="snapchat icon" title="snapchat" /></a>
                 </div>
 
             </div>

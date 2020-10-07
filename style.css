@@ -543,6 +543,8 @@ footer{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 10px;
+    width:33%;
 }
 
 #invitation {
@@ -575,11 +577,16 @@ footer{
 
 .otherquote {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 15px;
 }
 
 .rigthSide {
     display: flex;
     align-items: flex-start;
+    width:66%;
 }
 
 
