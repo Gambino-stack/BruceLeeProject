@@ -152,6 +152,12 @@
     </div>
 </section>
 
+<div class="separate">
+    <img  src="../img/nunchaku.png" alt="hrnunchaku">
+</div>
+<br>
+<br>
+<br>
 
 
 <!-- Contient les Formations -->
