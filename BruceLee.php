@@ -15,7 +15,6 @@
 <div class="groupHeader">
     <header>
         <div class="maintitle">
-
             <h1>
                     <span id="firstGroupWords">
                         <span id="firstWords">BRUCE LEE</span>
@@ -41,7 +40,7 @@
 <!-- Section side bar -->
 <div class="container">
     <div class="container-left">
-        <div class="sidebar">
+        <div class="sidebar-img">
             <img class="sidebar-picture" src="img/punchingball 3.png"/>
         </div>
     </div>
@@ -82,10 +81,8 @@
                     <ul class="sidebar-list">
                         <li>Pratiquer et perfectionner mon arme martiale</li>
                         <li>M'entrainer h24 pour être au top... non pardon, pour rester au top ;)</li>
-                        <li>Jouer au ping-pong avec mon nunchaku
-                            <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
-                        <li>Faire des pompes avec seulement une main et deux doigts
-                            <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
+                        <li>Jouer au ping-pong avec mon nunchaku <a href="https://www.youtube.com/watch?v=qHe6vhexm6g">(Impressionnement impressionnant)</a></li>
+                        <li>Faire des pompes avec seulement une main et deux doigts <a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">(Extrêment extrême)</a></li>
                     </ul>
                 </div>
             </section>
@@ -112,7 +109,7 @@
 
         <br>
         <br>
-        <div class="descriptionimg">
+        <div class="description-img">
             <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
         </div>
         <div class="article-description">
@@ -140,7 +137,7 @@
 
 
         <div class="imgcontainerexp">
-            <img class="experienceimg" src="../img/Bruce-Lee.jpg" alt="brucelee">
+            <img class="experience-img" src="../img/Bruce-Lee.jpg" alt="brucelee">
         </div>
         <div class="Experiences">
             <h3 class="carriere-subtitle">Ma carriere est composée de plusieurs expériences dans divers domaines:</h3>
@@ -157,14 +154,16 @@
 
 
     <!-- Contient les Formations -->
+    <div id="title-formations">
+        <h2 id="formation-title">Formations</h2>
+    </div>
+    <h3 class="formation-subtitles">Spiritualité</h3>
     <section class="formation">
-        <div id="title-formations">
-            <h2 id="formation-title">Formations</h2>
-        </div>
+
         <section class="spirituality">
-            <h3 class="formation-subtitles">Spiritualité</h3>
+            <img class="bruceleeworking" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
             <div class="text">
-                <img class="bruceleeworking" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
+
                 <p>
                     Parler de mon éducation scolaire ne sera pas très utile et nécessaire.
                     Alors nous ferons mieux de discuter de la spiritualité, à travers le développement de la sagesse et le fait d'accroître sa persévérence.
@@ -177,8 +176,9 @@
             </div>
         </section>
         <hr class="sepator-lign">
+        <h3 class="formation-subtitles">Carrière cinématographique</h3>
         <section class="acting">
-            <h3 class="formation-subtitles">Carrière cinématographique</h3>
+            <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
             <div class="text">
                 <div id="acting-text">
                     <p>
@@ -198,14 +198,15 @@
                         <li>Le jeu de la mort</li>
                     </ul>
                 </div>
-                <img class="bruceleeworking2" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
+
             </div>
         </section>
         <hr class="sepator-lign">
+        <h3 class="formation-subtitles">Mon art martial</h3>
         <section class="martialarts">
-            <h3 class="formation-subtitles">Mon art martial</h3>
+            <img class="bruceleeworking3" src="img/trainingBruceLee.jpg" alt="Bruce Lee is training">
             <div class="text">
-                <img class="bruceleeworking3" src="img/trainingBruceLee.jpg" alt="Bruce Lee is training">
+
                 <p>
                     Les arts martiaux sont propres à la culture chinoise.
                     Chaque personne désireu de s'initier aux arts martiaux est à la recherche d'un mentor, d'un coach spirituel à suivre.
@@ -291,7 +292,6 @@
     </form>
 
 </section>
-<hr>
 <!-- Contient Le footer -->
 <footer class="groupFooter">
     <div class="mainFooter">

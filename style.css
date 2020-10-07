@@ -22,16 +22,12 @@ body {
     width: 100%;
     height:auto;
     opacity: 0.5;
-    z-index: 5;
-    margin-top: 300px;
-
 }
 .imggauche{
     padding-right: 475px;
-}a
+}
 /***** Header *****/
 .groupHeader {
-    position: fixed;
     width: 100%;
     height: 194px;
 }
@@ -40,7 +36,7 @@ header {
     background-color: rgb(255, 229, 80);
     padding: 35px 0;
     width: 100%;
-    z-index: 25;
+    z-index: 20;
 
 }
 
@@ -48,7 +44,6 @@ header {
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 0;
     position: relative;
 }
 
@@ -87,7 +82,6 @@ h1 span#firstWords, span#secondWords, span#firstWords2, span#secondWords2{
     width: 250px;
     height:200px;
     float: none;
-    bottom: 0;
     top: -5px
 }
 
@@ -144,7 +138,6 @@ body {
 }
 
 .container-right {
-    margin-top: 200px;
     padding: 50px;
 }
 
@@ -153,7 +146,7 @@ body {
     animation: rocker 10s infinite;
     margin: 0 30px;
     width: 250px;
-    margin-top: 160px;
+    margin-top: -30px;
 }
 
 
@@ -187,7 +180,7 @@ body {
     margin: 100px 0;
 
 }
-.fightimg{
+.description img{
     width:400px;
     height: 300px;
     border-radius: 10px;
@@ -212,10 +205,63 @@ body {
 .experience{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    vertical-align: center;
 }
+
+.experience-img {
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 .carriere-subtitle {
     font-family: Herculanum;
     font-size: 24px;
+}
+
+.Experiences {
+    padding: 0 80px;
+}
+
+.spirituality {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.spirituality img {
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 0 80px;
+}
+
+.acting {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.acting img {
+    width:400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.martialarts {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -226,22 +272,8 @@ body {
 
 
 }
-.experienceimg{
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-}
-.imgcontainerexp{
-    display: block;
-    padding: 100px 100px 0 0;
-    float: right;
 
-}
-.Experiences {
-    display:block;
-    padding: 150px 0 0 80px;
 
-}
 
 /***** Container a partir de experience *****/
 
@@ -483,24 +515,12 @@ body {
     display: inline-block;
 }
 
-.spirituality , .acting , .martialarts{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom : 40px;
-    margin-top: 40px;
-}
 
 
 #acting-list {
     list-style: none;
 }
 
-.bruceleeworking {
-    width: 400px;
-    height:300px;
-    border-radius: 5px;
-}
 .bruceleeworking2 {
     width: 400px;
     height:400px;
@@ -512,11 +532,6 @@ body {
     border-radius: 5px;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #acting-text {
     display: flex;
