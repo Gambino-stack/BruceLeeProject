@@ -33,6 +33,10 @@ body {
     width: 250px;
     height:200px;
 }
+.minibrucelee2 {
+    width: 250px;
+    height:200px;
+}
 
 .sidebar-text {
     display: flex;
@@ -71,6 +75,9 @@ body {
     .minibrucelee {
         width: 150px;
         height:100px;
+    }
+    .minibrucelee2 {
+        display: none;
     }
     .sidebar-list {
         list-style-type: none;

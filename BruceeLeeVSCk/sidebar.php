@@ -33,18 +33,18 @@
                 <li>Fight choreographer</li>
                 <li>Philosopher / Quoter</li>
             </ul>
-            <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
+            <img class="minibrucelee2" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
         </div>
     </section>
     <section class='hobbies'>
         <h2 class='sidebar-titles'>LOISIRS</h2>
             <div class='sidebar-text'>
-                <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
+                <img class="minibrucelee2" src="img/minibrucelee.png" alt="mini-bruce-lee">
                 <ul class="sidebar-list">
                     <li>Practicing & perfectionning my martial art</li>
                     <li>Training hard 24/7 to reach the top</li>
                     <li>Playing ping-pong with nunchaku<br>
-                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">INCROqYABLE</a>)</li>
+                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">INCROYABLE</a>)</li>
                     <li>Doing push-ups with 2 fingers<br>
                     (<a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">ESSAYE DE FAIRE PAREIL</a>)</li>
                 </ul>
