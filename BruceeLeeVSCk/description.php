@@ -10,7 +10,7 @@
 <body>
 <section class="description-part">
     <div>
-        <h2 class="description-title">DESCRIPTION</h2>
+        <h2 id="description-title">DESCRIPTION</h2>
     </div>
     <section class="description-area">
         <div class="description-img">

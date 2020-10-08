@@ -9,11 +9,11 @@
 </head>
 <body>
     <section class="formation">
-        <div id="title-formation">
+<!--        <div id="title-formation">
             <h2 id="formation-title">FORMATIONS</h2>
-        </div>
+        </div>  -->
         <section class="spirituality">
-            <h3 class="formation-subtitles">Spiritualité</h3>
+            <h2 id="formation-subtitles" class="formation-subtitles">FORMATION<br>Spiritualité</h2>
             <div class="text">
                 <img class="bruceleemeditation" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
                 <div class="spiri-text">
@@ -29,9 +29,8 @@
                 </div>
             </div>
         </section>    
-<hr>
         <section class="acting">
-        <h3 class="formation-subtitles">Carrière cinématographique</h3>
+        <h2 class="formation-subtitles">FORMATION<br>Cinéma</h2>
             <div class="text">
                 <div id="acting-text">
                     <p>
@@ -54,9 +53,8 @@
                 <img class="bruceleechucknorris" src="img/chucknorrisVSbrucelee.jpg" alt="Bruce Lee is acting with Chuck Norris">
             </div>
         </section>
-<hr>
         <section class="martialarts">
-        <h3 class="formation-subtitles">Mon art martial</h3>
+        <h2 class="formation-subtitles">FORMATION<br>Art martial</h2>
             <div class="text">
                 <img class="bruceleeworking3" src="img/trainingBruceLee.jpg" alt="Bruce Lee is training">
                 <p id="artmartial-text">

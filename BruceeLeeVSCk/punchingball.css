@@ -7,31 +7,54 @@
 }
 
 #sidebar-picture {
-    margin: 0 30px;
     width: 250px;
-    margin-top: -52px;
-    animation-duration: 5s;
+}
+
+.punchingball {
+    margin-top: -80px;
+    width: 250px;
+    animation-duration: 3s;
     animation-name: slide;
     animation-iteration-count: infinite;
+    transform-origin: top;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    position: relative;
 }
+
+.sidebar-ancres {
+    position: absolute;
+    top: 210px;
+    right: 37px;
+}
+
+.sidebar-ancres li {
+    border-bottom: 2px solid var(--dark-color);
+    list-style-type: none;
+    padding: 5px 10px;
+    border-radius: 2px 10px 2px 10px;
+    margin: 12px 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.sidebar-ancres a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.sidebar-ancres li:hover {
+    border-bottom: 2px solid var(--headerColor);
+    transition: 0.3s;
+}
+
 
 @keyframes slide {
     0% {
-    animation-direction: normal;
-    transform-origin: top;
-    transform: rotate(0deg);
-    }
-    30% {
-    transform-origin: top;
-    transform: rotate(3deg);
-    }
-    60% {
-    transform-origin: top;
     transform: rotate(-2deg);
     }
     100% {
-    transform-origin: top;
-    transform: rotate(0deg);
+        transform: rotate(2deg);
     }
 }
 

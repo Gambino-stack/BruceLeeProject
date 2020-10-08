@@ -1,3 +1,4 @@
+
 /***** Variables *****/
 :root {
     --border-form-color: #a61820;
@@ -15,6 +16,7 @@ body {
 }
 /* Background image*/
 
+}
 .containerimg{
     position: absolute;
     left: 0;
@@ -617,6 +619,7 @@ footer{
     align-items: flex-start;
     width:66%;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -628,3 +631,6 @@ footer{
 
 }
 >>>>>>> dad6bc7989b178db8b9c0e238f2d9fc3616be7de
+=======
+}
+>>>>>>> b142d118af1aa2897ab84dd72855854d46985117

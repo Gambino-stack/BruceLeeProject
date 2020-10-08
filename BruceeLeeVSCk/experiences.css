@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 236, 68, 0.95);
+    margin: 0px 60px;
+    padding-bottom: 40px;
 }
 
 .experiences-area {
@@ -10,9 +15,10 @@
 }
 
 #experiences-title {
-    background-color : #FFE500;
-    border : 2px solid black;
-    border-radius : 10px;
+    background-color : black;
+    color: #FFE500;
+    border : 2px solid #FFE500;
+    font-family: 'Kaushan Script', cursive;
     padding : 6px;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -22,22 +28,26 @@
 }
 
 .experiences-text {
+    font-family: 'Roboto',sans-serif;
     width: 50vw;
 }
 
 .experienceimg {
-    width: 40vw;
-    height: 40vh;
+    width:350px;
     border-radius: 10px;
     margin-right: 50px;
 }
 
 @media screen and (max-width:420px){
+    .experiences {
+        padding-bottom: 0px;
+        width:70vw;
+    }
     .experiences-area {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80vw;
+        width: 60vw;
     }
     .experienceimg {
         width: 60vw;
@@ -45,7 +55,7 @@
         margin-right: 0px;
     }
     .experiences-text{
-        width: 80vw;
+        width: 60vw;
         text-align: center;
     }
     .experiences-list{

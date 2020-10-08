@@ -15,15 +15,14 @@
         <div id="followus">
             <p id="invitation">VIENS ME RETROUVER AVEC MES DISCIPLES SUR LES RÉSEAUX :</p>
             <div id="socialnetwork">
-                <img class="iconsize" src="img/twitter.png" alt="twitter icon" title="twitter" />
-                <img class="iconsize" src="img/facebook.png" alt="facebook icon" title="facebook" />
-                <img class="iconsize" src="img/insta.png" alt="instagram icon" title="instagram" />
-                <img class="iconsize" src="img/snapchat.png" alt="snapchat icon" title="snapchat" />
+               <a class="link" href="https://twitter.com/brucelee?lang=fr"><img class="iconsize" src="img/twitter.png" alt="twitter icon" title="twitter" /></a>
+                <a class="link" href="https://www.facebook.com/BruceLee"><img class="iconsize" src="img/facebook.png" alt="facebook icon" title="facebook" /></a>
+                <a class="link" href="https://www.instagram.com/brucelee/?hl=fr"><img class="iconsize" src="img/insta.png" alt="instagram icon" title="instagram" /></a>
+                <a class="link" href="https://www.pinterest.fr/logistiquevirmousil/bruce-lee/"><img class="iconsize" src="img/snapchat.png" alt="snapchat icon" title="snapchat" /></a>
             </div>
         </div>
         <div id="quotes">
             <p>"If you spend too much time thinking about a thing, you’ll never get it done."</p>
-            <p>"To hell with circumstances, I create opportunities."</p>
             <p> – Bruce Lee</p>
             <p><em>Si tu veux d'autres</em><a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
             citations</a><em> de moi même!</em>
