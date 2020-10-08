@@ -19,7 +19,7 @@
                 <li>🏡 : 'Wherever the wind brings me' </li>
                 <li>📞 : 911 in  case you need help for fighting</li>
                 <li>📧 : Check the form down below</li>
-            </ul>                
+            </ul>
         </div>
     </section>
     <section class='skills'>
@@ -43,10 +43,10 @@
                 <ul class="sidebar-list">
                     <li>Practicing & perfectionning my martial art</li>
                     <li>Training hard 24/7 to reach the top</li>
-                    <li>Playing ping-pong with nunchaku
-                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">Impressionnement impressionnant</a>)</li>
-                    <li>Doing push-ups with 2 fingers
-                    (<a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">Extrêment extrême</a>)</li>
+                    <li>Playing ping-pong with nunchaku<br>
+                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">INCROYABLE</a>)</li>
+                    <li>Doing push-ups with 2 fingers<br>
+                    (<a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">ESSAYE DE FAIRE PAREIL</a>)</li>
                 </ul>
             </div>
         </section>

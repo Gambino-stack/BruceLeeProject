@@ -7,27 +7,25 @@ body {
     justify-content: center;
 }
 
-#formation-title {
-    background-color : #ffe500;
+/* #formation-title {
+    background-color : black;
     border : 2px solid black;
+    color:#ffe550;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius : 10px;
-    margin-bottom: 40px;
     padding-left : 6px;
     padding-right : 6px;
     height: 50px;
     letter-spacing: 3px;
-}
+} */
 
 .formation-subtitles {
     background-color : black;
     color : #ffe500;
     border : 2px solid #ffe500;
-    border-radius : 10px;
     padding : 6px 18px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
     display: inline-block;
 }
 
@@ -37,10 +35,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom : 40px;
-}
-.spirituality {
-    margin-right : 40px;
+    margin: 0px 40px 60px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 236, 68, 0.95);
+    padding: 0px 20px 40px 20px;
 }
 
 #acting-list {
@@ -56,6 +55,8 @@ body {
 }
 
 .bruceleechucknorris {
+    object-fit: cover;
+    object-position: top;
     width: 400px;
     height:400px;
     border-radius: 10px;
@@ -90,19 +91,20 @@ body {
     width: 50vw;
 }
 
-hr {
-    width : 600px;
-    border: 4px dashed #FFE550;
-    margin-bottom: 32px;
-}
-
 @media screen and (max-width:420px){
+    .formation-subtitles {
+        margin-bottom: 20px;
+    }
     .spirituality , .acting , .martialarts{
         display: flex;
         flex-direction: column;
+        padding-bottom: 0px;
     }
     .spirituality {
-        margin-right : 0px;
+        width: 70vw;
+    }
+    .spiri-text {
+        padding: 0px 20px;
     }
     .text{
         display: flex;
@@ -120,24 +122,26 @@ hr {
         padding-left:0px;
     }
     #acting-text {
-        width: 80vw;
+        width: 60vw;
     }
+    #acting-text > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .bruceleechucknorris {
-        width: 80vw;
+        width: 70vw;
         height:25vh;
-        margin-bottom : 0px;
+        margin-bottom : 20px;
         margin-left : 0px;
+
     }
     .bruceleeworking3 {
         width: 60vw;
         height:40vh;
         margin-right : 0px;
     }
-    hr {
-        width : 80vw;
-        border: 2px dashed #FFE550;
-        margin-bottom: 24px;
-    }
+
     #artmartial-text {
         width: 70vw;
     }

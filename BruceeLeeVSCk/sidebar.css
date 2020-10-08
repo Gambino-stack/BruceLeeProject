@@ -13,31 +13,30 @@ body {
     justify-content: center;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: antiquewhite;
-    width: 70vw;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-color: rgba(255, 236, 68, 0.95);
+    width: 60vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-top: 30px;
 }
 
 .sidebar-titles {
-    background-color : #FFE500;
+    background-color : black;
     border : 2px solid black;
-    border-radius : 10px;
+    color: #FFE500;
     padding : 6px;
     margin: 0;
     letter-spacing: 3px;
 }
 
 .minibrucelee {
-    width: 400px;
-    height:300px;
+    width: 250px;
+    height:200px;
 }
 
 .sidebar-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0px 20px;
 }
 
 .sidebar-list {
@@ -57,10 +56,21 @@ body {
     .sidebar-text {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+    .sidebar-titles {
+        font-size: 18pt;
+    }
+    .hobbies {
+        margin-bottom: 0px;
+    }
+    .identity {
+        margin-top: 0px;
+    }
+
     .minibrucelee {
-        width: 300px;
-        height:200px;
+        width: 150px;
+        height:100px;
     }
     .sidebar-list {
         list-style-type: none;
