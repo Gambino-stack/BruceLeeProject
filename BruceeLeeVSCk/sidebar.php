@@ -22,7 +22,6 @@
             </ul>                
         </div>
     </section>
-    <hr class="bottomlign">
     <section class='skills'>
             <h2 class='sidebar-titles'>COMPÉTENCES</h2>
         <div class='sidebar-text'>
@@ -37,7 +36,6 @@
             <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
         </div>
     </section>
-    <hr class="bottomlign">
     <section class='hobbies'>
         <h2 class='sidebar-titles'>LOISIRS</h2>
             <div class='sidebar-text'>
