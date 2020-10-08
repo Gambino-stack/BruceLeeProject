@@ -8,7 +8,7 @@
     width: 50vw;
 }
 
-.description-title {
+#description-title {
     background-color : black;
     font-family: 'Kaushan Script', cursive;
     border : 2px solid black;

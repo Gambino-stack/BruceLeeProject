@@ -13,7 +13,7 @@
             <h2 id="formation-title">FORMATIONS</h2>
         </div>  -->
         <section class="spirituality">
-            <h2 class="formation-subtitles">FORMATION<br>Spiritualité</h2>
+            <h2 id="formation-subtitles" class="formation-subtitles">FORMATION<br>Spiritualité</h2>
             <div class="text">
                 <img class="bruceleemeditation" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
                 <div class="spiri-text">

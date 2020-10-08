@@ -21,7 +21,25 @@ body {
     padding-bottom: 30px;
 }
 
-.sidebar-titles {
+#sidebar-titles {
+    font-family: 'Kaushan Script', cursive;
+    border : 2px solid black;
+    background-color: black;
+    color: #FFE500;
+    padding : 6px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+#sidebar-titles-competences {
+    font-family: 'Kaushan Script', cursive;
+    border : 2px solid black;
+    background-color: black;
+    color: #FFE500;
+    padding : 6px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+#sidebar-titles-loisirs {
     font-family: 'Kaushan Script', cursive;
     border : 2px solid black;
     background-color: black;
@@ -71,17 +89,17 @@ body {
     }
     .skills {
         padding-bottom:0px;
-        width: 60vw;
+        width: 75vw;
     }
     .hobbies {
         margin-bottom: 0px;
         padding-bottom:0px;
-        width: 60vw;
+        width: 75vw;
     }
     .identity {
         margin-top: 0px;
         padding-bottom: 0px;
-        width: 60vw;
+        width: 75vw;
     }
 
     .minibrucelee {
