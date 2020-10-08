@@ -618,3 +618,13 @@ footer{
     width:66%;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width:420px){
+    .sidebar-picture {
+        display: none;
+    }
+
+
+}
+>>>>>>> dad6bc7989b178db8b9c0e238f2d9fc3616be7de

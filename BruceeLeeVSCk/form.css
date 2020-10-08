@@ -1,0 +1,244 @@
+:root {
+    --border-form-color: #a61820;
+    --content-form-color: #d9d9d9;
+    --dark-color: #00030f;
+}
+
+.section-form {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    border: 4px solid var(--border-form-color);
+    padding: 30px 30px;
+}
+
+.form-firstname {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    transition: 0.3s;
+}
+
+.form-firstname input {
+    width: 500px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-firstname input:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-lastname {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.form-lastname input {
+    width: 500px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-lastname input:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-address {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.form-address input {
+    width: 500px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-address input:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-email {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.form-email input {
+    width: 500px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-email input:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-age-genre {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.form-age-genre label {
+    text-align: left;
+}
+
+.form-age-genre input {
+    width: 150px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-age-genre input:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-age-genre select {
+    width: 300px;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-age-genre select:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-select-audit {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.form-select-audit select {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-select-audit select:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-select-martialArt {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.form-select-martialArt select {
+    margin-top: 5px;
+    width: 100%;
+    height: 35px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-select-martialArt select:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.form-message textarea {
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.form-message textarea:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+#button-form {
+    width: 100px;
+    height: 35px;
+    margin: 20px 0;
+    background-color: var(--content-form-color);
+    border: 2px solid var(--content-form-color);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+#button-form:hover {
+    box-shadow: 2px 2px 5px 0;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:420px){
+    .section-form {
+        width: 75vw;
+        padding: 10px 10px;
+        font-size: 8pt;
+    }
+    input#lastname, input#firstname, input#address, input#email {
+        width: 50vw;
+    }
+    .form-age-genre {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .form-age, .form-genre {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .form-age-genre select {
+        width: 100px;
+    }
+    .form-select-audit {
+        margin-top: 0px;
+    }
+    .form-message textarea {
+        margin-top: 5px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: 100px;
+    }
+}

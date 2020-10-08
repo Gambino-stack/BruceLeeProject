@@ -1,0 +1,42 @@
+.container-down {
+    text-align: center;
+}
+
+.container-right {
+    padding: 50px;
+}
+
+#sidebar-picture {
+    margin: 0 30px;
+    width: 250px;
+    margin-top: -52px;
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {
+    animation-direction: normal;
+    transform-origin: top;
+    transform: rotate(0deg);
+    }
+    30% {
+    transform-origin: top;
+    transform: rotate(3deg);
+    }
+    60% {
+    transform-origin: top;
+    transform: rotate(-2deg);
+    }
+    100% {
+    transform-origin: top;
+    transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width:420px){
+    .sidebar-picture{
+    display:none
+    }
+}
