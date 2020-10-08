@@ -5,7 +5,7 @@
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(255, 236, 68, 0.95);
-    margin: 0px 40px;
+    margin: 0px 60px;
     padding-bottom: 40px;
 }
 
@@ -18,6 +18,7 @@
     background-color : black;
     color: #FFE500;
     border : 2px solid #FFE500;
+    font-family: 'Kaushan Script', cursive;
     padding : 6px;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -27,6 +28,7 @@
 }
 
 .experiences-text {
+    font-family: 'Roboto',sans-serif;
     width: 50vw;
 }
 
@@ -52,7 +54,7 @@
         margin-right: 0px;
     }
     .experiences-text{
-        width: 70vw;
+        width: 60vw;
         text-align: center;
     }
     .experiences-list{

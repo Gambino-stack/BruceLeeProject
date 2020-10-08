@@ -1,3 +1,4 @@
+
 /***** Variables *****/
 :root {
     --border-form-color: #a61820;
@@ -15,6 +16,7 @@ body {
 }
 /* Background image*/
 
+}
 .containerimg{
     position: absolute;
     left: 0;
@@ -617,11 +619,4 @@ footer{
     align-items: flex-start;
     width:66%;
 }
-
-@media screen and (max-width:420px){
-    .sidebar-picture {
-        display: none;
-    }
-
-
 }

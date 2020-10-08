@@ -7,9 +7,9 @@
 .footbarmiddle {
     background-color:black;
     width: 100vw;
-    height: 120px; 
+    height: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .followus {
@@ -18,7 +18,8 @@
 }
 
 #invitation {
-    margin: 5px 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0px 0px 30px;
     text-align: center;
     color: white;
 }
@@ -35,16 +36,22 @@
 }
 
 #quotes {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     color:white;
-    line-height: 25px;
+    line-height: 20px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+#quotes p a {
+    color: #FFE550;
 }
 
 #quotes p {
     margin: 3px;
     text-align: right;
-    font-size: 14px;
+    font-size: 18px
 }
 
 @media screen and (max-width:420px){
@@ -54,17 +61,20 @@
         padding: 10px;
         box-sizing: border-box;
     }
-    
+
     .footbarmiddle {
         width: 100vw;
-        height: 100px; 
+        height: 100px;
+        display: flex;
+        flex-direction: column;
     }
     #invitation {
-        font-size: 10pt;
-        line-height: 20px;
+        font-size: 8pt;
+        line-height: 18px;
+        margin: 0px;
     }
     #socialnetwork {
-        margin: 20px;
+        margin-top: 5px;
     }
 
     .iconsize {
@@ -74,11 +84,15 @@
 
     #quotes {
         line-height: 16px;
+        padding:0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    
+
     #quotes p {
         font-size: 6pt;
         margin:0px;
     }
-    
 }

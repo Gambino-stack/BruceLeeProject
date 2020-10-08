@@ -31,10 +31,10 @@
 
 </div>
 
-<!-- <div class="containerimg">
+<div class="containerimg">
     <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
     <img src="../img/demidisquedragondroite.png" alt="background image">
-</div> -->
+</div>
 
 
 <!-- Section side bar -->
@@ -102,17 +102,13 @@
 
 
     <br>
-    <div class="separate">
-        <img  src="../img/nunchaku.png" alt="hrnunchaku">
-    </div>
+        <img class="nunchaku" src="../img/nunchaku.png" alt="hrnunchaku">
     <br>
     <br>
     <!-- Contient la Description-->
     <h2 class="titlemodel">DESCRIPTION</h2>
     <section class="description">
 
-        <br>
-        <br>
         <div class="description-img">
             <img class="fightimg" src="../img/sans-titre-49.jpg"  alt="imagebruceLee">
         </div>
@@ -127,9 +123,9 @@
     <br>
     <br>
     <br>
-    <div class="separate">
-        <img  src="../img/nunchaku.png" alt="hrnunchaku">
-    </div>
+
+        <img class="nunchaku" src="../img/nunchaku.png" alt="hrnunchaku">
+
     <br>
     <br>
     <br>
