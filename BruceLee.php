@@ -31,10 +31,10 @@
 
 </div>
 
-<!-- <div class="containerimg">
+<div class="containerimg">
     <img class="imggauche" src= "../img/demidisquedragongauche.png" alt="background image">
     <img src="../img/demidisquedragondroite.png" alt="background image">
-</div> -->
+</div>
 
 
 <!-- Section side bar -->
