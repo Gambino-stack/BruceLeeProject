@@ -9,6 +9,7 @@ body {
 }
 
 .sidebar-titles {
+    font-family: 'Kaushan Script', cursive;
     background-color : #FFE500;
     border : 2px solid black;
     border-radius : 10px;
@@ -23,6 +24,7 @@ body {
 }
 
 .sidebar-text {
+    font-family: 'Roboto',sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
