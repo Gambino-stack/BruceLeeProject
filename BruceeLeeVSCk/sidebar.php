@@ -15,7 +15,7 @@
         <div class='sidebar-text'>
             <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
             <ul class="sidebar-list">
-                <li>Age : 32 years, older but faster than you</li>
+                <li><img src="../img/ageicon.png" width="20px" height="20px" alt="iconage"> : 32 years, older but faster than you</li>
                 <li><img src="../img/house.png" width=""20px height="20px" alt="iconmaison"> : 'Wherever the wind brings me' </li>
                 <li><img src="../img/phone.jpg" width="20px" height="20px" alt="icontel"> : 911 in  case you need help for fighting</li>
                 <li><img src="../img/imgmail.png" width="20px" height="20px" alt="iconmail"> : Check the form down below</li>
