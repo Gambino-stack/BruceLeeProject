@@ -1,5 +1,5 @@
 <section class="section-form">
-    <h2 class="form-title">FORMULAIRE DE CONTACT</h2>
+    <h2 id="form-title">FORMULAIRE DE CONTACT</h2>
 
     <form class="form" method="post" action="success.php">
         <div class="form-lastname">
