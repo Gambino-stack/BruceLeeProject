@@ -10,6 +10,7 @@
 
 .description-title {
     background-color : black;
+    font-family: 'Kaushan Script', cursive;
     border : 2px solid black;
     color: #ffe500;
     padding : 6px;
@@ -25,6 +26,7 @@
 }
 
 .description-text {
+    font-family: 'Roboto',sans-serif;
     width: 40vw;
 }
 
@@ -49,6 +51,7 @@
         margin: 0px;
     }
     .description-text {
+        font-family: 'Roboto',sans-serif;
         width: 70vw;
     }
     .description-img {

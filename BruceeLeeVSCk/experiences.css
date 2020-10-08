@@ -18,6 +18,8 @@
     background-color : black;
     color: #FFE500;
     border : 2px solid #FFE500;
+    font-family: 'Kaushan Script', cursive;
+    border-radius : 10px;
     padding : 6px;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -27,6 +29,7 @@
 }
 
 .experiences-text {
+    font-family: 'Roboto',sans-serif;
     width: 50vw;
 }
 

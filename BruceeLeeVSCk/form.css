@@ -4,8 +4,11 @@
     --dark-color: #00030f;
     --colorLight: #fdfdfd;
     --headerColor: #ffe500;
-}
 
+}
+.form-title {
+    font-family: 'Kaushan Script', cursive;
+}
 .section-form {
     background-color: var(--dark-color);
     width: 60vw;
@@ -230,6 +233,12 @@
     color: var(--headerColor);
     border-radius: 3px;
     border: 1px solid var(--dark-color);
+<<<<<<< HEAD
+=======
+}
+label{
+    font-family: 'Roboto',sans-serif;
+>>>>>>> background
 }
 
 @media screen and (max-width:420px){

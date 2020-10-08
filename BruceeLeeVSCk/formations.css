@@ -9,6 +9,11 @@ body {
 
 /* #formation-title {
     background-color : black;
+=======
+#formation-title {
+    font-family: 'Kaushan Script', cursive;
+    background-color : #ffe500;
+>>>>>>> background
     border : 2px solid black;
     color:#ffe550;
     display: flex;
@@ -21,6 +26,7 @@ body {
 } */
 
 .formation-subtitles {
+    font-family: 'Aladin', cursive;
     background-color : black;
     color : #ffe500;
     border : 2px solid #ffe500;
@@ -40,6 +46,11 @@ body {
     border-radius: 10px;
     background-color: rgba(255, 236, 68, 0.95);
     padding: 0px 20px 40px 20px;
+}
+.spirituality {
+    font-family: 'Roboto', sans-serif;
+    margin-right : 40px;
+>>>>>>> background
 }
 
 #acting-list {
@@ -78,16 +89,19 @@ body {
 }
 
 .text > p {
+    font-family: 'Roboto',sans-serif;
     width: 300px;
 }
 
 #acting-text {
+    font-family: 'Roboto',sans-serif;
     display: flex;
     flex-direction: column;
     width: 50vw;
 }
 
 #artmartial-text {
+    font-family: 'Roboto',sans-serif;
     width: 50vw;
 }
 
@@ -107,6 +121,7 @@ body {
         padding: 0px 20px;
     }
     .text{
+        font-family: 'Roboto',sans-serif;
         display: flex;
         flex-direction: column;
         width: 80vw;
@@ -118,6 +133,7 @@ body {
         border-radius: 10px;
     }
     #acting-list {
+        font-family: 'Roboto',sans-serif;
         list-style: none;
         padding-left:0px;
     }
@@ -127,6 +143,8 @@ body {
     #acting-text > p {
         margin-top: 0px;
         margin-bottom: 0px;
+        font-family: 'Roboto',sans-serif;
+        width: 80vw;
     }
 
     .bruceleechucknorris {
@@ -143,6 +161,7 @@ body {
     }
 
     #artmartial-text {
+        font-family: 'Roboto',sans-serif;
         width: 70vw;
     }
 }
