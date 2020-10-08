@@ -1,0 +1,144 @@
+body {
+    line-height: 32px;
+}
+
+#title-formation{
+    display: flex;
+    justify-content: center;
+}
+
+#formation-title {
+    background-color : #ffe500;
+    border : 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius : 10px;
+    margin-bottom: 40px;
+    padding-left : 6px;
+    padding-right : 6px;
+    height: 50px;
+    letter-spacing: 3px;
+}
+
+.formation-subtitles {
+    background-color : black;
+    color : #ffe500;
+    border : 2px solid #ffe500;
+    border-radius : 10px;
+    padding : 6px 18px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.spirituality , .acting , .martialarts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom : 40px;
+}
+.spirituality {
+    margin-right : 40px;
+}
+
+#acting-list {
+    list-style: none;
+}
+
+.bruceleemeditation {
+    width: 400px;
+    height:300px;
+    border-radius: 10px;
+    margin-right : 50px;
+    margin-left : 50px;
+}
+
+.bruceleechucknorris {
+    width: 400px;
+    height:400px;
+    border-radius: 10px;
+    margin-bottom : 50px;
+    margin-left : 50px;
+}
+
+.bruceleeworking3 {
+    width: 300px;
+    height:400px;
+    border-radius: 5px;
+    margin-right : 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text > p {
+    width: 300px;
+}
+
+#acting-text {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#artmartial-text {
+    width: 50vw;
+}
+
+hr {
+    width : 600px;
+    border: 4px dashed #FFE550;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width:420px){
+    .spirituality , .acting , .martialarts{
+        display: flex;
+        flex-direction: column;
+    }
+    .spirituality {
+        margin-right : 0px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .bruceleemeditation {
+        width: 300px;
+        height:200px;
+        margin: 0px;
+        border-radius: 10px;
+    }
+    #acting-list {
+        list-style: none;
+        padding-left:0px;
+    }
+    #acting-text {
+        width: 80vw;
+    }
+    .bruceleechucknorris {
+        width: 80vw;
+        height:25vh;
+        margin-bottom : 0px;
+        margin-left : 0px;
+    }
+    .bruceleeworking3 {
+        width: 60vw;
+        height:40vh;
+        margin-right : 0px;
+    }
+    hr {
+        width : 80vw;
+        border: 2px dashed #FFE550;
+        margin-bottom: 24px;
+    }
+    #artmartial-text {
+        width: 70vw;
+    }
+}
