@@ -1,0 +1,73 @@
+@import url(header.css);
+@import url(description.css);
+@import url(sidebar.css);
+@import url(formations.css);
+@import url(experiences.css);
+@import url(form.css);
+@import url(footer.css);
+@import url(punchingball.css);
+
+
+.separate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-image: url(img/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+body:not(footer) {
+    font-size : 20px;
+}
+
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:420px){
+    .nunchaku{
+        width: 80vw;
+        animation-duration: 7s;
+        animation-name: slide2;
+        animation-iteration-count: infinite;
+    }
+    @keyframes slide2 {
+        0% {
+        animation-direction: normal;
+        transform-origin: top;
+        transform: rotate(0deg);
+        }
+        30% {
+        transform-origin: top;
+        transform: rotate(20deg);
+        }
+        60% {
+        transform-origin: top;
+        transform: rotate(-20deg);
+        }
+        100% {
+        transform-origin: top;
+        transform: rotate(0deg);
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    #container-left {
+        display:none;
+    }
+
+}

@@ -617,3 +617,11 @@ footer{
     align-items: flex-start;
     width:66%;
 }
+
+@media screen and (max-width:420px){
+    .sidebar-picture {
+        display: none;
+    }
+
+
+}
