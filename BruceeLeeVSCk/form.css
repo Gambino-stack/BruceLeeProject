@@ -233,12 +233,9 @@
     color: var(--headerColor);
     border-radius: 3px;
     border: 1px solid var(--dark-color);
-<<<<<<< HEAD
-=======
 }
 label{
     font-family: 'Roboto',sans-serif;
->>>>>>> background
 }
 
 @media screen and (max-width:420px){

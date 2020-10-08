@@ -23,6 +23,7 @@ body {
 .sidebar-titles {
     font-family: 'Kaushan Script', cursive;
     border : 2px solid black;
+    background-color: black;
     color: #FFE500;
     padding : 6px;
     margin: 0;
