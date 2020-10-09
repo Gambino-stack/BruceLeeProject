@@ -1,84 +1,102 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bruce Lee </title>
     <link rel="stylesheet" href="success.css">
-    <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
+    <title>Contrôle Message</title>
 </head>
-    <body>
+<body>
 
-        <?php
-        $errors = [];
-        $errorEmail = null;
-        $dataforms = [];
-        if($_POST){
-            foreach ($_POST as $field => $message) {
-                if(empty($_POST[$field])) {
-                    $errors[$field] = "Le champs " . $field . " est vide.";
-                } else {
-                    $dataforms[$field] = $_POST[$field];
-                }
+<main>
+    <?php
+    $errors = [];
+    $errorLengthFirst = null;
+    $errorLengthLast = null;
+    $errorEmail = null;
+    $dataforms = [];
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
+
+        foreach ($_POST as $field => $message) {
+            $dataforms[$field] = trim($message);
+        }
+
+        foreach ($dataforms as $field => $content) {
+            if (empty($content)) {
+                $errors[$field] = 'Le champ ' . $field . ' est vide';
             }
-            var_dump($dataforms);
-            
-            if(!(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))) {
-                $errorEmail = 'L\'email que vous avez fournis ne correspond pas au format demandé';
-            }
-            
-            if (count($errors) == 0 && $errorEmail == null) { ?>
-                <h1>
-                    <?php echo 'Succès'; ?>
-                </h1>
+        }
+
+        if (!(filter_var($dataforms['email'], FILTER_VALIDATE_EMAIL))) {
+            $errorEmail = "Le format du mail fourni n'est pas valide";
+        }
+
+        if(strlen($dataforms['lastname']) > 50 ) {
+            $errorLengthLast = 'doit contenir entre 1 à 50 caractère(s)';
+        }
+
+        if(strlen($dataforms['firstname']) > 50 ) {
+            $errorLengthFirst = 'doit contenir entre 1 à 50 caractère(s)';
+        }
+
+
+        if (count($errors) == 0) { ?>
+
+            <div class="message">
                 <div>
-                    <h2><?php echo 'Récapitulatif des donnée envoyé :'; ?></h2>
-                    <?php echo 'Votre nom :' . "\t" . $_POST['lastname'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Votre prénom : ' . "\t" . $_POST['firstname'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Votre adresse : ' . "\t" . $_POST['address'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Votre mail : ' . "\t" . $_POST['email'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Votre age : ' . "\t" . $_POST['age'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Votre genre : ' . "\t" . $_POST['genre'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Comment vous nous avez connu : ' . "\t" . $_POST['audit'];?>
-                    <br />
-                    <br />
-                    <?php echo 'L\'art martial que vous pratiquez : ' . "\t" . $_POST['martialArt'];?>
-                    <br />
-                    <br />
-                    <?php echo 'Le message que vous voulez nous envoyer :' . "\t" . $_POST['message'];?>
-                    <br />
-                </div><?php
-                } else {?>
-                    <h1>
-                        <?php echo 'ATTENTION !';?>
-                    </h1>
-                    <div>
-                        <p><?php echo 'Veuillez remplir les champs suivants selon les critères spécifié :'; ?></p>
-                    </div>
-                    <br />
-                    <?php foreach ($errors as $field => $message) { ?>
-                        <br />
+                    <h2><?php echo 'Bonjour, voici le récapitulatif des informations que vous nous avez envoyé :'; ?></h2>
+                    <div class="information">
                         <ul>
-                            <li>
-                                <?php echo $message; ?>
-                            </li>
+                            <li><?php echo 'Votre nom :' . "\t" . htmlentities($dataforms['lastname']); ?></li>
+                            <li><?php echo 'Votre prénom :' . "\t" . htmlentities($dataforms['firstname']); ?></li>
+                            <li><?php echo 'L\'adresse que vous fourni :' . "\t" . htmlentities($dataforms['address']); ?></li>
+                            <li><?php echo 'Votre adresse mail :' . "\t" . htmlentities($dataforms['email']); ?></li>
+                            <li><?php echo 'Votre age :' . "\t" . htmlentities($dataforms['age']) . ' ans'; ?></li>
+                            <li><?php echo 'Votre genre :' . "\t" . htmlentities($dataforms['genre']); ?></li>
+                            <li><?php echo 'L\'audit choisi :' . "\t" . htmlentities($dataforms['audit']); ?></li>
+                            <li><?php echo 'l\'art martial que vous pratiquez:' . "\t" . htmlentities($dataforms['martialArt']); ?></li>
+                            <li><?php echo 'Le message que vous nous avez adressez :' . "\t" . htmlentities($dataforms['message']); ?></li>
                         </ul>
-                        <br/>
-                    <?php}
-                }
-            }
-        }?>
-    </body>
+                        <p id="answer">
+                            <?php echo 'Nous vous répondrons au plus vite à votre message'; ?>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="img_Success">
+                    <img src="img/brucelee-success.png" alt="success sending image" title="I'll call you later">
+                </div>
+            </div>
+
+        <?php } else { ?>
+            <div class="failed">
+                <h2><?php echo 'ATTENTION !'; ?></h2>
+                <?php foreach ($errors as $field => $message) { ?>
+
+                <ul class="error">
+                    <li ><?php echo htmlentities($message); ?></li>
+                        <?php }
+
+                    if ($errorEmail != null ) { ?>
+                        <li class="normal_error"><?php echo htmlentities($errorEmail); ?></li>
+                    <?php }
+
+                        if ($errorLengthFirst != null) { ?>
+                            <li class="normal_error"><?php echo htmlentities($errorLengthLast); ?></li>
+                       <?php } ?>
+
+                </ul>
+
+
+            </div>
+            <?php }
+
+
+
+
+
+    } ?>
+
+</main>
+</body>
 </html>

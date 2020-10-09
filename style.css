@@ -619,4 +619,18 @@ footer{
     align-items: flex-start;
     width:66%;
 }
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+@media screen and (max-width:420px){
+    .sidebar-picture {
+        display: none;
+    }
+
+
 }
+>>>>>>> dad6bc7989b178db8b9c0e238f2d9fc3616be7de
+=======
+}
+>>>>>>> b142d118af1aa2897ab84dd72855854d46985117

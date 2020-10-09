@@ -26,7 +26,7 @@
             </div>
             <div class="form-genre">
                 <label for="genre">Sexe : </label>
-                <select name="genre" id="genre">
+                <select name="genre" id="genre" required>
                     <option value=""></option>
                     <option value="Homme">Male</option>
                     <option value="femme">Female</option>
