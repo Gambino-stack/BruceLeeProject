@@ -14,8 +14,8 @@
     width: 60vw;
     margin: auto;
     text-align: center;
-    border: 8px solid var(--headerColor);
-    padding: 30px 30px;
+    border: 10px solid var(--headerColor);
+    padding: 50px 80px;
 }
 
 .section-form input  {
