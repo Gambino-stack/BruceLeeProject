@@ -18,7 +18,7 @@
                 <li><a href="#sidebar-titles-loisirs">Loisirs</a></li>
                 <li><a href="#formation-subtitles">Formations</a></li>
                 <li><a href="#experiences-title">Experiences</a></li>
-                <li><a href="#formation-subtitles">Formulaire</a></li>
+                <li><a href="#form-title">Formulaire</a></li>
             </ul>
         </div>
     </div>

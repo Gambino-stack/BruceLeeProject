@@ -223,8 +223,8 @@
 }
 
 #button-form {
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     margin: 20px 0;
     background-color: var(--headerColor);
     color: var(--colorLight);
