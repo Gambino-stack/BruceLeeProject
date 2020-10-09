@@ -14,8 +14,14 @@ body {
     color : #ffe500;
     border : 2px solid #ffe500;
     padding : 6px 18px;
-    margin-bottom: 0px;
+    margin-bottom:20px;
     display: inline-block;
+}
+
+.formation {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .spirituality , .acting , .martialarts{
@@ -24,11 +30,14 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 60px 60px 60px;
+    margin: auto;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(255, 236, 68, 0.95);
     padding: 0px 20px 40px 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1000px;
 }
 .spirituality {
     font-family: 'Roboto', sans-serif;
@@ -49,8 +58,8 @@ body {
 .bruceleechucknorris {
     object-fit: cover;
     object-position: top;
-    width: 400px;
-    height:400px;
+    width: 350px;
+    height:350px;
     border-radius: 10px;
     margin-bottom : 50px;
     margin-left : 50px;
@@ -78,12 +87,12 @@ body {
     font-family: 'Roboto',sans-serif;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 600px;
 }
 
 #artmartial-text {
     font-family: 'Roboto',sans-serif;
-    width: 50vw;
+    width: 600px;
 }
 
 @media screen and (max-width:420px){
@@ -99,7 +108,7 @@ body {
         margin-bottom: 50px;
     }
 
-    .spiri-text {
+    #spiri-text {
         padding: 0px 40px;
     }
     .text{
