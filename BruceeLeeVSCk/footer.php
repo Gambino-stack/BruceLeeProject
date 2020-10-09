@@ -23,7 +23,6 @@
         </div>
         <div id="quotes">
             <p>"If you spend too much time thinking about a thing, you’ll never get it done."</p>
-            <p>"To hell with circumstances, I create opportunities."</p>
             <p> – Bruce Lee</p>
             <p><em>Si tu veux d'autres</em><a href="https://www.goalcast.com/2017/07/20/top-20-inspiring-bruce-lee-quotes/">
             citations</a><em> de moi même!</em>

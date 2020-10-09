@@ -7,26 +7,9 @@ body {
     justify-content: center;
 }
 
-/* #formation-title {
-    background-color : black;
-=======
-#formation-title {
-    font-family: 'Kaushan Script', cursive;
-    background-color : #ffe500;
->>>>>>> background
-    border : 2px solid black;
-    color:#ffe550;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left : 6px;
-    padding-right : 6px;
-    height: 50px;
-    letter-spacing: 3px;
-} */
-
 .formation-subtitles {
-    font-family: 'Aladin', cursive;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
     background-color : black;
     color : #ffe500;
     border : 2px solid #ffe500;
@@ -41,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 40px 60px 40px;
+    margin: 0px 60px 60px 60px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(255, 236, 68, 0.95);
@@ -49,8 +32,6 @@ body {
 }
 .spirituality {
     font-family: 'Roboto', sans-serif;
-    margin-right : 40px;
->>>>>>> background
 }
 
 #acting-list {
@@ -113,12 +94,13 @@ body {
         display: flex;
         flex-direction: column;
         padding-bottom: 0px;
+        width: 60vw;
+        margin: auto;
+        margin-bottom: 50px;
     }
-    .spirituality {
-        width: 70vw;
-    }
+
     .spiri-text {
-        padding: 0px 20px;
+        padding: 0px 40px;
     }
     .text{
         font-family: 'Roboto',sans-serif;
@@ -144,11 +126,15 @@ body {
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: 'Roboto',sans-serif;
-        width: 80vw;
+        width:100%;
+    }
+
+    .bruceleemeditation {
+        width: 60vw;
     }
 
     .bruceleechucknorris {
-        width: 70vw;
+        width: 60vw;
         height:25vh;
         margin-bottom : 20px;
         margin-left : 0px;
@@ -162,6 +148,6 @@ body {
 
     #artmartial-text {
         font-family: 'Roboto',sans-serif;
-        width: 70vw;
+        width: 60vw;
     }
 }

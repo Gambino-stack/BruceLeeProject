@@ -11,41 +11,41 @@
 <div class='backgroundimage'></div>
 <section class='sidebar'>
     <section class='identity'>
-            <h2 class='sidebar-titles'>IDENTITÉ</h2>
+            <h2 id='sidebar-titles'>IDENTITÉ</h2>
         <div class='sidebar-text'>
             <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
             <ul class="sidebar-list">
-                <li><img src="../img/ageicon.png" width="20px" height="20px" alt="iconage"> : 32 years, older but faster than you</li>
-                <li><img src="../img/house.png" width=""20px height="20px" alt="iconmaison"> : 'Wherever the wind brings me' </li>
-                <li><img src="../img/phone.jpg" width="20px" height="20px" alt="icontel"> : 911 in  case you need help for fighting</li>
-                <li><img src="../img/imgmail.png" width="20px" height="20px" alt="iconmail"> : Check the form down below</li>
-            </ul>
+                <li><b>Age :</b><br>         79 years, plus vieux mais plus rapide que toi</li>
+                <li><b>Adresse :</b><br>     'Wherever the wind brings me' </li>
+                <li><b>Téléphone :</b><br>   Appel le 17 si y'a bagarre et j'arrive !</li>
+                <li><b>Mail :</b> <br>       Regarde le formulaire en bas</li>
+            </ul>                
         </div>
     </section>
     <section class='skills'>
-            <h2 class='sidebar-titles'>COMPÉTENCES</h2>
+            <h2 id='sidebar-titles-competences'>COMPÉTENCES</h2>
         <div class='sidebar-text'>
             <ul class="sidebar-list">
-                <li>Martial Arts (inventor & precursor of Jeet Kune Do)</li>
-                <li>Trainer / Teacher</li>
-                <li>Acting</li>
-                <li>Producing / Directing movies</li>
-                <li>Fight choreographer</li>
-                <li>Philosopher / Quoter</li>
+                <li>Arts martiaux (créateur du Jeet Kune Do)</li>
+                <li>Entraîneur / Professeur</li>
+                <li>Acteur</li>
+                <li>Producteur / Directeur de film</li>
+                <li>Chorégraphe de combat</li>
+                <li>Philosophe</li>
             </ul>
-            <img class="minibrucelee" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
+            <img class="minibrucelee2" src="img/minibrucelee2.png" alt="mini-bruce-lee2">
         </div>
     </section>
     <section class='hobbies'>
-        <h2 class='sidebar-titles'>LOISIRS</h2>
+        <h2 id='sidebar-titles-loisirs'>LOISIRS</h2>
             <div class='sidebar-text'>
-                <img class="minibrucelee" src="img/minibrucelee.png" alt="mini-bruce-lee">
+                <img class="minibrucelee2" src="img/minibrucelee.png" alt="mini-bruce-lee">
                 <ul class="sidebar-list">
-                    <li>Practicing & perfectionning my martial art</li>
-                    <li>Training hard 24/7 to reach the top</li>
-                    <li>Playing ping-pong with nunchaku<br>
-                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">INCROqYABLE</a>)</li>
-                    <li>Doing push-ups with 2 fingers<br>
+                    <li>Pratiquer et perfectionner mon art martial</li>
+                    <li>S'entraîner avec ferveur 24h/24 et 7j/7</li>
+                    <li>Jouer au ping-pong avec mon nunchaku<br>
+                    (<a href="https://www.youtube.com/watch?v=qHe6vhexm6g">INCROYABLE</a>)</li>
+                    <li>Faire des pompes avec deux doigts<br>
                     (<a href="https://www.youtube.com/watch?v=JlQfBg3VJJU">ESSAYE DE FAIRE PAREIL</a>)</li>
                 </ul>
             </div>
