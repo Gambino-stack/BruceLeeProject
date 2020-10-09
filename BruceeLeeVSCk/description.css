@@ -38,7 +38,7 @@
 }
 #fleche{
     position: fixed;
-    right: 50px;
+    right: 1%;
     opacity: 50%;
 
 
@@ -56,6 +56,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #fleche{
+        display: none;
     }
     .description-part {
         width: 80vw;
