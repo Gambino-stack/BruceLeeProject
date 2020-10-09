@@ -1,4 +1,4 @@
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,15 +45,15 @@
                 <div>
                     <h2><?php echo 'Bonjour, voici le récapitulatif des informations que vous nous avez envoyé :'; ?></h2>
                     <ul>
-                        <li><?php echo 'Votre nom :' . "\t" . $dataforms['lastname']; ?></li>
-                        <li><?php echo 'Votre prénom :' . "\t" . $dataforms['firstname']; ?></li>
-                        <li><?php echo 'L\'adresse que vous fourni :' . "\t" . $dataforms['address']; ?></li>
-                        <li><?php echo 'Votre adresse mail :' . "\t" . $dataforms['mail']; ?></li>
-                        <li><?php echo 'Votre age :' . "\t" . $dataforms['age']; ?></li>
-                        <li><?php echo 'Votre genre :' . "\t" . $dataforms['genre']; ?></li>
-                        <li><?php echo 'L\'audit choisi :' . "\t" . $dataforms['audit']; ?></li>
-                        <li><?php echo 'l\'art martial que vous pratiquez:' . "\t" . $dataforms['martialArt']; ?></li>
-                        <li><?php echo 'Le message que vous nous avez adressez :' . "\t" . $dataforms['message']; ?></li>
+                        <li><?php echo 'Votre nom :' . "\t" . htmlentities($dataforms['lastname']); ?></li>
+                        <li><?php echo 'Votre prénom :' . "\t" . htmlentities($dataforms['firstname']); ?></li>
+                        <li><?php echo 'L\'adresse que vous fourni :' . "\t" . htmlentities($dataforms['address']); ?></li>
+                        <li><?php echo 'Votre adresse mail :' . "\t" . htmlentities($dataforms['mail']); ?></li>
+                        <li><?php echo 'Votre age :' . "\t" . htmlentities($dataforms['age']); ?></li>
+                        <li><?php echo 'Votre genre :' . "\t" . htmlentities($dataforms['genre']); ?></li>
+                        <li><?php echo 'L\'audit choisi :' . "\t" . htmlentities($dataforms['audit']); ?></li>
+                        <li><?php echo 'l\'art martial que vous pratiquez:' . "\t" . htmlentities($dataforms['martialArt']); ?></li>
+                        <li><?php echo 'Le message que vous nous avez adressez :' . "\t" . htmlentities($dataforms['message']); ?></li>
                     </ul>
                     <p>
                         <?php echo 'Nous vous répondrons au plus vite à votre message'; ?>
@@ -61,32 +61,34 @@
                 </div>
 
                 <div>
-                    <img src="brucelee success.jpg">
+                    <img src="img/brucelee-success.png" alt="success sending image" title="I'll call you later">
                 </div>
             </div>
 
         <?php } else { ?>
+            <div class="failed">
+                <h2><?php echo 'ATTENTION !'; ?></h2>
+                <?php foreach ($errors as $field => $message) { ?>
 
-            <h1><?php echo 'ATTENTION !'; ?></h1>
-            <?php foreach ($errors as $field => $message) {
+                <ul class="error">
+                    <li><?php echo htmlentities($message); ?></li>
+                        <?php }
 
-                echo $message;
+                    if ($errorEmail != null ) { ?>
+                        <li><?php echo htmlentities($errorEmail); ?></li>
+                    <?php }
 
-            }
+                        if ($errorLengthFirst != null) { ?>
+                            <li><?php echo htmlentities($errorLengthLast); ?></li>
+                       <?php } ?>
 
-            if ($errorEmail != null ) {
-                echo $errorEmail;
-            }
+                </ul>
 
-            if ($errorLengthFirst != null) {
-                echo $errorLengthFirst;
-            }
 
-            if ($errorLengthLast != null) {
-                echo $errorLengthLast;
-            }
+            </div>
+            <?php }
 
-        }
+
 
 
 
