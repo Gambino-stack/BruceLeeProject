@@ -8,12 +8,12 @@
     <link href="//db.onlinewebfonts.com/c/d5e638ad62a611f703a8e0e951853da0?family=Herculanum" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-
+<a id="hautpage"></a>
 <section class="header">
 <div class="yellowbar"></div>
 <div class="blackbar">
     <div>
-    <img href="#" id="dessinbrucelee" src="img/bruceleedessin.png" alt="dessin-bruce-lee">
+        <img id="dessinbrucelee" src="img/bruceleedessin.png" alt="dessin-bruce-lee">
     </div>
     <div>
         <h1>

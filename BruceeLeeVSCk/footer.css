@@ -34,6 +34,7 @@
 }
 
 .iconsize {
+    border-radius: 20px;
     width: 40px;
     height: 40px;
 }
@@ -49,6 +50,7 @@
 }
 #quotes p a {
     color: #FFE550;
+    text-decoration: none;
 }
 
 #quotes p {
