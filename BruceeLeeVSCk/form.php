@@ -4,25 +4,25 @@
     <form class="form" method="post" action="success.php">
         <div class="form-lastname">
             <label for="lastname">Nom : </label>
-            <input type="text" name="lastname" id="lastname" placeholder="" required/>
+            <input type="text" name="lastname" id="lastname" placeholder="" />
         </div>
         <div class="form-firstname">
             <label for="firstname">Prénom : </label>
-            <input type="text" name="firstname" id="firstname" placeholder="" required/>
+            <input type="text" name="firstname" id="firstname" placeholder="" />
         </div>
         <div class="form-address">
             <label for="address">Adresse :</label>
-            <input type="text" name="address" id="address" placeholder="" required/>
+            <input type="text" name="address" id="address" placeholder="" />
         </div>
         <div class="form-email">
             <label for="email">Mail :</label>
-            <input type="email" name="email" id="email" placeholder="" required/>
+            <input type="email" name="email" id="email" placeholder="" />
         </div>
 
         <div class="form-age-genre">
             <div class="form-age">
                 <label for="age">Age : </label>
-                <input type="number" name="age" id="age" required/>
+                <input type="number" name="age" id="age" />
             </div>
             <div class="form-genre">
                 <label for="genre">Sexe : </label>
@@ -60,7 +60,7 @@
 
         <div class="form-message">
             <label for="message">Message : </label>
-            <textarea name="message" id="message" placeholder="" required></textarea>
+            <textarea name="message" id="message" placeholder="" ></textarea>
         </div>
 
         <div class="form-button">
