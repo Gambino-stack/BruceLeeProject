@@ -36,6 +36,20 @@
     height: 40vh;
     border-radius: 10px;
 }
+#fleche{
+    position: fixed;
+    right: 50px;
+    opacity: 50%;
+
+
+}
+#fleche:hover{
+    opacity: 100%;
+}
+.arrow{
+    display: flex;
+
+}
 
 @media screen and (max-width:420px){
     .description-area {
@@ -58,4 +72,5 @@
     .description-img {
         display: flex;
     }
+
 }
