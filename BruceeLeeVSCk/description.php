@@ -10,7 +10,7 @@
 <body>
 <div class="arrow">
     <div class="test">
-        <a href=#hautpage><img id="fleche" src="../img/flechejaune.png" width="100px" height="80px" alt="topfleche"></a>
+        <a href=#hautpage><img id="fleche" src="img/flechejaune.png" width="100px" height="80px" alt="topfleche"></a>
     </div>
 </div>
 <section class="description-part">

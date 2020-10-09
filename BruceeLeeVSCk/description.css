@@ -38,8 +38,9 @@
 }
 #fleche{
     position: fixed;
-    right: 1%;
+    right: 1pt;
     opacity: 50%;
+    bottom: 47px;
 
 
 }
