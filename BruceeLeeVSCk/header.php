@@ -13,10 +13,7 @@
 <div class="yellowbar"></div>
 <div class="blackbar">
     <div>
-        <img id="dessinbrucelee" src="img/bruceleedessin.png" alt="dessin-bruce-lee"></a>
-    </div>
-    <div>
-
+        <img id="dessinbrucelee" src="img/bruceleedessin.png" alt="dessin-bruce-lee">
     </div>
     <div>
         <h1>
