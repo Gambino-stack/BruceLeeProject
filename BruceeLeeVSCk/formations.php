@@ -16,7 +16,7 @@
             <h2 id="formation-subtitles" class="formation-subtitles">FORMATION<br>Spiritualité</h2>
             <div class="text">
                 <img class="bruceleemeditation" src="img/meditationBruceLee.jpg" alt="Bruce Lee is meditating">
-                <div class="spiri-text">
+                <div id="spiri-text">
                     <p>
                     Parler de mon éducation scolaire ne sera pas très utile et nécessaire.
                     Alors nous ferons mieux de discuter de la spiritualité, à travers le développement de la sagesse et le fait d'accroître sa persévérence.

@@ -5,8 +5,9 @@
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(255, 236, 68, 0.95);
-    margin: 0px 60px;
-    padding-bottom: 40px;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    width: 1000px;
 }
 
 .experiences-area {
@@ -29,11 +30,12 @@
 
 .experiences-text {
     font-family: 'Roboto',sans-serif;
-    width: 50vw;
+    width: 500px;
 }
 
 .experienceimg {
     width:350px;
+    height: 350px;
     border-radius: 10px;
     margin-right: 50px;
 }
