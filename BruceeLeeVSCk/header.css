@@ -36,9 +36,13 @@ h1 > div {
 }
 
 #dessinbrucelee {
+    border: 6px solid #FFE500;
+    border-radius: 10px;
+    position: fixed;
     width :120px;
     height : 120px;
-    margin: 0;
+    margin:auto;
+
 }
 
 @media screen and (max-width:420px){
