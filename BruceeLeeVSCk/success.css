@@ -1,34 +1,51 @@
 .message {
     display: flex;
     flex-direction: row-reverse;
-    align-content: flex-start;
+    align-items: center;
     border: 5px solid black;
-    width : 60%;
-    margin: auto;
+    width : 80%;
+    margin: 10%;
     background-color: rgba(255, 236, 68, 0.95);
+}
 
+.message div {
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.img_Success {
+    margin-left: 70px;
+    margin-right: 50px;
 }
 
 div img {
     height: 350px;
-    width: 350px;
+    width: 100%;
+    vertical-align: center;
+    margin-top: 10px;
 }
 
-.message h2, ul, p {
-    width: 50%;
-    margin: 15px auto;
+.information ul {
+     padding-left: 0;
 }
+
+.information {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+#answer {
+   margin: 0px;
+}
+
 h2 {
     border: 2px solid black;
     border-radius: 10px;
-    padding: 40px 20px 40px 20px;
+    padding: 40px 10px;
     font-style: oblique;
     background-color: black;
     color: rgba(255, 236, 68, 0.95);
 }
 ul li {
     list-style: none;
-    margin:  auto;
 }
 
 body{
@@ -44,16 +61,4 @@ body{
     margin: auto;
     background-color: rgba(255, 236, 68, 0.95);
     text-align: center;
-}
-.error  {
-    display: flex;
-    flex-direction: column;
-
-    width: 70%;
-
-}
-
-ul.error {
-    display: flex;
-    align-items: flex-start;
 }
